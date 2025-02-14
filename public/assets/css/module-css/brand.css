@@ -1,0 +1,91 @@
+/***
+=============================================
+Brand One
+=============================================
+***/
+.brand-one {
+   position: relative;
+   display: block;
+   background: var(--logistiq-gray-bg);
+   padding: 60px 0px 60px;
+   z-index: 2;
+}
+
+.brand-one__single {
+   position: relative;
+   display: block;
+}
+
+.brand-one__single-inner {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 25px 0px 24px;
+   z-index: 1;
+}
+
+.brand-one__single-inner p {
+   margin-top: 15px;
+}
+
+.brand-one__single-inner::before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background: var(--logistiq-white);
+   transform: scaleX(0);
+   transition: all 600ms ease 100ms;
+   content: "";
+   z-index: -1;
+}
+
+.brand-one__single:hover .brand-one__single-inner::before {
+   transform: scaleY(1);
+   border-radius: 10px;
+   background-color: var(--logistiq-base);
+}
+
+.brand-one__single-inner p {
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 0.03em;
+   color: var(--logistiq-white);
+}
+
+.brand-one__single-inner a {
+   position: relative;
+   display: block;
+}
+
+.brand-one__single-inner img {
+   width: auto;
+   transition: 0.7s ease;
+   transform: scale(1);
+}
+
+.brand-one__single:hover .brand-one__single-inner img {
+   transform: scale(1.1);
+}
+
+.brand-one__carousel.owl-carousel .owl-item img {
+   width: auto;
+}
+
+.brand-one__single .text-box p {
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 0.03em;
+   color: var(--logistiq-white);
+}
+
+.brand-one__image {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 42px;
+   width: 100%;
+}

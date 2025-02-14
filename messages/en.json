@@ -1,0 +1,242 @@
+{
+   "HeaderBtn": {
+      "btn_text": "Get in Touch",
+      "phone_des": "Please call us",
+      "phone_no": "094 883 6139"
+   },
+   "LocaleSwitcher": {
+      "en": "Eng",
+      "ru": "Rus",
+      "th": "Tha",
+      "label": "Language"
+   },
+   "MenuData": {
+      "nav1": "About Us",
+      "nav2": "Services",
+      "nav3": "Products",
+      "nav4": "Branches",
+      "nav5": "Stores",
+      "nav6": "Contact us"
+   },
+   "MobileNav": {
+      "title": "Select Language"
+   },
+   "HeroTitle": {
+      "title1": "Leading Supplier",
+      "title2": "Providing Superior Quality",
+      "title3": "Excellence in Production",
+      "title4": "Consistent Durability",
+      "title5": "Preserve the nature integrity"
+   },
+   "HeroSlider": {
+      "slide1": "We Have Over 15 Years of Knowledge and Expertise Importing and Distributing High-Quality Wooden Materials.",
+      "slide2": "Leveraging Our Expertise and Extensive Network to Deliver Products That Surpass Global Quality Standards.",
+      "slide3": "A Modern and Efficient Production Process Utilizing Expert Technicians and Cutting-Edge Technology.",
+      "slide4": "A Stronger, More Durable Wood with a Long Service Life, Suitable for All Weather Conditions in Thailand.",
+      "slide5": "Transported Chemical-Free, from Europe and Russia Over 16,000 km to Laem Chabang Port in Thailand."
+   },
+   "AboutArea": {
+      "title": "Our Company",
+      "sub_title1": "Discover the beauty and strength of",
+      "sub_title2": "nature's",
+      "sub_title3": "finest materials",
+      "sm_des": "We're passionate about providing high-quality, sustainable wood products that meet the diverse needs of our customers. With over 15 years of experience in the timber industry, we've built a strong reputation for excellence and reliability.",
+      "card1_title": "Environmentally Friendly",
+      "card1_des": "Our commitment to sustainable practices means you can trust that our wood is sourced responsibly.",
+      "card2_title": "For woodworkers of All levels",
+      "card2_des": "For stunning DIY crafts and durable structures alike, our wood is the perfect choice. Contact us to learn more."
+   },
+   "ProductArea": {
+      "title": "Our Products",
+      "sub_title1": "New options for woodworking with",
+      "sub_title2": "premium quality products"
+   },
+   "ProductNavTab": {
+      "conifer": "Conifer",
+      "bamboo": "Bamboo",
+      "teak": "Teak"
+   },
+   "Conifer": {
+      "title1": "Northern conifer",
+      "title2": "Wood",
+      "title3": "that answers every woodworking need.",
+      "faq1": {
+         "que": "Superior quality",
+         "ans": "High-quality conifer wood from leading production sources in Europe and Russia, with international standards, guaranteed strength, durability, and a long service life."
+      },
+      "faq2": {
+         "que": "Modern production process",
+         "ans": "Advanced and standardized production processes result in products that are precise, durable, and beautiful."
+      },
+      "faq3": {
+         "que": "Suited for Thailand's conditions",
+         "ans": "With properties of strong wood including resistance to hot and humid weather conditions, our northern conifer materials perform excellently for both internal and external applications."
+      },
+      "faq4": {
+         "que": "No chemicals",
+         "ans": "Ships directly from Europe and Russia to Thailand in closed containers (FCL) to maintain quality and safety."
+      },
+      "faq5": {
+         "que": "Diversity in use",
+         "ans": "Can be used in a variety of formats including construction work, decoration work, and furniture."
+      }
+   },
+   "Bamboo": {
+      "title1": "Fuse bamboo",
+      "title2": "natural high quality,",
+      "title3": " materials.",
+      "faq1": {
+         "que": "Strong and durable, superior to general wood",
+         "ans": "An innovative process of heat treatment and high pressure compression makes these bamboo materials highly stable: resistant to impacts, free from bending, cracking, and shrinking."
+      },
+      "faq2": {
+         "que": "Fire resistant, termite resistant, mold resistant",
+         "ans": "Modern production technology and revolutionary processes create a bamboo material that is highly resistant to fire, termites, and mold, with minimal maintenance and a service life that extends for decades."
+      },
+      "faq3": {
+         "que": "Beautiful and stylish",
+         "ans": "Fused Bamboo is a unique material that is naturally beautiful. It can be used to design and decorate in a variety of styles."
+      },
+      "faq4": {
+         "que": "Easy to install and maintain",
+         "ans": "Our bamboo products are designed for a convenient and easy installation process, minimal maintenance that only requires regular cleaning, and an incredibly long service life."
+      },
+      "faq5": {
+         "que": "Environmentally friendly",
+         "ans": "Bamboo is a plant that grows quickly and is naturally renewable. Choosing bamboo products helps reduce deforestation and environmental impacts, protecting and preserving the health of our planet."
+      }
+   },
+   "Teak": {
+      "title1": "Thai teak,",
+      "title2": "a natural heritage",
+      "title3": "for wood craft aesthetics.",
+      "faq1": {
+         "que": "Strong and durable",
+         "ans": "Teak is well known for its strength, resistance to fluctuating weather conditions including heat and humidity, resistance to pests and fungi, and remarkable longevity."
+      },
+      "faq2": {
+         "que": "Exquisite wood",
+         "ans": "When teak wood is polished the surface is smooth, easy to maintain, with all the golden color tones of natural teak wood. Add beauty anywhere with Thai teak!"
+      },
+      "faq3": {
+         "que": "Beautiful pattern",
+         "ans": "There are straight lines, curved lines, and spiral patterns, which create beauty and distinction. The unique wood pattern makes teak materials look lively and interesting."
+      },
+      "faq4": {
+         "que": "Durable in all weather conditions",
+         "ans": "With low shrinkage and swelling values, teak wood maintains its shape and structural integrity. Teak does not easily warp or crack even when exposed to heat, water, or humidity."
+      },
+      "faq5": {
+         "que": "Nature's excellence",
+         "ans": "Famously, teak contains natural oils that help prevent mold and insects. This makes teak wood highly resistant to diverse environmental conditions, and it requires minimal maintenance."
+      }
+   },
+   "ServicesArea": {
+      "title": "Our Services",
+      "sub_title1": "Sustainably import and distribute",
+      "sub_title2": "high-quality wooden",
+      "sub_title3": "materials."
+   },
+   "ServicesCard": {
+      "swipe": "Swipe",
+      "service1": {
+         "title": "All Area Delivery",
+         "sm_des": "With comprehensive transportation options, SAKWW delivers to every area throughout Thailand."
+      },
+      "service2": {
+         "title": "Product Packing",
+         "sm_des": "Items are wrapped with care in plastic and cushioning during delivery to increase safety and protect the wood."
+      },
+      "service3": {
+         "title": "CCA Treatment",
+         "sm_des": "For a long life of outdoor use, CCA treatment maximizes resistance to weather, fungi, and pests."
+      },
+      "service4": {
+         "title": "Wholesale",
+         "sm_des2": "Best source for various wooden materials, provide complete services with product quality and competitive prices.",
+         "sm_des": "The best source for various wooden materials, with complete services, high-quality products and competitive prices."
+      },
+      "service5": {
+         "title": "Free! Cutting",
+         "sm_des2": "We offer cutting services when buying full pieces of wood, so our customers receive wood in the sizes desired.",
+         "sm_des": "Free cutting services are provided for full wood piece purchases, ensuring clients receive precise-sized materials."
+      },
+      "service6": {
+         "title": "Get Advice",
+         "sm_des": "You can ask us questions at any time. Our team of experts is ready to answer your inquiries."
+      }
+   },
+   "BranchArea": {
+      "title": "Our Branches",
+      "sub_title1": "Choose your wood products",
+      "sub_title2": "directly at",
+      "sub_title3": "our storefronts"
+   },
+   "BranchData": {
+      "branch_1": "Pathum Thani",
+      "add_1": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
+      "phone_1": "020 261 149",
+
+      "branch_2": "Pathum Thani",
+      "add_2": "39 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
+      "phone_2": "099 712 1071",
+
+      "branch_3": "Chiang Mai",
+      "add_3": "411 Moo 4, San Sai Noi Subdistrict, San Sai District, Chiang Mai Province 50210",
+      "phone_3": "052 005 596",
+      "mobile_3": "097 783 0705",
+
+      "branch_4": "Chanthaburi",
+      "add_4": "16/7 Sai Trok Nong Road, Khlung Subdistrict, Khlung District, Chanthaburi Province 22110",
+      "phone_4": "039 441 191",
+      "mobile_4": "095 954 4149"
+   },
+   "BrandArea": {
+      "title": "Locate Our Products",
+      "sub_title1": "Find our products at leading",
+      "sub_title2": "retailers",
+      "sub_title3": "&",
+      "sub_title4": "online platforms"
+   },
+   "BrandData": {
+      "brand_1": "Shopee",
+      "brand_2": "Lazada",
+      "brand_3": "HomePro",
+      "brand_4": "Thaiwatsadu",
+      "brand_5": "NocNoc",
+      "brand_6": "BnBHome",
+      "brand_7": "Alibaba",
+      "brand_8": "OneStockHome"
+   },
+   "ContactArea": {
+      "title": "Contact Us",
+      "sub_title1": "We're",
+      "sub_title2": "delighted",
+      "sub_title3": "to",
+      "sub_title4": "assist",
+      "sub_title5": "you",
+      "header": "SAK WoodWorks Co., Ltd.",
+      "sub_header1": "Mon to Sat : 08:00 - 17:00",
+      "sub_header2": "Do you have a question?",
+      "sub_header3": "Social Networks"
+   },
+   "InputForm": {
+      "title": "Send us a message",
+      "desc": "we'll get back to you ASAP!",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone No.",
+      "idline": "Line ID",
+      "massege": "Your Message",
+      "submit": "Submit",
+      "success": "Submit Successful! Thank You for your send us message",
+      "error": "Submission failed! Please try again."
+   },
+   "Footer": {
+      "title": "Looking for nature's finest materials?",
+      "btn_text": "Give us a call",
+      "copy_right": "Copyright 2025",
+      "company": "SAK WoodWorks Co., Ltd.",
+      "all_right": "All rights reserved."
+   }
+}

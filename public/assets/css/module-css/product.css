@@ -1,0 +1,133 @@
+/***
+=============================================
+Product
+=============================================
+***/
+.product-one {
+   position: relative;
+   display: block;
+   background: var(--logistiq-white);
+   padding: 120px 0px 120px;
+   z-index: 1;
+}
+
+.product-one__content {
+   position: relative;
+   display: block;
+   /* margin-top: 120px; */
+   margin-right: -50px;
+   z-index: 2;
+}
+
+.product-one__img {
+   position: relative;
+   display: block;
+   /* max-width: 540px; */
+   width: 100%;
+   background-color: var(--logistiq-white);
+   box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.09);
+}
+.f-right {
+   float: right;
+}
+
+/***
+=============================================
+Nav Tabs
+=============================================
+***/
+
+.product-menu .nav-tabs {
+   background-color: var(--logistiq-white);
+   border-bottom: 0px solid #fff;
+   font-weight: bold;
+}
+
+.product-menu .nav-item {
+   border: 2px solid var(--logistiq-white);
+   border-radius: 5px;
+   border-bottom: 0px;
+}
+
+.product-menu .nav-link {
+   border: 1px solid #f8f9fa;
+   /* border-bottom: none; */
+   border-radius: 5px 5px 0px 0px;
+   /* color: #555; */
+   padding: 10px 15px;
+   background-color: rgba(223, 224, 224, 0.6);
+   font-weight: bold;
+}
+.product-menu .nav-link:hover {
+   background-color: rgb(223, 224, 224);
+   border-color: rgb(223, 224, 224);
+   border-color: rgb(223, 224, 224);
+}
+
+.product-menu .conifer-menu .nav-link.active {
+   border: 1px solid var(--logistiq-base);
+   border-bottom-color: transparent;
+   color: var(--logistiq-white);
+   background-color: var(--logistiq-base);
+   font-weight: bold;
+}
+
+/* .product-menu .bamboo-menu .nav-link:hover {
+   background-color: rgb(223, 224, 224);
+   border-color: rgb(223, 224, 224);
+} */
+
+.product-menu .bamboo-menu .nav-link.active {
+   border: 1px solid rgb(55, 70, 49);
+   border-bottom-color: transparent;
+   color: var(--logistiq-white);
+   background-color: rgb(55, 70, 49);
+   font-weight: bold;
+}
+
+/* .product-menu .teak-menu .nav-link:hover {
+   background-color: rgb(223, 224, 224);
+   border-color: rgb(223, 224, 224);
+} */
+
+.product-menu .teak-menu .nav-link.active {
+   border: 1px solid rgb(186, 155, 127);
+   border-bottom-color: transparent;
+   color: var(--logistiq-white);
+   background-color: rgb(186, 155, 127);
+   font-weight: bold;
+}
+
+/* Style the button element inside nav-link*/
+.product-menu .nav-link button {
+   background: none;
+   border: none;
+   padding: 0;
+   cursor: pointer;
+   color: inherit; /* inherit color from nav-link */
+   font-size: inherit;
+   font-family: inherit;
+   outline: none; /* prevent outline on focus */
+}
+
+/***
+=============================================
+Buttons
+=============================================
+***/
+.conifer-btn {
+   /* height: 9%;
+   border: none; */
+   background-color: rgba(6, 63, 225, 0.9);
+   color: #fff;
+   padding: 5px 20px;
+   border-radius: 3px;
+   align-items: center;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+.conifer-btn:hover {
+   background-color: rgba(6, 63, 225, 0.9);
+   -webkit-text-stroke: 0.05rem;
+}
