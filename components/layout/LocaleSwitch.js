@@ -21,9 +21,10 @@ export default function LocaleSwitch() {
    const [locale, setLocale] = useState(getLocale());
 
    const items = [
-      { value: "en", label: "🇺🇸 Eng" },
-      { value: "ru", label: "🇷🇺 Rus" },
-      { value: "th", label: "🇹🇭 Tha" },
+      { value: "en", label: "🇺🇸 ENG" },
+      { value: "ru", label: "🇷🇺 RUS" },
+      { value: "th", label: "🇹🇭 THA" },
+      { value: "ch", label: "🇨🇳 CHN" },
    ];
 
    const handleLocaleChange = (newLocale) => {
