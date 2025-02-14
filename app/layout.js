@@ -8,8 +8,8 @@ import { dmSans } from "@/lib/font";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 export const metadata = {
-   // title: "SAK WoodWorks",
-   title: "dev2-multi-lang",
+   title: "SAK WoodWorks Co.,Ltd.",
+   // title: "dev2-multi-lang",
    description: "High-Quality Processed Wood Distributor in Thailand",
 };
 
