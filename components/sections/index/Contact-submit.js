@@ -169,22 +169,27 @@ export default function WhyChooseUs() {
                                        <Link
                                           className="fab fa-facebook-square"
                                           href="https://www.facebook.com/Sakwwth"
+                                          target="_blank"
                                        ></Link>
                                        <Link
                                           className="fab fa-youtube"
                                           href="https://www.youtube.com/@sakwoodworks"
+                                          target="_blank"
                                        ></Link>
                                        <Link
                                           className="fab fa-tiktok"
                                           href="https://www.tiktok.com/@sakwoodworks"
+                                          target="_blank"
                                        ></Link>
                                        <Link
                                           className="fab fa-instagram"
                                           href="https://www.instagram.com/sakwoodworks"
+                                          target="_blank"
                                        ></Link>
                                        <Link
                                           className="fab fa-line"
                                           href="https://lin.ee/smwoT3j"
+                                          target="_blank"
                                        ></Link>
                                     </span>
                                  </p>

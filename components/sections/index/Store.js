@@ -120,6 +120,28 @@ export default function WhyChooseUs() {
                      <div className="brand-one__single text-center">
                         <div className="brand-one__single-inner">
                            <Link
+                              href="https://www.thaiwatsadu.com/th/brand/SAK%20WOODWORKS"
+                              target="_blank"
+                           >
+                              <div className="brand-one__image">
+                                 <img
+                                    src="assets/images/brand/brand04.svg"
+                                    alt=""
+                                 />
+                              </div>
+                              <div>
+                                 {/* <p>Thaiwatsadu</p> */}
+                                 <p>{sd("brand_4")}</p>
+                              </div>
+                           </Link>
+                        </div>
+                     </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                     <div className="brand-one__single text-center">
+                        <div className="brand-one__single-inner">
+                           <Link
                               href="https://www.lazada.co.th/shop/sak-woodworks/"
                               target="_blank"
                            >
@@ -154,28 +176,6 @@ export default function WhyChooseUs() {
                               <div>
                                  {/* <p>HomePro</p> */}
                                  <p>{sd("brand_3")}</p>
-                              </div>
-                           </Link>
-                        </div>
-                     </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                     <div className="brand-one__single text-center">
-                        <div className="brand-one__single-inner">
-                           <Link
-                              href="https://www.thaiwatsadu.com/th/brand/SAK%20WOODWORKS"
-                              target="_blank"
-                           >
-                              <div className="brand-one__image">
-                                 <img
-                                    src="assets/images/brand/brand04.svg"
-                                    alt=""
-                                 />
-                              </div>
-                              <div>
-                                 {/* <p>Thaiwatsadu</p> */}
-                                 <p>{sd("brand_4")}</p>
                               </div>
                            </Link>
                         </div>
@@ -293,6 +293,28 @@ export default function WhyChooseUs() {
                      <div className="brand-one__single text-center">
                         <div className="brand-one__single-inner">
                            <Link
+                              href="https://www.thaiwatsadu.com/th/brand/SAK%20WOODWORKS"
+                              target="_blank"
+                           >
+                              <div className="brand-one__image">
+                                 <img
+                                    src="assets/images/brand/brand04.svg"
+                                    alt=""
+                                 />
+                              </div>
+                              <div>
+                                 {/* <p>Thaiwatsadu</p> */}
+                                 <p>{sd("brand_4")}</p>
+                              </div>
+                           </Link>
+                        </div>
+                     </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                     <div className="brand-one__single text-center">
+                        <div className="brand-one__single-inner">
+                           <Link
                               href="https://www.lazada.co.th/shop/sak-woodworks/"
                               target="_blank"
                            >
@@ -327,28 +349,6 @@ export default function WhyChooseUs() {
                               <div>
                                  {/* <p>HomePro</p> */}
                                  <p>{sd("brand_3")}</p>
-                              </div>
-                           </Link>
-                        </div>
-                     </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                     <div className="brand-one__single text-center">
-                        <div className="brand-one__single-inner">
-                           <Link
-                              href="https://www.thaiwatsadu.com/th/brand/SAK%20WOODWORKS"
-                              target="_blank"
-                           >
-                              <div className="brand-one__image">
-                                 <img
-                                    src="assets/images/brand/brand04.svg"
-                                    alt=""
-                                 />
-                              </div>
-                              <div>
-                                 {/* <p>Thaiwatsadu</p> */}
-                                 <p>{sd("brand_4")}</p>
                               </div>
                            </Link>
                         </div>

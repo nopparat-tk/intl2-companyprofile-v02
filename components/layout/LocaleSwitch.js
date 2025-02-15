@@ -31,6 +31,7 @@ export default function LocaleSwitch() {
       setLocale(newLocale);
       saveLocale(newLocale);
       setUserLocale(newLocale); // Assuming this function updates the locale in your app
+      window.location.reload();
    };
 
    useEffect(() => {

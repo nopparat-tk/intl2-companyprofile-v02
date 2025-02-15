@@ -3,44 +3,11 @@ import Link from "next/link";
 import MobileMenu from "../MobileMenu";
 // import { Locale } from "@/i18n/config";
 import Locale from "../LocaleSwitch";
-import { setUserLocale } from "@/i18n/locale";
+// import { setUserLocale } from "@/i18n/locale";
 import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
 
-// Function to save locale to local storage
-// const saveLocale = (locale) => {
-//    if (typeof window !== "undefined") {
-//       localStorage.setItem("user-locale", locale);
-//    }
-// };
-
-// Function to get locale from local storage
-// const getLocale = () => {
-//    if (typeof window !== "undefined") {
-//       return localStorage.getItem("user-locale") || "en"; // default to 'en' if no locale is found
-//    }
-//    return "en";
-// };
-
-export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
+export default function Header3({ scroll, handleMobileMenu }) {
    const t = useTranslations("HeaderBtn");
-   // const [locale, setLocale] = useState(getLocale());
-
-   // const items = [
-   //    { value: "en", label: "🇺🇸 Eng" },
-   //    { value: "ru", label: "🇷🇺 Rus" },
-   //    { value: "th", label: "🇹🇭 Tha" },
-   // ];
-
-   // const handleLocaleChange = (newLocale) => {
-   //    setLocale(newLocale);
-   //    saveLocale(newLocale);
-   //    setUserLocale(newLocale); // Assuming this function updates the locale in your app
-   // };
-
-   // useEffect(() => {
-   //    setUserLocale(locale); // Set the initial locale on component mount
-   // }, [locale]);
 
    return (
       <>
@@ -89,37 +56,6 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                               </div>
 
                               <div className="main-header-three__right">
-                                 {/* <div className="main-header-three__right">
-                                    <div className="main-header__language-switcher">
-                                       <div className="icon">
-                                          <span className="fa fa-globe"></span>
-                                       </div>
-                                       <div className="language-switcher clearfix">
-                                          <div className="select-box clearfix">
-                                             <select
-                                                className="selectmenu wide"
-                                                style={{ cursor: "pointer" }}
-                                                value={locale}
-                                                onChange={(e) =>
-                                                   handleLocaleChange(
-                                                      e.target.value
-                                                   )
-                                                }
-                                             >
-                                                {items.map((item) => (
-                                                   <option
-                                                      key={item.value}
-                                                      value={item.value}
-                                                   >
-                                                      {item.label}
-                                                   </option>
-                                                ))}
-                                             </select>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div> */}
-                                 <Locale />
                                  <Link className="thm-btn2" href="#contact">
                                     {t("btn_text")}
                                     <span className="hover-btn hover-cx"></span>
@@ -148,8 +84,8 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                                     </Link>
                                  </div>
                               </div>
-
                               <div className="main-header-three__bottom-middle">
+                                 <Locale />
                                  <div className="main-header-three__menu">
                                     <div className="main-menu__main-menu-box">
                                        <Link
@@ -235,6 +171,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                               </div>
 
                               <div className="main-header-three__bottom-middle">
+                                 <Locale />
                                  <div className="main-header-three__menu">
                                     <div className="main-menu__main-menu-box">
                                        <Link
