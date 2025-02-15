@@ -235,13 +235,13 @@ export default function Service() {
                                     <h2>
                                        {/* CCA Treatment */}
                                        {/* <Link href="international-transport"></Link> */}
-                                       {c("service3.title")}
+                                       {c("service4.title")}
                                     </h2>
                                     <p>
                                        {/* For a long life of outdoor use, CCA
 treatment maximizes resistance to
 weather, fungi, and pests. */}
-                                       {c("service3.sm_des")}
+                                       {c("service4.sm_des")}
                                     </p>
                                     <div className="btn-box">
                                        <a>
