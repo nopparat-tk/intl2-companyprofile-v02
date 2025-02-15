@@ -233,15 +233,15 @@ export default function Service() {
 
                                  <div className="service-one__single-content">
                                     <h2>
-                                       {/* Wholesale{" "} */}
+                                       {/* CCA Treatment */}
                                        {/* <Link href="international-transport"></Link> */}
-                                       {c("service4.title")}
+                                       {c("service3.title")}
                                     </h2>
                                     <p>
-                                       {/* Best source for various wooden materials,
-                                       provide complete services with product
-                                       quality and competitive prices. */}
-                                       {c("service4.sm_des")}
+                                       {/* For a long life of outdoor use, CCA
+treatment maximizes resistance to
+weather, fungi, and pests. */}
+                                       {c("service3.sm_des")}
                                     </p>
                                     <div className="btn-box">
                                        <a>
@@ -256,10 +256,10 @@ export default function Service() {
                               </div>
 
                               <div className="icon">
-                                 {/* <span className="icon-delivery-man"></span> */}
+                                 {/* <span className="icon-international-shipping"></span> */}
                                  <span>
                                     {" "}
-                                    <img src="assets/images/services/wholesale-1.svg"></img>
+                                    <img src="assets/images/services/Wholesale-service.svg"></img>
                                  </span>
                               </div>
                            </div>
