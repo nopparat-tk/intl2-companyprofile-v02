@@ -259,7 +259,7 @@ export default function Service() {
                                  {/* <span className="icon-delivery-man"></span> */}
                                  <span>
                                     {" "}
-                                    <img src="assets/images/services/wholesale.svg"></img>
+                                    <img src="assets/images/services/wholesale-1.svg"></img>
                                  </span>
                               </div>
                            </div>
