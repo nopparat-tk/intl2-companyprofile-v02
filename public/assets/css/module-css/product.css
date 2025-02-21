@@ -115,7 +115,7 @@ Buttons
 .conifer-btn {
    /* height: 9%;
    border: none; */
-   background-color: rgba(6, 63, 225, 0.9);
+   background-color: rgba(50, 90, 225, 0.9);
    color: #fff;
    padding: 5px 20px;
    border-radius: 3px;
@@ -126,5 +126,39 @@ Buttons
 }
 .conifer-btn:hover {
    background-color: rgba(6, 63, 225, 0.9);
+   -webkit-text-stroke: 0.05rem;
+}
+
+.bamboo-btn {
+   /* height: 9%;
+   border: none; */
+   background-color: rgba(55, 70, 49, 0.9);
+   color: #fff;
+   padding: 5px 20px;
+   border-radius: 3px;
+   align-items: center;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+.bamboo-btn:hover {
+   background-color: rgba(35, 45, 31, 0.9);
+   -webkit-text-stroke: 0.05rem;
+}
+
+.teak-btn {
+   /* height: 9%;
+   border: none; */
+   background-color: rgba(186, 155, 127, 0.9);
+   color: #fff;
+   padding: 5px 20px;
+   border-radius: 3px;
+   align-items: center;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+.teak-btn:hover {
+   background-color: rgba(148, 123, 101, 0.9);
    -webkit-text-stroke: 0.05rem;
 }
