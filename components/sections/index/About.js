@@ -2,6 +2,7 @@
 import Link from "next/link";
 import ReactCurvedText from "react-curved-text";
 import { useTranslations } from "next-intl";
+import PhoneCall from "../../elements/PhoneCall";
 
 export default function About() {
    const a = useTranslations("AboutArea");
@@ -130,9 +131,7 @@ export default function About() {
                               <div className="text-box">
                                  <p>{p("phone_des")}</p>
                                  <h4>
-                                    <Link href={`tel:${p("phone_no")}`}>
-                                       {p("phone_no")}
-                                    </Link>
+                                    <PhoneCall />
                                  </h4>
                               </div>
                            </div>

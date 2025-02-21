@@ -1,6 +1,10 @@
 "use client";
+
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
+import Lightbox from "yet-another-react-lightbox";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/styles.css";
 
 export default function Conifer() {
    const b = useTranslations("Bamboo");
@@ -22,6 +26,20 @@ export default function Conifer() {
          });
       }
    };
+
+   const [slideOpen, setSlideOpen] = useState(false);
+
+   const images = [
+      { src: `assets/images/product/${b("images.img1")}` },
+      { src: `assets/images/product/${b("images.img2")}` },
+      { src: `assets/images/product/${b("images.img3")}` },
+      { src: `assets/images/product/${b("images.img4")}` },
+   ];
+
+   const handleImagePopup = (i) => {
+      setSlideOpen(true);
+   };
+
    return (
       <div className="container">
          <div className="row">
@@ -161,7 +179,32 @@ export default function Conifer() {
             <div className="col-xl-6">
                <div className="product-one__img">
                   <div className="testimonial-one__img1 reveal">
-                     <img src="assets/images/product/bamboo1.png" alt="" />
+                     <button
+                        className="bamboo-btn"
+                        onClick={() => handleImagePopup(0)}
+                     >
+                        <a>
+                           Click to View <i className="fas fa-expand"></i>
+                        </a>
+                     </button>
+                     {/* <img src="assets/images/product/conifer1.png" alt="" /> */}
+                     <img
+                        onClick={() => handleImagePopup(0)}
+                        style={{ cursor: "pointer" }}
+                        src={images[0].src}
+                        alt="Nortern Conifer Wood"
+                     />
+                     <Lightbox
+                        open={slideOpen}
+                        close={() => setSlideOpen(false)}
+                        slides={images}
+                        plugins={[Zoom]}
+                        styles={{
+                           container: {
+                              backgroundColor: "rgba(0, 0, 0, 0.65)",
+                           },
+                        }}
+                     />
                   </div>
                </div>
             </div>

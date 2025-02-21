@@ -2,7 +2,7 @@
    "HeaderBtn": {
       "btn_text": "联系我们",
       "phone_des": "请致电我们",
-      "phone_no": "094 883 6139"
+      "phone_no": "099 712 1071"
    },
    "LocaleSwitcher": {
       "en": "Eng",
@@ -79,6 +79,20 @@
       "faq5": {
          "que": "使用多样性",
          "ans": "可用于多种形式，包括建筑工程、装饰工程和家具。"
+      },
+      "images": {
+         "img1": "conifer-en1.png",
+         "img2": "conifer-en2.png",
+         "img3": "conifer-en3.png",
+         "img4": "conifer-en4.png",
+         "img5": "conifer-en5.png",
+         "img6": "conifer-en6.png",
+         "img7": "conifer-en7.png",
+         "img8": "conifer-en8.png",
+         "img9": "conifer-en9.png",
+         "img10": "conifer-en10.png",
+         "img11": "conifer-en11.png",
+         "img12": "conifer-en12.png"
       }
    },
    "Bamboo": {

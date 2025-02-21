@@ -79,10 +79,24 @@
       "faq5": {
          "que": "Diversity in use",
          "ans": "Can be used in a variety of formats including construction work, decoration work, and furniture."
+      },
+      "images": {
+         "img1": "conifer-en1.png",
+         "img2": "conifer-en2.png",
+         "img3": "conifer-en3.png",
+         "img4": "conifer-en4.png",
+         "img5": "conifer-en5.png",
+         "img6": "conifer-en6.png",
+         "img7": "conifer-en7.png",
+         "img8": "conifer-en8.png",
+         "img9": "conifer-en9.png",
+         "img10": "conifer-en10.png",
+         "img11": "conifer-en11.png",
+         "img12": "conifer-en12.png"
       }
    },
    "Bamboo": {
-      "title1": "Fuse bamboo",
+      "title1": "Fused bamboo",
       "title2": "natural high quality,",
       "title3": "materials.",
       "faq1": {
@@ -90,7 +104,7 @@
          "ans": "An innovative process of heat treatment and high pressure compression makes these bamboo materials highly stable: resistant to impacts, free from bending, cracking, and shrinking."
       },
       "faq2": {
-         "que": "Fire resistant, termite resistant, mold resistant",
+         "que": "Fire, termite, mold resistant",
          "ans": "Modern production technology and revolutionary processes create a bamboo material that is highly resistant to fire, termites, and mold, with minimal maintenance and a service life that extends for decades."
       },
       "faq3": {
@@ -104,6 +118,12 @@
       "faq5": {
          "que": "Environmentally friendly",
          "ans": "Bamboo is a plant that grows quickly and is naturally renewable. Choosing bamboo products helps reduce deforestation and environmental impacts, protecting and preserving the health of our planet."
+      },
+      "images": {
+         "img1": "bamboo-en1.png",
+         "img2": "bamboo-en2.png",
+         "img3": "bamboo-en3.png",
+         "img4": "bamboo-en4.png"
       }
    },
    "Teak": {
@@ -223,7 +243,7 @@
    "InputForm": {
       "title": "Send us a message",
       "desc": "we'll get back to you ASAP!",
-      "name": "Full Name",
+      "name": "Name",
       "email": "Email",
       "phone": "Phone No.",
       "idline": "Line ID",

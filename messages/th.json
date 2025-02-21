@@ -79,6 +79,20 @@
       "faq5": {
          "que": "ความหลากหลายในการใช้งาน",
          "ans": "สามารถนำไปใช้งานได้หลากหลายรูปแบบ ทั้งงานก่อสร้าง งานตกแต่ง และเฟอร์นิเจอร์"
+      },
+      "images": {
+         "img1": "conifer-th1.png",
+         "img2": "conifer-th2.png",
+         "img3": "conifer-th3.png",
+         "img4": "conifer-th4.png",
+         "img5": "conifer-th5.png",
+         "img6": "conifer-th6.png",
+         "img7": "conifer-th7.png",
+         "img8": "conifer-th8.png",
+         "img9": "conifer-th9.png",
+         "img10": "conifer-th10.png",
+         "img11": "conifer-th11.png",
+         "img12": "conifer-th12.png"
       }
    },
    "Bamboo": {
@@ -104,6 +118,12 @@
       "faq5": {
          "que": "เป็นมิตรต่อสิ่งแวดล้อม",
          "ans": "ไม้ไผ่เป็นพืชที่เติบโตเร็วและทดแทนได้เองตามธรรมชาติ การเลือกใช้ผลิตภัณฑ์ไม้ไผ่จึงเป็นการช่วยลดการตัดไม้ทำลายป่าและผลกระทบต่อสิ่งแวดล้อม"
+      },
+      "images": {
+         "img1": "bamboo-th1.png",
+         "img2": "bamboo-th2.png",
+         "img3": "bamboo-th3.png",
+         "img4": "bamboo-th4.png"
       }
    },
    "Teak": {

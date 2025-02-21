@@ -1,13 +1,20 @@
+import React, { useState } from "react";
 import Menu from "../Menu";
 import Link from "next/link";
 import MobileMenu from "../MobileMenu";
 // import { Locale } from "@/i18n/config";
 import Locale from "../LocaleSwitch";
 // import { setUserLocale } from "@/i18n/locale";
+import PhoneCall from "../../elements/PhoneCall";
 import { useTranslations } from "next-intl";
 
 export default function Header3({ scroll, handleMobileMenu }) {
    const t = useTranslations("HeaderBtn");
+   // const [showPhoneNumber, setShowPhoneNumber] = useState(false);
+
+   // const togglePhoneNumber = () => {
+   //    setShowPhoneNumber(!showPhoneNumber);
+   // };
 
    return (
       <>
@@ -27,14 +34,24 @@ export default function Header3({ scroll, handleMobileMenu }) {
                                        </div>
 
                                        <div className="text-box">
-                                          <p>
+                                          {/* <p>
                                              <span>Talk to Us</span>{" "}
-                                             <Link
-                                                href={`tel:${t("phone_no")}`}
-                                             >
-                                                {t("phone_no")}
-                                             </Link>
-                                          </p>
+                                             {showPhoneNumber ? (
+                                                <Link
+                                                   href={`tel:${t("phone_no")}`}
+                                                >
+                                                   {t("phone_no")}
+                                                </Link>
+                                             ) : (
+                                                <Link
+                                                   href="#"
+                                                   onClick={togglePhoneNumber}
+                                                >
+                                                   Show Phone Number
+                                                </Link>
+                                             )}
+                                          </p> */}
+                                          <PhoneCall />
                                        </div>
                                     </li>
 
@@ -45,7 +62,6 @@ export default function Header3({ scroll, handleMobileMenu }) {
 
                                        <div className="text-box">
                                           <p>
-                                             <span>Mail Us</span>{" "}
                                              <Link href="mailto:info@sakww.com">
                                                 info@sakww.com
                                              </Link>

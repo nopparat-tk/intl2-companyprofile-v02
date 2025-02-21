@@ -2,6 +2,9 @@
 
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
+import Lightbox from "yet-another-react-lightbox";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/styles.css";
 
 export default function Conifer() {
    const tt = useTranslations("Teak");
@@ -23,7 +26,27 @@ export default function Conifer() {
          });
       }
    };
-   const [isOpen, setOpen] = useState(false);
+
+   const [slideOpen, setSlideOpen] = useState(false);
+
+   const images = [
+      { src: "assets/images/product/teak1.png" },
+      { src: "assets/images/product/teak2.png" },
+      { src: "assets/images/product/teak3.png" },
+      { src: "assets/images/product/teak4.png" },
+      { src: "assets/images/product/teak5.png" },
+      { src: "assets/images/product/teak6.png" },
+      { src: "assets/images/product/teak7.png" },
+      { src: "assets/images/product/teak8.png" },
+      { src: "assets/images/product/teak9.png" },
+      { src: "assets/images/product/teak10.png" },
+      { src: "assets/images/product/teak11.png" },
+      { src: "assets/images/product/teak12.png" },
+   ];
+
+   const handleImagePopup = (i) => {
+      setSlideOpen(true);
+   };
    return (
       <div className="container">
          <div className="row">
@@ -158,7 +181,32 @@ export default function Conifer() {
             <div className="col-xl-6">
                <div className="product-one__img">
                   <div className="testimonial-one__img1 reveal">
-                     <img src="assets/images/product/teak1.png" alt="" />
+                     <button
+                        className="teak-btn"
+                        onClick={() => handleImagePopup(0)}
+                     >
+                        <a>
+                           Click to View <i className="fas fa-expand"></i>
+                        </a>
+                     </button>
+                     {/* <img src="assets/images/product/teak1.png" alt="" /> */}
+                     <img
+                        onClick={() => handleImagePopup(0)}
+                        style={{ cursor: "pointer" }}
+                        src={images[0].src}
+                        alt="Thai teak"
+                     />
+                     <Lightbox
+                        open={slideOpen}
+                        close={() => setSlideOpen(false)}
+                        slides={images}
+                        plugins={[Zoom]}
+                        styles={{
+                           container: {
+                              backgroundColor: "rgba(0, 0, 0, 0.65)",
+                           },
+                        }}
+                     />
                   </div>
                </div>
             </div>
