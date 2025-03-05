@@ -75,10 +75,10 @@ Nav Tabs
 } */
 
 .product-menu .bamboo-menu .nav-link.active {
-   border: 1px solid rgb(55, 70, 49);
+   border: 1px solid rgb(68, 85, 57);
    border-bottom-color: transparent;
    color: var(--logistiq-white);
-   background-color: rgb(55, 70, 49);
+   background-color: rgb(68, 85, 57);
    font-weight: bold;
 }
 
@@ -132,7 +132,7 @@ Buttons
 .bamboo-btn {
    /* height: 9%;
    border: none; */
-   background-color: rgba(55, 70, 49, 0.9);
+   background-color: rgba(68, 85, 57, 0.9);
    color: #fff;
    padding: 5px 20px;
    border-radius: 3px;
@@ -142,7 +142,7 @@ Buttons
    right: 10px;
 }
 .bamboo-btn:hover {
-   background-color: rgba(35, 45, 31, 0.9);
+   background-color: rgba(55, 70, 49, 0.9);
    -webkit-text-stroke: 0.05rem;
 }
 

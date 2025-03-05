@@ -26,7 +26,7 @@
       "title2": "Providing Superior Quality",
       "title3": "Excellence in Production",
       "title4": "Consistent Durability",
-      "title5": "Preserve the nature integrity"
+      "title5": "Preserve natural integrity"
    },
    "HeroSlider": {
       "slide1": "We Have Over 15 Years of Knowledge and Expertise Importing and Distributing High-Quality Wooden Materials.",
@@ -97,8 +97,8 @@
    },
    "Bamboo": {
       "title1": "Fused bamboo",
-      "title2": "natural high quality,",
-      "title3": "materials.",
+      "title2": "Unprecedented durability ",
+      "title3": "and sustainability.",
       "faq1": {
          "que": "Strong and durable, superior to general wood",
          "ans": "An innovative process of heat treatment and high pressure compression makes these bamboo materials highly stable: resistant to impacts, free from bending, cracking, and shrinking."
@@ -136,7 +136,7 @@
       },
       "faq2": {
          "que": "Exquisite wood",
-         "ans": "When teak wood is polished the surface is smooth, easy to maintain, with all the golden color tones of natural teak wood. Add beauty anywhere with Thai teak!"
+         "ans": "When teak is polished the surface is smooth and easy to maintain, with all the rich golden colors of natural teak wood. Add beauty anywhere with Thai teak!"
       },
       "faq3": {
          "que": "Beautiful pattern",
@@ -149,18 +149,32 @@
       "faq5": {
          "que": "Nature's excellence",
          "ans": "Famously, teak contains natural oils that help prevent mold and insects. This makes teak wood highly resistant to diverse environmental conditions, and it requires minimal maintenance."
+      },
+      "images": {
+         "img1": "teak-en1.png",
+         "img2": "teak-en2.png",
+         "img3": "teak-en3.png",
+         "img4": "teak-en4.png",
+         "img5": "teak-en5.png",
+         "img6": "teak-en6.png",
+         "img7": "teak-en7.png",
+         "img8": "teak-en8.png",
+         "img9": "teak-en9.png",
+         "img10": "teak-en10.png",
+         "img11": "teak-en11.png",
+         "img12": "teak-en12.png"
       }
    },
    "ServicesArea": {
       "title": "Our Services",
-      "sub_title1": "Sustainably import and distribute",
+      "sub_title1": "Import and distribute sustainable",
       "sub_title2": "high-quality wooden",
       "sub_title3": "materials."
    },
    "ServicesCard": {
       "swipe": "Swipe",
       "service1": {
-         "title": "All Area Delivery",
+         "title": "Nationwide Delivery",
          "sm_des": "With comprehensive transportation options, SAKWW delivers to every area throughout Thailand."
       },
       "service2": {
@@ -177,13 +191,14 @@
          "sm_des": "The best source for various wooden materials, with complete services, high-quality products and competitive prices."
       },
       "service5": {
-         "title": "Free! Cutting",
+         "title": "Free Cutting!",
          "sm_des2": "We offer cutting services when buying full pieces of wood, so our customers receive wood in the sizes desired.",
-         "sm_des": "Free cutting services are provided for full wood piece purchases, ensuring clients receive precise-sized materials."
+         "sm_des": "Free cutting services are provided for full wood piece purchases, ensuring customers receive precisely-sized materials."
       },
       "service6": {
          "title": "Get Advice",
-         "sm_des": "You can ask us questions at any time. Our team of experts is ready to answer your inquiries."
+         "sm_des1": "You can ask us questions at any time. Our team of experts is ready to answer your inquiries.",
+         "sm_des": "Expert staff provide guidance about the best materials for your project goals, treatment options, pricing, and more."
       }
    },
    "BranchArea": {
@@ -249,11 +264,11 @@
       "idline": "Line ID",
       "massege": "Your Message",
       "submit": "Submit",
-      "success": "Submit Successful! Thank You for your send us message",
+      "success": "Submitted successfully! Thank you for your message.",
       "error": "Submission failed! Please try again."
    },
    "Footer": {
-      "title": "Looking for nature's finest materials?",
+      "title": "Looking for Nature's Finest Materials?",
       "btn_text": "Give us a call",
       "copy_right": "Copyright 2025",
       "company": "SAK WoodWorks Co., Ltd.",

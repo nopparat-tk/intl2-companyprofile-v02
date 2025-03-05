@@ -81,18 +81,18 @@
          "ans": "可用于多种形式，包括建筑工程、装饰工程和家具。"
       },
       "images": {
-         "img1": "conifer-en1.png",
-         "img2": "conifer-en2.png",
-         "img3": "conifer-en3.png",
-         "img4": "conifer-en4.png",
-         "img5": "conifer-en5.png",
-         "img6": "conifer-en6.png",
-         "img7": "conifer-en7.png",
-         "img8": "conifer-en8.png",
-         "img9": "conifer-en9.png",
-         "img10": "conifer-en10.png",
-         "img11": "conifer-en11.png",
-         "img12": "conifer-en12.png"
+         "img1": "conifer-ch1.png",
+         "img2": "conifer-ch2.png",
+         "img3": "conifer-ch3.png",
+         "img4": "conifer-ch4.png",
+         "img5": "conifer-ch5.png",
+         "img6": "conifer-ch6.png",
+         "img7": "conifer-ch7.png",
+         "img8": "conifer-ch8.png",
+         "img9": "conifer-ch9.png",
+         "img10": "conifer-ch10.png",
+         "img11": "conifer-ch11.png",
+         "img12": "conifer-ch12.png"
       }
    },
    "Bamboo": {
@@ -118,6 +118,12 @@
       "faq5": {
          "que": "环保",
          "ans": "竹子是一种生长迅速且可自然再生的植物。选择竹产品有助于减少森林砍伐和环境影响，保护和维护地球的健康。"
+      },
+      "images": {
+         "img1": "bamboo-ch1.png",
+         "img2": "bamboo-ch2.png",
+         "img3": "bamboo-ch3.png",
+         "img4": "bamboo-ch4.png"
       }
    },
    "Teak": {
@@ -130,7 +136,7 @@
       },
       "faq2": {
          "que": "精美木材",
-         "ans": "柚木抛光后，表面光滑，易于保养，具有天然柚木的所有金色色调。用泰国柚木为任何地方增添美丽！"
+         "ans": "柚木抛光后表面光滑且易于保养，具有天然柚木的浓郁金色。泰国柚木为任何地方增添美感！"
       },
       "faq3": {
          "que": "美丽的图案",
@@ -143,18 +149,32 @@
       "faq5": {
          "que": "大自然的卓越",
          "ans": "众所周知，柚木含有天然油脂，有助于防止霉菌和昆虫。这使得柚木对不同的环境条件具有很强的抵抗力，并且需要最少的维护。"
+      },
+      "images": {
+         "img1": "teak-ch1.png",
+         "img2": "teak-ch2.png",
+         "img3": "teak-ch3.png",
+         "img4": "teak-ch4.png",
+         "img5": "teak-ch5.png",
+         "img6": "teak-ch6.png",
+         "img7": "teak-ch7.png",
+         "img8": "teak-ch8.png",
+         "img9": "teak-ch9.png",
+         "img10": "teak-ch10.png",
+         "img11": "teak-ch11.png",
+         "img12": "teak-ch12.png"
       }
    },
    "ServicesArea": {
       "title": "我们的服务",
-      "sub_title1": "可持续进口和分销",
-      "sub_title2": "高品质木材",
+      "sub_title1": "进口和分销可持续的",
+      "sub_title2": "高品质木质",
       "sub_title3": "材料。"
    },
    "ServicesCard": {
       "swipe": "滑动",
       "service1": {
-         "title": "全区配送",
+         "title": "全国配送",
          "sm_des": "SAKWW 拥有全面的运输选择，可将货物送至泰国各地。"
       },
       "service2": {
@@ -243,7 +263,7 @@
       "idline": "线路编号",
       "massege": "您的留言",
       "submit": "提交",
-      "success": "提交成功！感谢您给我们留言",
+      "success": "提交成功！感谢您的留言。",
       "error": "提交失败！请再试一次。"
    },
    "Footer": {

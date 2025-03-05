@@ -280,7 +280,7 @@ Bamboo One
 
 .bamboo-one-accrodion .accrodion.active .accrodion-title h4 {
    /* color: var(--logistiq-base); */
-   color: rgb(55, 70, 49);
+   color: rgb(68, 85, 57);
 }
 
 .bamboo-one-accrodion .accrodion-title h4::before {
@@ -303,7 +303,7 @@ Bamboo One
 .bamboo-one-accrodion .accrodion.active .accrodion-title h4::before {
    content: "\e924";
    /* color: var(--logistiq-base); */
-   color: rgb(55, 70, 49);
+   color: rgb(68, 85, 57);
 }
 
 .bamboo-one-accrodion .accrodion-content {
