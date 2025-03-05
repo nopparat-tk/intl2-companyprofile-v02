@@ -30,18 +30,18 @@ export default function Conifer() {
    const [slideOpen, setSlideOpen] = useState(false);
 
    const images = [
-      { src: "assets/images/product/teak1.png" },
-      { src: "assets/images/product/teak2.png" },
-      { src: "assets/images/product/teak3.png" },
-      { src: "assets/images/product/teak4.png" },
-      { src: "assets/images/product/teak5.png" },
-      { src: "assets/images/product/teak6.png" },
-      { src: "assets/images/product/teak7.png" },
-      { src: "assets/images/product/teak8.png" },
-      { src: "assets/images/product/teak9.png" },
-      { src: "assets/images/product/teak10.png" },
-      { src: "assets/images/product/teak11.png" },
-      { src: "assets/images/product/teak12.png" },
+      { src: `assets/images/product/${tt("images.img1")}` },
+      { src: `assets/images/product/${tt("images.img2")}` },
+      { src: `assets/images/product/${tt("images.img3")}` },
+      { src: `assets/images/product/${tt("images.img4")}` },
+      { src: `assets/images/product/${tt("images.img5")}` },
+      { src: `assets/images/product/${tt("images.img6")}` },
+      { src: `assets/images/product/${tt("images.img7")}` },
+      { src: `assets/images/product/${tt("images.img8")}` },
+      { src: `assets/images/product/${tt("images.img9")}` },
+      { src: `assets/images/product/${tt("images.img10")}` },
+      { src: `assets/images/product/${tt("images.img11")}` },
+      { src: `assets/images/product/${tt("images.img12")}` },
    ];
 
    const handleImagePopup = (i) => {
