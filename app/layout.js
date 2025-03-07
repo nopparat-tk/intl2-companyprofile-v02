@@ -7,6 +7,8 @@ import "swiper/css/free-mode";
 import { dmSans } from "@/lib/font";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import CookiesConsent from "@/components/elements/CookiesConsent";
+
 export const metadata = {
    title: "SAK WoodWorks Co.,Ltd.",
    // title: "dev2-multi-lang",
@@ -20,6 +22,7 @@ export default async function RootLayout({ children }) {
       <html lang={locale} className={`${dmSans.variable}`}>
          <body>
             <NextIntlClientProvider messages={messages}>
+               <CookiesConsent />
                {children}
             </NextIntlClientProvider>
          </body>
