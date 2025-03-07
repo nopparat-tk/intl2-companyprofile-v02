@@ -1,0 +1,88 @@
+.policy-container {
+   background-color: rgb(247, 247, 247);
+   margin: 0 auto;
+   padding: 20px;
+}
+.policy-row {
+   width: 70%;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.policy-tabs {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.policy-tab {
+   padding: 10px 20px;
+   margin: 0 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: #ededed;
+   font-size: 16px;
+}
+
+.policy-tab.active {
+   background-color: #007bff;
+   color: white;
+}
+
+.policy-content {
+   background-color: #ffffff;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+
+.privacy-policy,
+.cookies-policy {
+   display: none;
+}
+
+.privacy-policy.active,
+.cookies-policy.active {
+   display: block;
+}
+
+.privacy-content h2 span,
+.cookies-content h2 span {
+   font-size: 28px;
+   font-weight: 800;
+   margin-bottom: 10px;
+}
+.privacy-content h3 span,
+.cookies-content h3 span {
+   font-size: 16px;
+   font-weight: 800;
+}
+
+.privacy-content span,
+.cookies-content span {
+   font-size: 14px;
+}
+.privacy-content span a,
+.cookies-content span a {
+   font-weight: 700;
+}
+.privacy-content a span,
+.cookies-content a span {
+   font-weight: 700;
+}
+.privacy-content ul,
+.cookies-content ul {
+   padding-left: 30px;
+}
+
+@media (max-width: 600px) {
+   .policy-tabs {
+      flex-direction: column;
+   }
+
+   .policy-tab {
+      margin-bottom: 10px;
+      width: 100%;
+   }
+}

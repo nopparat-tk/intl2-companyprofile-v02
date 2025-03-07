@@ -272,5 +272,102 @@
       "copy_right": "版权所有 2025",
       "company": "SAK WoodWorks Co., Ltd.",
       "all_right": "版权所有。"
+   },
+   "ConsentCookies": {
+      "message": "我们使用 Cookie 为您提供我们网站上的最佳体验。",
+      "moreInfo": "如需更多信息，请阅读我们的",
+      "privacyPolicy": "隐私政策",
+      "and": " 和 ",
+      "cookiePolicy": "Cookie 政策",
+      "period": ".",
+      "accept": "接受"
+   },
+   "PrivacyPolicy": {
+      "title": "隐私政策",
+      "intro1": "SAK WoodWorks Company Limited（在本政策中以下简称",
+      "name": "SAK WoodWorks",
+      "intro2": "或",
+      "company": "公司",
+      "intro3": "是网站服务提供商。",
+      "intro4": "SAK WoodWorks 意识到保护使用我们网站上各种服务的用户的个人信息的重要性。 SAK WoodWorks 收集信息的主要目的是开发更好的网站服务和/或获得与 SAK WoodWorks 和/或其附属公司的业务目标直接相关的利益所必需的。为了表明 SAK WoodWorks 对保护所有用户隐私的承诺，SAK WoodWorks 制定了本隐私政策，以保护所有使用我们网站服务的人的个人信息。",
+      "intro5": "本隐私政策受《B.E. 个人数据保护法》管辖。 2562，根据该规定，SAK WoodWorks 有权并有责任就个人数据的收集、使用或披露做出决定，在法律上称为“个人数据控制者”，并由 SAK WoodWorks 特别指派员工按照 SAK WoodWorks 的指示或代表 SAK WoodWorks 履行有关个人数据收集、使用或披露的职责，在法律上称为“个人数据处理者”。根据该法案，网站用户被视为“个人数据所有者”。",
+      "intro6": "当网站用户同意本隐私政策时，将被视为接受使用任何 SAK WoodWorks 网站服务将构成对所有服务条款和条件的接受，并且此类接受将是完整的且具有约束力。",
+      "section1": {
+         "title": "1. 政策范围和同意",
+         "content1": "本隐私政策规定了 SAK WoodWorks 通过网站收集或接收的个人信息的做法，包括提供服务以及用户访问或使用的各种服务工具，例如访问或观看视频。 SAK WoodWorks 将遵守泰王国适用的个人数据安全法的规定并按照其运营。",
+         "content2": "用户已仔细阅读并理解本隐私政策适用并涵盖SAK WoodWorks网站各项服务的使用。无论用户是否通过电脑、手机或使用网站上的任何工具访问SAK WoodWorks网站，均视为用户已同意并同意SAK WoodWorks按照本隐私政策和SAK WoodWorks的其他政策收集和使用用户的个人信息，以用于改进或开发各种服务的目的和/或与SAK WoodWorks和/或其关联公司的业务目标直接相关的利益所必需的。"
+      },
+      "section2": {
+         "title": "2. 个人数据的存储",
+         "content1": "SAK WoodWorks 可能会使用 cookie、Google Analytics、Google Ads、Facebook Pixel 或其他技术来收集个人信息，以帮助用户更好、更快、更安全和更个性化地使用和访问网站服务，以及改进或开发各种服务和/或获得与 SAK WoodWorks 及其附属公司的目标直接相关的利益所必需的。当用户访问网站时，SAK WoodWorks 会自动记录每次用户访问网站时用户的互联网浏览器发送的信息，直至用户离开网络浏览器。此类信息包括但不限于：",
+         "list1": "电脑/手机的IP地址、cookie ID。",
+         "list2": "互联网浏览程序。",
+         "list3": "访问每个网页的时间。",
+         "list4": "在 SAK WoodWorks 网站上搜索的信息，包括搜索的时间和日期以及其他统计信息。",
+         "list5": "位置数据。",
+         "list6": "网站浏览行为。",
+         "list7": "使用的操作系统。",
+         "list8": "网站访问者的性别、年龄和兴趣。",
+         "content2": "用户同意并承认，根据本隐私政策收集的个人数据可能会在 SAK WoodWorks 确定的任何国家/地区进行传输、存储和处理。",
+         "content3": "用户同意并接受，当用户访问SAK WoodWorks网站时，即视为用户允许并同意SAK WoodWorks按照本隐私政策规定的目的和条件收集、转移、处理、使用和披露用户的个人数据。",
+         "content4": "SAK WoodWorks 可以在实现本隐私政策中规定的目的所需的期限内保留根据本隐私政策收集的个人数据，包括通过对 SAK WoodWorks 网络和数据库的观察而获得的个人数据。"
+      },
+      "section3": {
+         "title": "3. 个人信息的使用和披露",
+         "content1": "SAK WoodWorks 不得出于本政策规定以外的任何目的收集、使用或披露您的个人数据。",
+         "content2": "如果 SAK WoodWorks 聘请其他机构处理用户个人数据，例如用于处理或分析，SAK WoodWorks 将要求该机构维护用户个人数据的机密性和安全性，并禁止将个人数据用于本隐私政策中未概述的目的，除非 SAK WoodWorks 拥有合法权利或被要求披露此类数据（例如，当法律要求或为了防止欺诈或其他犯罪而披露时），或者 SAK WoodWorks 认为其为了保护和/或捍卫 SAK WoodWorks 人员和 SAK WoodWorks 客户的权利、财产或安全，有必要这样做。"
+      },
+      "section4": {
+         "title": "4. 个人数据安全",
+         "content1": "SAK WoodWorks 将按照技术和组织措施保持您的个人数据处于良好状态，以在个人数据处理过程中保持适当的安全性，并防止个人数据在本政策所列目的之外或未经授权的情况下遭到泄露、丢失、访问、销毁、使用、转换、修改或披露。然而，用户同意并承认，任何通过互联网的电子传输方法、电子存储方法或电子措施都不可能是完全安全的。因此，尽管 SAK WoodWorks 尽一切合理努力保护数据和信息免遭未经授权的访问，但 SAK WoodWorks 无法保证绝对安全。"
+      },
+      "section5": {
+         "title": "5. 隐私政策的变更",
+         "content1": "SAK WoodWorks reserves the right to amend, change, improve, or add to this Privacy Policy from time to time. Any changes to the Policy can be checked as they appear on the website. If the user continues to use the SAK WoodWorks website after changes, improvements, or additions to the Privacy Policy, it is considered that the user confirms and agrees to comply with the changes, improvements, or additions. If the user later withdraws consent, the user will not be able to use the services of the SAK WoodWorks website."
+      },
+      "section6": {
+         "title": "6. 隐私政策的变更",
+         "content1": "SAK WoodWorks 可能会不时更新本隐私政策，以反映服务、产品、运营的变化以及根据用户的反馈和评论。",
+         "howWillNotify": "SAK WoodWorks 将如何通知变更？",
+         "subtitle1": "选项#1:",
+         "option1": "SAK WoodWorks 将在实施变更之前发布此类变更的显着通知，或者可能直接向您发送通知。",
+         "or": "or:",
+         "subtitle2": "Option#2:",
+         "option2": "SAK WoodWorks 将通过本政策顶部的“最后更新”日期通知您和任何其他第三方当前更新。"
+      },
+      "section7": {
+         "title": "什么是cookies？",
+         "content1": "Cookie 是您访问的网站创建的文件，可通过保存浏览信息让您更轻松地进行在线操作。网站使用 cookie 来让您保持登录状态、记住您的网站偏好并向您提供相关内容。"
+      },
+      "section8": {
+         "title": "我们如何使用cookies？",
+         "content1": "我们将通过cookies或其他技术收集所有访问者的网站访问信息，以提高网站使用和访问我们在线服务的效率。 Cookie 将用于以下情况：",
+         "list1": "确保您能够持续、安全地访问我们的网站。",
+         "list2": "记录与网站使用、数据内容以及您设置的网站格式相关的使用数据。",
+         "list3": "研究使用情况和访问者行为，以开发和改进网站，最好地满足用户需求。",
+         "list4": "研究网站访问者的整体行为，并将网站开发得更加用户友好、快速和高效。"
+      },
+      "section9": {
+         "title": "我们使用的 cookie 类型",
+         "content1": "我们的网站包含以下 cookie：",
+         "list1": "功能性 Cookie：用于记住选择或偏好并为用户提供个性化服务，例如用户名、语言和网站偏好。",
+         "list2": "广告Cookie：用于记住您之前的访问和使用模式，以便展示相关且符合您兴趣的产品、服务或广告媒体，并评估广告活动的有效性。",
+         "list3": "技术 Cookie（绝对必要的 Cookie）：这些 Cookie 是网站正常运行并为您提供全面、安全的信息访问所必需的。",
+         "list4": "平台性能Cookie：用于收集匿名网站访问者数据并分析访问者数量和行为，以提高网站效率并满足用户需求。",
+         "list5": "第三方 Cookie：这些 Cookie 由第三方提供商设置，例如 Google Analytics。"
+      },
+      "section10": {
+         "title": "如何联系 SAK WoodWorks？",
+         "content1": "如果您对个人数据的收集、使用和/或披露的细节，包括行使本政策项下的权利有任何建议或想询问，您可以通过以下渠道联系SAK WoodWorks："
+      },
+      "contact": {
+         "email": "电子邮件：",
+         "info1": " info@sakww.com",
+         "phone": "电话：",
+         "info2": "0997121071",
+         "hours": "（营业时间：周一至周五上午8:30-下午5:00）",
+         "address": "地址：",
+         "info3": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si 分区, Khlong Luang 区, Pathum Thani 省 12120"
+      }
    }
 }

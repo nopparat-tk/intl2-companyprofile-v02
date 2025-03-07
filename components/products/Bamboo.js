@@ -67,7 +67,7 @@ export default function Conifer() {
                               natural bamboo{" "}
                            </span>{" "}
                            materials{" "} */}
-                           <span style={{ color: "#374631" }}>
+                           <span style={{ color: "#445539" }}>
                               {b("title1")}
                            </span>{" "}
                            {b("title2")}

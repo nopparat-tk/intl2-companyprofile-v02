@@ -272,8 +272,8 @@ Contact One
 
 .contact-one .shape1 {
    position: absolute;
-   right: 420px;
-   bottom: -68px;
+   right: 400px;
+   bottom: -72px;
    z-index: -1;
 }
 
@@ -674,11 +674,6 @@ Contact One
    font-family: var(--logistiq-base);
 }
 
-.contact-one__form-distance-inner
-   .ranger-min-max-block
-   input[type="submit"]:hover {
-}
-
 .contact-one__form-distance-inner .ranger-min-max-block input[type="text"] {
    border: medium none;
    color: var(--logistiq-gray);
@@ -689,9 +684,6 @@ Contact One
    width: 100%;
    margin-left: -13px;
    z-index: -1;
-}
-
-.contact-one__form-distance-inner .ranger-min-max-block input[type="text"].max {
 }
 
 .contact-one__form-distance-inner .ranger-min-max-block span {
