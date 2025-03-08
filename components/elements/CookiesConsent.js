@@ -32,33 +32,6 @@ export default function CookiesConsent() {
    return (
       <div className="cookies-consent2">
          <div className="cookies-consent__message">
-            {/* <p>
-               We use cookies to provide you with the best possible experience
-               on our website. <span className="cookies-consent__link"></span>
-               <a>For more information, please read our </a>
-               <Link
-                  href="privacy-policy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-               >
-                  Privacy Policy
-               </Link>
-               <a> and </a>
-               <Link
-                  href="privacy-policy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-               >
-                  Cookie Policy
-               </Link>
-               <a> . </a>
-            </p>
-            <button
-               onClick={handleAccept}
-               className="cookies-consent__button cookies-consent__button--accept"
-            >
-               Accept
-            </button> */}
             <p>
                <span>{t("message")}</span> <span>{t("moreInfo")}</span>{" "}
                <Link
@@ -70,7 +43,7 @@ export default function CookiesConsent() {
                </Link>
                <span>{t("and")}</span>
                <Link
-                  href="/privacy-policy"
+                  href="/cookies-policy"
                   target="_blank"
                   rel="noopener noreferrer"
                >
@@ -85,21 +58,6 @@ export default function CookiesConsent() {
                <span>{t("accept")}</span>
             </button>
          </div>
-
-         {/* <div className="cookies-consent__actions">
-               <button
-                  onClick={handleAccept}
-                  className="cookies-consent__button cookies-consent__button--accept"
-               >
-                  Accept
-               </button>
-               <button
-               onClick={handleDecline}
-               className="cookies-consent__button cookies-consent__button--decline"
-            >
-               Decline
-            </button>
-            </div> */}
       </div>
    );
 }

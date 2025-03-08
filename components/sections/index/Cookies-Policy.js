@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import "../../../public/assets/css/module-css/privacy-policy.css";
-import Privacy from "../index/Privacy";
-import Cookies from "../index/Cookies";
+import Privacy from "./Privacy";
+import Cookies from "./Cookies";
 
-export default function PrivacyPolicy() {
-   const [activeTab, setActiveTab] = useState("privacy");
+export default function CookiesPolicy() {
+   const [activeTab, setActiveTab] = useState("cookies");
 
    const handleTabClick = (tab) => {
       setActiveTab(tab);
