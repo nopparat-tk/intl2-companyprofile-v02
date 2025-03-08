@@ -728,7 +728,7 @@ Contact One
    outline: none;
    font-size: 14px;
    font-weight: 400;
-   color: var(--logistiq-gray);
+   color: rgba(var(--logistiq-black-rgb), 0.5);
    border-radius: 2px;
    font-family: var(--logistiq-font);
    width: 100%;
