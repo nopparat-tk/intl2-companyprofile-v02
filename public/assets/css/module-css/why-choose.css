@@ -134,7 +134,13 @@ Why Choose One
 .why-choose-one__form .input-box {
    position: relative;
    display: block;
-   margin-bottom: 30px;
+   /* margin-bottom: 30px; */
+}
+
+.why-choose-one__form .input-box input[type="text"]:focus,
+.why-choose-one__form .input-box input[type="email"]:focus,
+.why-choose-one__form .input-box textarea:focus {
+   color: var(--logistiq-gray);
 }
 
 .why-choose-one__form .input-box .icon {
@@ -164,7 +170,7 @@ Why Choose One
    outline: none;
    font-size: 14px;
    font-weight: 400;
-   color: var(--logistiq-gray);
+   color: rgba(var(--logistiq-black-rgb), 0.5);
    border-radius: 2px;
    font-family: var(--logistiq-font);
 }

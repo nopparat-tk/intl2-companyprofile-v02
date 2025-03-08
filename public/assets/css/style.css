@@ -31,6 +31,7 @@
 @import url("module-css/banner.css");
 @import url("module-css/blog.css");
 @import url("module-css/brand.css");
+@import url("module-css/cookiesconsent.css");
 @import url("module-css/contact.css");
 @import url("module-css/counter.css");
 @import url("module-css/cta.css");
@@ -38,6 +39,8 @@
 @import url("module-css/error.css");
 @import url("module-css/page-header.css");
 @import url("module-css/pricing.css");
+@import url("module-css/privacy-policy.css");
+@import url("module-css/product.css");
 @import url("module-css/product.css");
 @import url("module-css/projects.css");
 @import url("module-css/quote.css");
@@ -855,6 +858,11 @@ button {
    color: var(--logistiq-white);
 }
 
+.error-message {
+   color: red;
+   font-size: 0.675em;
+   margin-top: 0.25em;
+}
 /***
 =============================================
    Preloader Css

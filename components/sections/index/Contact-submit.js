@@ -18,10 +18,54 @@ export default function WhyChooseUs() {
    const [success, setSuccess] = useState(false);
    const [error, setError] = useState(null); // Add error state
 
+   const [nameError, setNameError] = useState(null);
+   const [emailError, setEmailError] = useState(null);
+   const [phoneError, setPhoneError] = useState(null);
+   const [idlineError, setIdlineError] = useState(null);
+   const [massegeError, setMassegeError] = useState(null);
+
    const handleSubmit = async (event) => {
       event.preventDefault();
       setSubmitting(true);
       setError(null); // Clear any previous errors
+
+      // Check for empty fields
+      let hasError = false;
+      if (!name) {
+         setNameError("Name is required.");
+         hasError = true;
+      } else {
+         setNameError(null);
+      }
+      if (!email) {
+         setEmailError("Email is required.");
+         hasError = true;
+      } else {
+         setEmailError(null);
+      }
+      if (!phone) {
+         setPhoneError("Phone No. is required.");
+         hasError = true;
+      } else {
+         setPhoneError(null);
+      }
+      if (!idline) {
+         setIdlineError("Line ID is required.");
+         hasError = true;
+      } else {
+         setIdlineError(null);
+      }
+      if (!massege) {
+         setMassegeError("Message is required.");
+         hasError = true;
+      } else {
+         setMassegeError(null);
+      }
+
+      if (hasError) {
+         setSubmitting(false);
+         return;
+      }
 
       const formData = new FormData();
       formData.append("name", name);
@@ -220,7 +264,7 @@ export default function WhyChooseUs() {
                            onSubmit={handleSubmit}
                         >
                            <div className="row">
-                              <div className="col-xl-6 col-lg-6 col-md-6">
+                              <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                                  <div className="input-box">
                                     <input
                                        type="text"
@@ -236,8 +280,11 @@ export default function WhyChooseUs() {
                                        <span className="icon-user"></span>
                                     </div>
                                  </div>
+                                 {nameError && (
+                                    <p className="error-message">{nameError}</p>
+                                 )}
                               </div>
-                              <div className="col-xl-6 col-lg-6 col-md-6">
+                              <div className="col-xl-6 col-lg-6 col-md-6 mb-4">
                                  <div className="input-box">
                                     <input
                                        type="email"
@@ -253,8 +300,13 @@ export default function WhyChooseUs() {
                                        <span className="icon-email"></span>
                                     </div>
                                  </div>
+                                 {emailError && (
+                                    <p className="error-message">
+                                       {emailError}
+                                    </p>
+                                 )}
                               </div>
-                              <div className="col-xl-6 col-lg-6 col-md-6">
+                              <div className="col-xl-6 col-lg-6 col-md-6 mb-4">
                                  <div className="input-box">
                                     <input
                                        type="text"
@@ -270,8 +322,13 @@ export default function WhyChooseUs() {
                                        <span className="icon-phone2"></span>
                                     </div>
                                  </div>
+                                 {phoneError && (
+                                    <p className="error-message">
+                                       {phoneError}
+                                    </p>
+                                 )}
                               </div>
-                              <div className="col-xl-6 col-lg-6 col-md-6">
+                              <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                                  <div className="input-box">
                                     <input
                                        type="text"
@@ -287,9 +344,14 @@ export default function WhyChooseUs() {
                                        <span className="fab fa-line"></span>
                                     </div>
                                  </div>
+                                 {idlineError && (
+                                    <p className="error-message">
+                                       {idlineError}
+                                    </p>
+                                 )}
                               </div>
 
-                              <div className="col-xl-12">
+                              <div className="col-xl-12 mb-3">
                                  <div className="input-box">
                                     <textarea
                                        // name="message"
@@ -303,6 +365,11 @@ export default function WhyChooseUs() {
                                        <span className="icon-pen"></span>
                                     </div>
                                  </div>
+                                 {massegeError && (
+                                    <p className="error-message">
+                                       {massegeError}
+                                    </p>
+                                 )}
                               </div>
 
                               <div className="col-xl-12">
@@ -327,7 +394,7 @@ export default function WhyChooseUs() {
                                        </p>
                                     )}
                                     {error && (
-                                       <p style={{ color: "red" }}>
+                                       <p className="error-message">
                                           {inf("error")}
                                        </p>
                                     )}
