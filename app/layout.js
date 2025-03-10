@@ -4,7 +4,7 @@ import "swiper/css";
 // import "swiper/css/navigation"
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
-import { dmSans } from "@/lib/font";
+import { notoSans, notoSansTh, notoSansSC } from "@/lib/font";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import CookiesConsent from "@/components/elements/CookiesConsent";
@@ -18,8 +18,14 @@ export const metadata = {
 export default async function RootLayout({ children }) {
    const locale = await getLocale();
    const messages = await getMessages();
+   const fontClass =
+      locale === "th"
+         ? notoSansTh.variable
+         : locale === "ch"
+         ? notoSansSC.variable
+         : notoSans.variable;
    return (
-      <html lang={locale} className={`${dmSans.variable}`}>
+      <html lang={locale} className={fontClass}>
          <body>
             <NextIntlClientProvider messages={messages}>
                <CookiesConsent />
