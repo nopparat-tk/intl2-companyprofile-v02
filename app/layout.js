@@ -8,6 +8,7 @@ import { notoSans, notoSansTh, notoSansSC } from "@/lib/font";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import CookiesConsent from "@/components/elements/CookiesConsent";
+import FacebookMSG from "@/components/elements/FacebookMSG";
 
 export const metadata = {
    title: "SAK WoodWorks Co.,Ltd.",
@@ -16,6 +17,8 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children }) {
+   const pageId = "207440262444547";
+   const appId = "1278743569993286";
    const locale = await getLocale();
    const messages = await getMessages();
    const fontClass =
@@ -24,10 +27,12 @@ export default async function RootLayout({ children }) {
          : locale === "ch"
          ? notoSansSC.variable
          : notoSans.variable;
+
    return (
       <html lang={locale} className={fontClass}>
          <body>
             <NextIntlClientProvider messages={messages}>
+               <FacebookMSG pageId={pageId} appId={appId} />
                <CookiesConsent />
                {children}
             </NextIntlClientProvider>

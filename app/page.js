@@ -15,7 +15,6 @@ import Funfacts from "@/components/sections/home1/Funfacts";
 import Team from "@/components/sections/home1/Team";
 import Blog from "@/components/sections/home1/Blog";
 import Brands from "@/components/sections/home1/Brands";
-import FacebookMSG from "@/components/elements/FacebookMSG";
 
 export default function Home() {
    return (
@@ -36,7 +35,6 @@ export default function Home() {
             <Team />
             <Blog />
             <Brands /> */}
-            <FacebookMSG />
          </Layout>
       </>
    );
