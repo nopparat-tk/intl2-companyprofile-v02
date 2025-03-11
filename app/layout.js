@@ -8,6 +8,7 @@ import { notoSans, notoSansTh, notoSansSC } from "@/lib/font";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import CookiesConsent from "@/components/elements/CookiesConsent";
+import FacebookMSG from "@/components/elements/FacebookMSG";
 
 export const metadata = {
    title: "SAK WoodWorks Co.,Ltd.",
@@ -29,6 +30,7 @@ export default async function RootLayout({ children }) {
       <html lang={locale} className={fontClass}>
          <body>
             <NextIntlClientProvider messages={messages}>
+               <FacebookMSG />
                <CookiesConsent />
                {children}
             </NextIntlClientProvider>
