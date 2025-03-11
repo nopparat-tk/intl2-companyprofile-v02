@@ -10,7 +10,12 @@ export default function FacebookMSG() {
             providerKey="207440262444547"
             appID="1278743569993286"
          >
-            <Messenger />
+            <Messenger
+               pageId="207440262444547"
+               appId="1278743569993286"
+               greetingDialogDisplay="show"
+               greetingDialogDelay={0}
+            />
          </LiveChatLoaderProvider>
       </div>
    );
