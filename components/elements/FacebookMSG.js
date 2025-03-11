@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { LiveChatLoaderProvider } from "react-live-chat-loader";
+import { LiveChatLoaderProvider, Messenger } from "react-live-chat-loader";
 
 export default function FacebookMSG() {
    return (
