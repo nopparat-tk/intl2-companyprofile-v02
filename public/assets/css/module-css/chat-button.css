@@ -1,0 +1,112 @@
+.chatContainer {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   justify-items: center;
+   z-index: 1000;
+}
+
+.chatTitle {
+   font-size: 11px;
+   font-weight: 600;
+   color: var(--logistiq-white);
+   padding: 5px 5px;
+   background-color: var(--logistiq-base);
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0 0 5px rgba(6, 46, 57, 0.7);
+   margin-bottom: 5px;
+}
+
+.iconConatiner {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   bottom: 60px;
+   right: 0;
+}
+
+.iconConatiner .fab {
+   display: flex;
+}
+
+.iconConatiner a:hover {
+   color: inherit;
+}
+
+.msgIcon {
+   font-size: 2rem;
+   margin-bottom: 10px;
+   color: white;
+   position: absolute;
+   bottom: -5px;
+   right: 28px;
+   width: 55px;
+   height: 55px;
+   background-color: #1877f2;
+   border-radius: 100%;
+   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.lineIcon {
+   font-size: 55px;
+   margin-bottom: 0px;
+   color: #06c755;
+   position: absolute;
+   top: 4px;
+   right: 70px;
+   width: 48px;
+   height: 48px;
+
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.chatButton {
+   cursor: pointer;
+   /* padding: 10px 20px; */
+   font-size: 1.6rem;
+   width: 60px;
+   height: 60px;
+   background-color: var(--logistiq-base);
+   color: var(--logistiq-white);
+   border: none;
+   border-radius: 100px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* .chatButton:hover {
+   border-radius: 100px;
+   background: var(--logistiq-gray);
+} */
+.chatButton .close {
+   width: 100%;
+   height: 100%;
+   background-color: var(--logistiq-white);
+   opacity: 0.9;
+   border-radius: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--logistiq-gray);
+}
+
+.chatWindow {
+   position: fixed;
+   bottom: 60px;
+   right: 20px;
+   width: 300px;
+   height: 400px;
+   background-color: white;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
