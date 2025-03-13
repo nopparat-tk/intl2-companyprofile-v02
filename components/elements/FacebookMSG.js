@@ -23,7 +23,7 @@ export default function FacebookMSG() {
             <div className="iconConatiner">
                <Link
                   className="fab fa-facebook-f msgIcon"
-                  href="m.me/207440262444547"
+                  href="https://m.me/207440262444547"
                   target="_blank"
                ></Link>
 
