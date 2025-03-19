@@ -31,6 +31,7 @@
 @import url("module-css/banner.css");
 @import url("module-css/blog.css");
 @import url("module-css/brand.css");
+@import url("module-css/chat-button.css");
 @import url("module-css/cookiesconsent.css");
 @import url("module-css/contact.css");
 @import url("module-css/counter.css");
@@ -4261,7 +4262,7 @@ Main Header Three
       width: 90%;
    }
    .sec-title__title {
-      font-size: 28px;
+      font-size: 27px;
       line-height: 40px;
    }
 
@@ -4455,7 +4456,7 @@ Main Header Three
    }
 
    .faq-one__content-faq {
-      padding: 60px 25px 60px;
+      padding: 35px 25px 35px;
    }
 
    .faq-one-accrodion .accrodion-title h4::before {
@@ -5453,7 +5454,7 @@ Main Header Three
    }
 
    .product-one__img {
-      margin: 30px 0px 0px;
+      margin: 15px 0px 15px;
    }
 }
 

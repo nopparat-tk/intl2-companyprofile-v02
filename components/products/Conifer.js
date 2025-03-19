@@ -54,9 +54,12 @@ export default function Conifer() {
                <h2>Conifer Content</h2>
                <p>This is the conifer content.</p>
             </div> */}
-            <div className="col-xl-6  d-flex justify-content-center">
+            <div
+               className="col-xl-6 d-flex justify-content-center"
+               style={{ padding: 0 }}
+            >
                <div className="testimonial-one__content">
-                  <div className="faq-one__content-faq">
+                  <div className="faq-one__content-faq conifer-faq">
                      <div className="sec-title tg-heading-subheading animation-style2">
                         {/* <div className="sec-title__tagline">
                            <div className="line"></div>
@@ -176,7 +179,10 @@ export default function Conifer() {
                </div>
             </div>
             {/*Start Testimonial One Img*/}
-            <div className="col-xl-6  d-flex justify-content-center">
+            <div
+               className="col-xl-6  d-flex justify-content-center"
+               // style={{ padding: 0 }}
+            >
                <div className="product-one__img">
                   <div className="testimonial-one__img1 reveal">
                      <button

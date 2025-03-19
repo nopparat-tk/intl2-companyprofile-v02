@@ -47,9 +47,9 @@ export default function Conifer() {
                <h2>Conifer Content</h2>
                <p>This is the conifer content.</p>
             </div> */}
-            <div className="col-xl-6">
+            <div className="col-xl-6" style={{ padding: 0 }}>
                <div className="testimonial-one__content">
-                  <div className="faq-one__content-faq">
+                  <div className="faq-one__content-faq bamboo-faq">
                      <div className="sec-title tg-heading-subheading animation-style2">
                         {/* <div className="sec-title__tagline">
                            <div className="line"></div>

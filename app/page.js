@@ -4,6 +4,7 @@ import About from "@/components/sections/index/About";
 import Service from "@/components/sections/index/Service";
 import Branch from "@/components/sections/index/Branch";
 import Product from "@/components/sections/index/Product";
+import Product_accordian from "@/components/sections/index/Product-accordian";
 import Store from "@/components/sections/index/Store";
 import Contact from "@/components/sections/index/Contact-submit";
 import WhyChooseUs from "@/components/sections/home1/WhyChooseUs";
@@ -22,7 +23,8 @@ export default function Home() {
          <Layout headerStyle={3} footerStyle={4}>
             <Banner />
             <About />
-            <Product />
+            {/* <Product /> */}
+            <Product_accordian />
             <Service />
             <Branch />
             <Store />

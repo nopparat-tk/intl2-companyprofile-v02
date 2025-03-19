@@ -34,7 +34,7 @@ Nav Tabs
 =============================================
 ***/
 
-.product-menu .nav-tabs {
+/* .product-menu .nav-tabs {
    background-color: var(--logistiq-white);
    border-bottom: 0px solid #fff;
    font-weight: bold;
@@ -44,7 +44,7 @@ Nav Tabs
    border: 2px solid var(--logistiq-white);
    border-radius: 5px;
    border-bottom: 0px;
-}
+} */
 
 .product-menu .nav-link {
    border: 1px solid #f8f9fa;
@@ -55,10 +55,21 @@ Nav Tabs
    background-color: rgba(223, 224, 224, 0.6);
    font-weight: bold;
 }
-.product-menu .nav-link:hover {
+/* .product-menu .nav-link:hover {
    background-color: rgb(223, 224, 224);
    border-color: rgb(223, 224, 224);
    border-color: rgb(223, 224, 224);
+} */
+
+.product-menu .conifer-menu .nav-link {
+   border-bottom: 1px solid #849ced;
+   color: var(--logistiq-white);
+   background-color: rgba(50, 90, 225, 0.6);
+}
+.product-menu .conifer-menu .nav-link:hover {
+   border-bottom: 1px solid #5b7be7;
+   color: var(--logistiq-white);
+   background-color: rgba(50, 90, 225, 0.8);
 }
 
 .product-menu .conifer-menu .nav-link.active {
@@ -69,10 +80,17 @@ Nav Tabs
    font-weight: bold;
 }
 
-/* .product-menu .bamboo-menu .nav-link:hover {
-   background-color: rgb(223, 224, 224);
-   border-color: rgb(223, 224, 224);
-} */
+.product-menu .bamboo-menu .nav-link {
+   border-bottom: 1px solid #9daa9c;
+   background-color: rgba(68, 85, 57, 0.5);
+   color: var(--logistiq-white);
+}
+
+.product-menu .bamboo-menu .nav-link:hover {
+   border-bottom: 1px solid rgb(97, 117, 95);
+   background-color: rgba(68, 85, 57, 0.8);
+   color: var(--logistiq-white);
+}
 
 .product-menu .bamboo-menu .nav-link.active {
    border: 1px solid rgb(68, 85, 57);
@@ -82,10 +100,17 @@ Nav Tabs
    font-weight: bold;
 }
 
-/* .product-menu .teak-menu .nav-link:hover {
-   background-color: rgb(223, 224, 224);
-   border-color: rgb(223, 224, 224);
-} */
+.product-menu .teak-menu .nav-link {
+   border-bottom: 1px solid #cfb9a5;
+   background-color: rgba(186, 155, 127, 0.6);
+   color: var(--logistiq-white);
+}
+
+.product-menu .teak-menu .nav-link:hover {
+   border-bottom: 1px solid #c4aa92;
+   background-color: rgba(186, 155, 127, 0.8);
+   color: var(--logistiq-white);
+}
 
 .product-menu .teak-menu .nav-link.active {
    border: 1px solid rgb(186, 155, 127);
@@ -105,6 +130,16 @@ Nav Tabs
    font-size: inherit;
    font-family: inherit;
    outline: none; /* prevent outline on focus */
+}
+
+.faq-one__content-faq.conifer-faq {
+   border: 1px solid var(--logistiq-base);
+}
+.faq-one__content-faq.bamboo-faq {
+   border: 1px solid rgb(68, 85, 57);
+}
+.faq-one__content-faq.teak-faq {
+   border: 1px solid rgb(186, 155, 127);
 }
 
 /***
@@ -161,4 +196,288 @@ Buttons
 .teak-btn:hover {
    background-color: rgba(148, 123, 101, 0.9);
    -webkit-text-stroke: 0.05rem;
+}
+
+/***
+=============================================
+Accordion
+=============================================
+***/
+/* Default styles for larger screens (tabs) */
+/* .product-menu {
+   display: flex;
+   justify-content: space-between;
+} */
+
+.product-content {
+   display: flex;
+   justify-content: space-between;
+   padding: 0;
+}
+
+.accordion {
+   display: none;
+}
+
+.accordion-conifer {
+   position: relative;
+   display: block;
+   cursor: pointer;
+   background-color: var(--logistiq-base);
+   padding: 15px 25px;
+   transition: all 200ms linear;
+   transition-delay: 0.1s;
+}
+
+.accordion-conifer h5 {
+   position: relative;
+   color: var(--logistiq-white);
+   font-weight: 700;
+   text-transform: capitalize;
+   transition: all 500ms ease;
+}
+
+.accordion-conifer h5::before {
+   position: absolute;
+   color: var(--logistiq-white);
+   font-size: 15px;
+   line-height: 15px;
+   font-weight: 700;
+   top: 55%;
+   right: 0px;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transition: all 500ms ease;
+   text-align: center;
+   content: "\e923";
+   font-family: "icomoon" !important;
+}
+
+.accordion-conifer.active h5::before {
+   position: absolute;
+   color: var(--logistiq-white);
+   font-size: 15px;
+   line-height: 15px;
+   font-weight: 700;
+   top: 55%;
+   right: 0px;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transition: all 500ms ease;
+   text-align: center;
+   content: "\e924";
+   font-family: "icomoon" !important;
+}
+
+.accordion-bamboo {
+   position: relative;
+   display: block;
+   cursor: pointer;
+   background-color: rgb(55, 70, 49);
+   padding: 15px 25px;
+   transition: all 200ms linear;
+   transition-delay: 0.1s;
+}
+
+.accordion-bamboo h5 {
+   position: relative;
+   color: var(--logistiq-white);
+   font-weight: 700;
+   text-transform: capitalize;
+   transition: all 500ms ease;
+}
+
+.accordion-bamboo h5::before {
+   position: absolute;
+   color: var(--logistiq-white);
+   font-size: 15px;
+   line-height: 15px;
+   font-weight: 700;
+   top: 55%;
+   right: 0px;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transition: all 500ms ease;
+   text-align: center;
+   content: "\e923";
+   font-family: "icomoon" !important;
+}
+
+.accordion-bamboo.active h5::before {
+   position: absolute;
+   color: var(--logistiq-white);
+   font-size: 15px;
+   line-height: 15px;
+   font-weight: 700;
+   top: 55%;
+   right: 0px;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transition: all 500ms ease;
+   text-align: center;
+   content: "\e924";
+   font-family: "icomoon" !important;
+}
+
+.accordion-teak {
+   position: relative;
+   display: block;
+   cursor: pointer;
+   background-color: rgb(186, 155, 127);
+   padding: 15px 25px;
+   transition: all 200ms linear;
+   transition-delay: 0.1s;
+}
+
+.accordion-teak h5 {
+   position: relative;
+   color: var(--logistiq-white);
+   font-weight: 700;
+   text-transform: capitalize;
+   transition: all 500ms ease;
+}
+
+.accordion-teak h5::before {
+   position: absolute;
+   color: var(--logistiq-white);
+   font-size: 15px;
+   line-height: 15px;
+   font-weight: 700;
+   top: 55%;
+   right: 0px;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transition: all 500ms ease;
+   text-align: center;
+   content: "\e923";
+   font-family: "icomoon" !important;
+}
+
+.accordion-conifer.teak h5::before {
+   position: absolute;
+   color: var(--logistiq-white);
+   font-size: 15px;
+   line-height: 15px;
+   font-weight: 700;
+   top: 55%;
+   right: 0px;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transition: all 500ms ease;
+   text-align: center;
+   content: "\e924";
+   font-family: "icomoon" !important;
+}
+
+/* Mobile styles (accordion) */
+@media (max-width: 768px) {
+   .product-menu {
+      display: none;
+   }
+
+   .product-content {
+      display: none;
+   }
+
+   .container.conifer {
+      border: none;
+   }
+
+   .accordion {
+      display: block;
+      padding: 0 20px;
+   }
+
+   .faq-one__content-faq.conifer-faq {
+      border: none;
+   }
+   .faq-one__content-faq.bamboo-faq {
+      border: none;
+   }
+   .faq-one__content-faq.teak-faq {
+      border: none;
+   }
+
+   .accordion-item {
+      margin-bottom: 0;
+   }
+   .accordion-item.conifer {
+      border: solid 1px var(--logistiq-base);
+   }
+   .accordion-item.bamboo {
+      border: solid 1px rgb(55, 70, 49);
+   }
+   .accordion-item.teak {
+      border: solid 1px rgb(186, 155, 127);
+   }
+
+   .accrodion-title.accordion-conifer {
+      background-color: var(--logistiq-base);
+      padding: 15px 25px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+   }
+
+   .accrodion-title.accordion-conifer h5 {
+      color: var(--logistiq-white);
+   }
+
+   .accordion-button {
+      width: 100%;
+      text-align: left;
+      padding: 10px;
+      /* background-color: #f1f1f1; */
+      border: none;
+      cursor: pointer;
+   }
+
+   .accordion-content {
+      display: none;
+      padding: 0;
+      background-color: #fff;
+      /* border: 1px solid #ddd; */
+   }
+
+   .accordion-content.active {
+      display: block;
+   }
+
+   .accordion-item.conifer {
+      border: 1px solid var(--logistiq-base);
+   }
+
+   .accordion-button.conifer ::before {
+      background-color: #6d89e7;
+      color: var(--logistiq-white);
+   }
+
+   .accordion-button.conifer ::after {
+      background-color: var(--logistiq-base);
+      color: var(--logistiq-white);
+   }
+
+   .accordion-button.conifer h5 {
+      color: var(--logistiq-white);
+   }
+
+   .accordion-button.bamboo {
+      background-color: #d5e8a8;
+   }
+
+   .accordion-button.teak {
+      background-color: #e8d5a8;
+   }
+
+   .accordion-button:not(.collapsed)::after {
+      content: "\e924"; /* Example: down arrow icon */
+      color: #fff; /* Set the color to white */
+      float: right;
+      margin-left: 10px;
+      font-family: "icomoon";
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      position: absolute;
+      right: 10px;
+   }
 }
