@@ -369,6 +369,12 @@ Accordion
    font-family: "icomoon" !important;
 }
 
+.accordion-item:last-of-type {
+   margin-bottom: 0;
+   border-bottom-right-radius: 0rem;
+   border-bottom-left-radius: 0rem;
+}
+
 /* Mobile styles (accordion) */
 @media (max-width: 768px) {
    .product-menu {
@@ -400,13 +406,17 @@ Accordion
 
    .accordion-item {
       margin-bottom: 0;
+      border: none;
    }
+
    .accordion-item.conifer {
       border: solid 1px var(--logistiq-base);
    }
+
    .accordion-item.bamboo {
       border: solid 1px rgb(55, 70, 49);
    }
+
    .accordion-item.teak {
       border: solid 1px rgb(186, 155, 127);
    }
