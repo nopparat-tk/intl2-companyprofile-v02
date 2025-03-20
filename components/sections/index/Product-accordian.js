@@ -12,7 +12,7 @@ export default function Product_accordian() {
    const n = useTranslations("ProductNavTab");
 
    const [activeTab, setActiveTab] = useState("conifer");
-   const [activeAccordion, setActiveAccordion] = useState(null);
+   const [activeAccordion, setActiveAccordion] = useState("conifer");
 
    const handleTabChange = (tab) => {
       setActiveTab(tab);
@@ -50,42 +50,51 @@ export default function Product_accordian() {
                      </h2>
                   </div>
                </div>
+
                <div className="row">
                   {/* Desktop View */}
-                  <div className="col-xl-6">
-                     <div className="product-menu">
-                        <ul className="nav nav-tabs nav-fill">
-                           <li className="conifer-menu nav-item">
-                              <button
-                                 className={`nav-link ${
-                                    activeTab === "conifer" ? "active" : ""
-                                 }`}
-                                 onClick={() => handleTabChange("conifer")}
-                              >
-                                 {n("conifer")}
-                              </button>
-                           </li>
-                           <li className="bamboo-menu nav-item">
-                              <button
-                                 className={`nav-link ${
-                                    activeTab === "bamboo" ? "active" : ""
-                                 }`}
-                                 onClick={() => handleTabChange("bamboo")}
-                              >
-                                 {n("bamboo")}
-                              </button>
-                           </li>
-                           <li className="teak-menu nav-item">
-                              <button
-                                 className={`nav-link ${
-                                    activeTab === "teak" ? "active" : ""
-                                 }`}
-                                 onClick={() => handleTabChange("teak")}
-                              >
-                                 {n("teak")}
-                              </button>
-                           </li>
-                        </ul>
+                  <div className="container">
+                     <div className="row">
+                        <div className="col-xl-6">
+                           <div className="product-menu">
+                              <ul className="nav nav-tabs nav-fill">
+                                 <li className="conifer-menu nav-item">
+                                    <button
+                                       className={`nav-link ${
+                                          activeTab === "conifer"
+                                             ? "active"
+                                             : ""
+                                       }`}
+                                       onClick={() =>
+                                          handleTabChange("conifer")
+                                       }
+                                    >
+                                       {n("conifer")}
+                                    </button>
+                                 </li>
+                                 <li className="bamboo-menu nav-item">
+                                    <button
+                                       className={`nav-link ${
+                                          activeTab === "bamboo" ? "active" : ""
+                                       }`}
+                                       onClick={() => handleTabChange("bamboo")}
+                                    >
+                                       {n("bamboo")}
+                                    </button>
+                                 </li>
+                                 <li className="teak-menu nav-item">
+                                    <button
+                                       className={`nav-link ${
+                                          activeTab === "teak" ? "active" : ""
+                                       }`}
+                                       onClick={() => handleTabChange("teak")}
+                                    >
+                                       {n("teak")}
+                                    </button>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
                      </div>
                   </div>
                   <div className="product-content">
