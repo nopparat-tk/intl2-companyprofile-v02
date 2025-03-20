@@ -81,14 +81,14 @@ Nav Tabs
 }
 
 .product-menu .bamboo-menu .nav-link {
-   border-bottom: 1px solid #9daa9c;
-   background-color: rgba(68, 85, 57, 0.5);
+   border-bottom: 1px solid #80907e;
+   background-color: rgba(68, 85, 57, 0.65);
    color: var(--logistiq-white);
 }
 
 .product-menu .bamboo-menu .nav-link:hover {
-   border-bottom: 1px solid rgb(97, 117, 95);
-   background-color: rgba(68, 85, 57, 0.8);
+   border-bottom: 1px solid rgb(99, 119, 97);
+   background-color: rgba(68, 85, 57, 0.85);
    color: var(--logistiq-white);
 }
 
@@ -101,14 +101,14 @@ Nav Tabs
 }
 
 .product-menu .teak-menu .nav-link {
-   border-bottom: 1px solid #cfb9a5;
+   border-bottom: 1px solid #d6c3b2;
    background-color: rgba(186, 155, 127, 0.6);
    color: var(--logistiq-white);
 }
 
 .product-menu .teak-menu .nav-link:hover {
-   border-bottom: 1px solid #c4aa92;
-   background-color: rgba(186, 155, 127, 0.8);
+   border-bottom: 1px solid #c2a78e;
+   background-color: rgba(186, 155, 127, 0.88);
    color: var(--logistiq-white);
 }
 
@@ -241,10 +241,9 @@ Accordion
    position: absolute;
    color: var(--logistiq-white);
    font-size: 15px;
-   line-height: 15px;
-   font-weight: 700;
-   top: 55%;
-   right: 0px;
+   -webkit-text-stroke: 2px var(--logistiq-white);
+   top: 52%;
+   right: 15px;
    transform: translateY(-50%);
    -webkit-transform: translateY(-50%);
    transition: all 500ms ease;
@@ -257,10 +256,9 @@ Accordion
    position: absolute;
    color: var(--logistiq-white);
    font-size: 15px;
-   line-height: 15px;
-   font-weight: 700;
-   top: 55%;
-   right: 0px;
+   -webkit-text-stroke: 2px var(--logistiq-white);
+   top: 52%;
+   right: 15px;
    transform: translateY(-50%);
    -webkit-transform: translateY(-50%);
    transition: all 500ms ease;
@@ -369,11 +367,11 @@ Accordion
    font-family: "icomoon" !important;
 }
 
-.accordion-item:last-of-type {
+/* .accordion-item:last-of-type {
    margin-bottom: 0;
    border-bottom-right-radius: 0rem;
    border-bottom-left-radius: 0rem;
-}
+} */
 
 /* Mobile styles (accordion) */
 @media (max-width: 768px) {
@@ -410,15 +408,15 @@ Accordion
    }
 
    .accordion-item.conifer {
-      border: solid 1px var(--logistiq-base);
+      border: solid 1.5px var(--logistiq-base);
    }
 
    .accordion-item.bamboo {
-      border: solid 1px rgb(55, 70, 49);
+      border: solid 1.5px rgb(55, 70, 49);
    }
 
    .accordion-item.teak {
-      border: solid 1px rgb(186, 155, 127);
+      border: solid 1.5px rgb(186, 155, 127);
    }
 
    .accrodion-title.accordion-conifer {

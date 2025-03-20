@@ -4467,6 +4467,11 @@ Main Header Three
       padding-right: 25px;
    }
 
+   .faq-one-accrodion .accrodion-content p {
+      font-size: 15px;
+      line-height: 25px;
+   }
+
    .cta-one__img {
       display: none;
    }
