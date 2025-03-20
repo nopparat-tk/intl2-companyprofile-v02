@@ -46,7 +46,16 @@ Nav Tabs
    border-bottom: 0px;
 } */
 
+.product-menu {
+   display: flex;
+   flex-direction: column;
+}
+
 .product-menu .nav-link {
+   flex: 1;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
    border: 1px solid #f8f9fa;
    /* border-bottom: none; */
    border-radius: 5px 5px 0px 0px;
@@ -54,6 +63,10 @@ Nav Tabs
    padding: 10px 15px;
    background-color: rgba(223, 224, 224, 0.6);
    font-weight: bold;
+}
+
+.product-menu .nav-tabs {
+   border-bottom: none;
 }
 /* .product-menu .nav-link:hover {
    background-color: rgb(223, 224, 224);
@@ -289,10 +302,9 @@ Accordion
    position: absolute;
    color: var(--logistiq-white);
    font-size: 15px;
-   line-height: 15px;
-   font-weight: 700;
+   -webkit-text-stroke: 2px var(--logistiq-white);
    top: 55%;
-   right: 0px;
+   right: 15px;
    transform: translateY(-50%);
    -webkit-transform: translateY(-50%);
    transition: all 500ms ease;
@@ -305,10 +317,9 @@ Accordion
    position: absolute;
    color: var(--logistiq-white);
    font-size: 15px;
-   line-height: 15px;
-   font-weight: 700;
+   -webkit-text-stroke: 2px var(--logistiq-white);
    top: 55%;
-   right: 0px;
+   right: 15px;
    transform: translateY(-50%);
    -webkit-transform: translateY(-50%);
    transition: all 500ms ease;
@@ -339,10 +350,9 @@ Accordion
    position: absolute;
    color: var(--logistiq-white);
    font-size: 15px;
-   line-height: 15px;
-   font-weight: 700;
+   -webkit-text-stroke: 2px var(--logistiq-white);
    top: 55%;
-   right: 0px;
+   right: 15px;
    transform: translateY(-50%);
    -webkit-transform: translateY(-50%);
    transition: all 500ms ease;
@@ -355,10 +365,9 @@ Accordion
    position: absolute;
    color: var(--logistiq-white);
    font-size: 15px;
-   line-height: 15px;
-   font-weight: 700;
+   -webkit-text-stroke: 2px var(--logistiq-white);
    top: 55%;
-   right: 0px;
+   right: 15px;
    transform: translateY(-50%);
    -webkit-transform: translateY(-50%);
    transition: all 500ms ease;
