@@ -10,20 +10,18 @@ export default function PhoneCall() {
       setShowPhoneNumber(!showPhoneNumber);
    };
    return (
-      <div>
-         <span>
-            {showPhoneNumber ? (
-               <Link href={`tel:${t("phone_no")}`}>{t("phone_no")}</Link>
-            ) : (
-               <a
-                  // className="btn-box"
-                  style={{ cursor: "pointer" }}
-                  onClick={togglePhoneNumber}
-               >
-                  *** *** ****
-               </a>
-            )}
-         </span>
-      </div>
+      <>
+         {showPhoneNumber ? (
+            <Link href={`tel:${t("phone_no")}`}>{t("phone_no")}</Link>
+         ) : (
+            <a
+               // className="btn-box"
+               style={{ cursor: "pointer" }}
+               onClick={togglePhoneNumber}
+            >
+               {t("phone_no").slice(0, 7)} ****
+            </a>
+         )}
+      </>
    );
 }

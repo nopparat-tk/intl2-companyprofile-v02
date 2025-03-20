@@ -61,7 +61,7 @@ export default function Branch1() {
                                  }}
                                  onClick={togglePhoneNumber}
                               >
-                                 *** *** ****
+                                 {bd("phone_1").slice(0, 7)} ****
                               </a>
                            )}
                            {/* <Link href={`tel:${bd("phone_1")}`}>
