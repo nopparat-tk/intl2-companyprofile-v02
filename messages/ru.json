@@ -281,7 +281,8 @@
       "accept": "Принять"
    },
    "PrivacyPolicy": {
-      "title": "политика конфиденциальности",
+      "title1": "политика конфиденциальности",
+      "title2": "Политика файлов cookie",
       "intro1": "SAK WoodWorks Company Limited, именуемая в дальнейшем в настоящей Политике как",
       "name": "SAK WoodWorks,",
       "intro2": "или",

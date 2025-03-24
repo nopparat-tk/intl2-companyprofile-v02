@@ -283,7 +283,8 @@
       "accept": "接受"
    },
    "PrivacyPolicy": {
-      "title": "隐私政策",
+      "title1": "隐私政策",
+      "title2": "Cookies政策",
       "intro1": "SAK WoodWorks Company Limited（在本政策中以下简称",
       "name": "SAK WoodWorks",
       "intro2": "或",
