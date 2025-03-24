@@ -10,7 +10,7 @@ export default function Cookies() {
    return (
       <div className="privacy-content">
          <h2>
-            <span>{t("title")}</span>
+            <span>{t("title2")}</span>
          </h2>
          <span>
             <h3>

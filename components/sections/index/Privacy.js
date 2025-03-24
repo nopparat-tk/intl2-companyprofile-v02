@@ -8,7 +8,7 @@ export default function Privacy() {
    return (
       <div className="privacy-content">
          <h2>
-            <span>{t("title")}</span>
+            <span>{t("title1")}</span>
          </h2>
          <span>
             <span>{t("intro1")}</span> <a>{t("name")} </a>{" "}

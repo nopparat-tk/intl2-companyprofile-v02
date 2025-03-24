@@ -1,10 +1,12 @@
 "use client";
 import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 import "../../../public/assets/css/module-css/privacy-policy.css";
 import Privacy from "../index/Privacy";
 import Cookies from "../index/Cookies";
 
 export default function PrivacyPolicy() {
+   const t = useTranslations("PrivacyPolicy");
    const [activeTab, setActiveTab] = useState("privacy");
 
    const handleTabClick = (tab) => {
@@ -21,7 +23,7 @@ export default function PrivacyPolicy() {
                   }`}
                   onClick={() => handleTabClick("privacy")}
                >
-                  Privacy Policy
+                  {t("title1")}
                </button>
                <button
                   className={`policy-tab ${
@@ -29,7 +31,7 @@ export default function PrivacyPolicy() {
                   }`}
                   onClick={() => handleTabClick("cookies")}
                >
-                  Cookies Policy
+                  {t("title2")}
                </button>
             </div>
             <div>

@@ -3040,6 +3040,12 @@ Main Header Three
    display: none;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+   color: rgba(var(--logistiq-black-rgb), 0.3) !important;
+   scale: 0.8;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
    .counter-one--three::before {
       right: 20px;
@@ -3744,6 +3750,16 @@ Main Header Three
    .about-one__content-text2-single p {
       min-height: 84px;
    }
+
+   .pricing-one__single-inner .table-content ul li .text-box p,
+   .pricing-two__single-inner .table-content ul li .text-box p {
+      min-height: 140px;
+   }
+
+   .swiper-button-prev,
+   .swiper-button-next {
+      top: 46% !important;
+   }
 }
 
 /* Tablet Layout: 768px. */
@@ -4245,6 +4261,17 @@ Main Header Three
 
    .pricing-two__single-inner {
       padding: 20px;
+   }
+
+   .pricing-two__single-inner .table-content ul li .text-box p,
+   .pricing-one__single-inner .table-content ul li .text-box p {
+      min-height: 140px;
+   }
+
+   .swiper-button-prev,
+   .swiper-button-next {
+      top: 47% !important;
+      scale: 0.8;
    }
 }
 
@@ -5178,6 +5205,14 @@ Main Header Three
       right: -10px;
    }
 
+   .teak-one-accrodion .accrodion-title h4::before {
+      right: 15px;
+   }
+
+   .bamboo-one-accrodion .accrodion-title h4::before {
+      right: 15px;
+   }
+
    .service-details__sidebar-contact-content h2 {
       font-size: 25px;
       line-height: 35px;
@@ -5460,6 +5495,12 @@ Main Header Three
 
    .product-one__img {
       margin: 15px 0px 15px;
+   }
+
+   .swiper-button-prev,
+   .swiper-button-next {
+      top: 54% !important;
+      scale: 0.8;
    }
 }
 
