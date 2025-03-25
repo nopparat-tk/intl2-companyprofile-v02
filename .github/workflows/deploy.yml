@@ -1,4 +1,4 @@
-name: Deploy companyprofile App
+name: Deploy intl2-companyprofile-v02 App
 
 on:
    push:
@@ -31,7 +31,7 @@ jobs:
               HOST: 128.199.74.46
               USERNAME: root
               TARGET_DIR: /var/www/intl2-companyprofile-v02
-              APP_NAME: companyprofile #should match the name of the server block
+              APP_NAME: intl2-companyprofile-v02 #should match the name of the server block
               PORT: 3000
 
            run: |
