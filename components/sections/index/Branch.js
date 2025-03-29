@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
 import { useTranslations } from "next-intl";
 import Branch1 from "../../layout/Branch/Branch1";
 import Branch2 from "../../layout/Branch/Branch2";
@@ -9,27 +11,27 @@ import Branch3 from "../../layout/Branch/Branch3";
 import Branch4 from "../../layout/Branch/Branch4";
 
 const swiperOptions = {
-   modules: [Autoplay, Pagination, Navigation],
+   modules: [Autoplay, Navigation],
    slidesPerView: 3,
    spaceBetween: 30,
-   autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-   },
+   // autoplay: {
+   //    delay: 5000,
+   //    disableOnInteraction: false,
+   // },
 
    loop: true,
 
    // Navigation
    navigation: {
-      nextEl: ".h1n",
-      prevEl: ".h1p",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
    },
 
    // Pagination
-   pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-   },
+   // pagination: {
+   //    el: ".swiper-pagination",
+   //    clickable: true,
+   // },
    breakpoints: {
       320: {
          slidesPerView: 1,
@@ -126,6 +128,8 @@ export default function Pricing() {
                         </SwiperSlide>
                         {/*End Brach Four*/}
                      </Swiper>
+                     <div className="swiper-button-prev"></div>
+                     <div className="swiper-button-next"></div>
                   </div>
                </div>
             </div>
