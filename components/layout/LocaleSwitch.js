@@ -12,9 +12,9 @@ const saveLocale = (locale) => {
 // Function to get locale from local storage
 const getLocale = () => {
    if (typeof window !== "undefined") {
-      return localStorage.getItem("user-locale") || "en"; // default to 'en' if no locale is found
+      return localStorage.getItem("user-locale") || "th"; // default to 'en' if no locale is found
    }
-   return "en";
+   return "th";
 };
 
 export default function LocaleSwitch() {
