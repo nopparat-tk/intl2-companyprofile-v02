@@ -13,7 +13,7 @@ export default function Error404() {
                   <div className="error-page__inner text-center">
                      <div className="error-page__img float-bob-y">
                         <img
-                           src="assets/images/pattern/store-pattern.png"
+                           src="assets/images/resources/error-page-img1.png"
                            alt=""
                         />
                      </div>
