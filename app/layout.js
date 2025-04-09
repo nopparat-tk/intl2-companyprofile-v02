@@ -28,6 +28,12 @@ export default async function RootLayout({ children }) {
 
    return (
       <html lang={locale} className={fontClass}>
+         <head>
+            <meta
+               name="google-site-verification"
+               content="YIeMcBwBUeAMJXLnLktlyISAHUHcCIcREi_ToKT2mFo"
+            />
+         </head>
          <body>
             <NextIntlClientProvider messages={messages}>
                <FacebookMSG />
