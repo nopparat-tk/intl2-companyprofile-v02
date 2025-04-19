@@ -21,38 +21,86 @@ export default function Layout({
    children,
    wrapperCls,
 }) {
-   const [scroll, setScroll] = useState(0);
-   // Mobile Menu
-   const [isMobileMenu, setMobileMenu] = useState(false);
-   const handleMobileMenu = () => {
-      setMobileMenu(!isMobileMenu);
-      !isMobileMenu
-         ? document.body.classList.add("mobile-menu-visible")
-         : document.body.classList.remove("mobile-menu-visible");
-   };
+   // const [scroll, setScroll] = useState(0);
+   // // Mobile Menu
+   // const [isMobileMenu, setMobileMenu] = useState(false);
+   // const handleMobileMenu = () => {
+   //    setMobileMenu(!isMobileMenu);
+   //    !isMobileMenu
+   //       ? document.body.classList.add("mobile-menu-visible")
+   //       : document.body.classList.remove("mobile-menu-visible");
+   // };
 
-   // Popup
-   const [isPopup, setPopup] = useState(false);
-   const handlePopup = () => setPopup(!isPopup);
+   // // Popup
+   // const [isPopup, setPopup] = useState(false);
+   // const handlePopup = () => setPopup(!isPopup);
 
-   // Sidebar
-   const [isSidebar, setSidebar] = useState(false);
-   const handleSidebar = () => setSidebar(!isSidebar);
+   // // Sidebar
+   // const [isSidebar, setSidebar] = useState(false);
+   // const handleSidebar = () => setSidebar(!isSidebar);
+
+   // useEffect(() => {
+   //    const WOW = require("wowjs");
+   //    window.wow = new WOW.WOW({
+   //       live: false,
+   //    });
+   //    window.wow.init();
+
+   //    document.addEventListener("scroll", () => {
+   //       const scrollCheck = window.scrollY > 100;
+   //       if (scrollCheck !== scroll) {
+   //          setScroll(scrollCheck);
+   //       }
+   //    });
+   // }, []);
+
+   const [scroll, setScroll] = useState(false);
+   const [isMobileMenu, setIsMobileMenu] = useState(false);
+   const [isPopup, setIsPopup] = useState(false);
+   const [isSidebar, setIsSidebar] = useState(false);
+   const [mounted, setMounted] = useState(false);
 
    useEffect(() => {
-      const WOW = require("wowjs");
-      window.wow = new WOW.WOW({
-         live: false,
-      });
-      window.wow.init();
-
-      document.addEventListener("scroll", () => {
-         const scrollCheck = window.scrollY > 100;
-         if (scrollCheck !== scroll) {
-            setScroll(scrollCheck);
-         }
-      });
+      setMounted(true);
+      return () => setMounted(false);
    }, []);
+
+   useEffect(() => {
+      if (mounted) {
+         const WOW = require("wowjs");
+         window.wow = new WOW.WOW({
+            live: false,
+         });
+         window.wow.init();
+
+         const handleScroll = () => {
+            const scrollCheck = window.scrollY > 100;
+            if (scrollCheck !== scroll) {
+               setScroll(scrollCheck);
+            }
+         };
+
+         window.addEventListener("scroll", handleScroll);
+         return () => window.removeEventListener("scroll", handleScroll);
+      }
+   }, [mounted, scroll]);
+
+   const handleMobileMenu = () => {
+      setIsMobileMenu(!isMobileMenu);
+   };
+
+   const handlePopup = () => {
+      setIsPopup(!isPopup);
+   };
+
+   const handleSidebar = () => {
+      setIsSidebar(!isSidebar);
+   };
+
+   if (!mounted) {
+      return null;
+   }
+
    return (
       <>
          <DataBg />
