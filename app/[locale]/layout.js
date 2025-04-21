@@ -8,11 +8,15 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import CookiesConsent from "@/components/elements/CookiesConsent";
 import FacebookMSG from "@/components/elements/FacebookMSG";
+import { getTranslations } from "next-intl/server";
 
-export const metadata = {
-   title: "SAK WoodWorks Co.,Ltd.",
-   description: "High-Quality Processed Wood Distributor in Thailand",
-};
+export async function generateMetadata() {
+   const t = await getTranslations("metaData");
+   return {
+      title: t("title"),
+      description: t("desc"),
+   };
+}
 
 export default async function LocaleLayout({ children, params: { locale } }) {
    let messages;
