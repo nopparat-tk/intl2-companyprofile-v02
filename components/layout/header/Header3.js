@@ -1,18 +1,21 @@
+import React, { useState } from "react";
 import Menu from "../Menu";
 import Link from "next/link";
 import MobileMenu from "../MobileMenu";
-import { Locale } from "@/i18n/config";
-import { setUserLocale } from "@/i18n/locale";
-import { useTranslations } from "next-intl";
+// import { Locale } from "@/i18n/config";
+import Locale from "../LocaleSwitch";
+// import { setUserLocale } from "@/i18n/locale";
+import PhoneCall from "../../elements/PhoneCall";
+import { useTranslations, useLocale } from "next-intl";
 
-export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
+export default function Header3({ scroll, handleMobileMenu }) {
    const t = useTranslations("HeaderBtn");
+   const locale = useLocale();
+   // const [showPhoneNumber, setShowPhoneNumber] = useState(false);
 
-   const items = [
-      { value: "en", label: "🇺🇸 Eng" },
-      { value: "ru", label: "🇷🇺 Rus" },
-      { value: "th", label: "🇹🇭 Tha" },
-   ];
+   // const togglePhoneNumber = () => {
+   //    setShowPhoneNumber(!showPhoneNumber);
+   // };
 
    return (
       <>
@@ -32,12 +35,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                                        </div>
 
                                        <div className="text-box">
-                                          <p>
-                                             <span>Talk to Us</span>{" "}
-                                             <Link href="tel:0997121071">
-                                                099 712 1071
-                                             </Link>
-                                          </p>
+                                          <PhoneCall />
                                        </div>
                                     </li>
 
@@ -48,7 +46,6 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
 
                                        <div className="text-box">
                                           <p>
-                                             <span>Mail Us</span>{" "}
                                              <Link href="mailto:info@sakww.com">
                                                 info@sakww.com
                                              </Link>
@@ -59,30 +56,6 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                               </div>
 
                               <div className="main-header-three__right">
-                                 <div className="main-header-three__right">
-                                    <div className="main-header__language-switcher">
-                                       <div className="icon">
-                                          <span className="fa fa-globe"></span>
-                                       </div>
-                                       <div className="language-switcher clearfix">
-                                          <div className="select-box clearfix">
-                                             <select
-                                                className="selectmenu wide"
-                                                style={{ cursor: "pointer" }}
-                                             >
-                                                {items.map((item) => (
-                                                   <option
-                                                      key={item.value}
-                                                      value={item.value}
-                                                   >
-                                                      {item.label}
-                                                   </option>
-                                                ))}
-                                             </select>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
                                  <Link className="thm-btn2" href="#contact">
                                     {t("btn_text")}
                                     <span className="hover-btn hover-cx"></span>
@@ -90,21 +63,6 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                                     <span className="hover-btn hover-cx3"></span>
                                     <span className="hover-btn hover-cx4"></span>
                                  </Link>
-
-                                 {/* <div className="header-social-links">
-                                    <Link href="#">
-                                       <span className="icon-facebook-f"></span>
-                                    </Link>
-                                    <Link href="#">
-                                       <span className="icon-twitter1"></span>
-                                    </Link>
-                                    <Link href="#">
-                                       <span className="icon-instagram"></span>
-                                    </Link>
-                                    <Link href="#">
-                                       <span className="icon-linkedin"></span>
-                                    </Link>
-                                 </div> */}
                               </div>
                            </div>
                         </div>
@@ -118,16 +76,16 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                            <div className="main-header-three__bottom-inner">
                               <div className="main-header-three__bottom-left">
                                  <div className="logo-box">
-                                    <Link href="/">
+                                    <Link href={`/${locale}`}>
                                        <img
-                                          src="assets/images/resources/logo.svg"
+                                          src="/assets/images/resources/logo.svg"
                                           alt=""
                                        />
                                     </Link>
                                  </div>
                               </div>
-
                               <div className="main-header-three__bottom-middle">
+                                 <Locale />
                                  <div className="main-header-three__menu">
                                     <div className="main-menu__main-menu-box">
                                        <Link
@@ -141,27 +99,6 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                                     </div>
                                  </div>
                               </div>
-
-                              {/* <div className="main-header-three__bottom-right">
-                                 <div className="header-search-box-two">
-                                    <Link
-                                       href="#"
-                                       className="main-menu__search search-toggler icon-search"
-                                       onClick={handlePopup}
-                                    ></Link>
-                                 </div>
-
-                                 <div className="btn-box">
-                                    <Link className="thm-btn" href="contact">
-                                       Track Order
-                                       <i className="icon-right-arrow21"></i>
-                                       <span className="hover-btn hover-bx"></span>
-                                       <span className="hover-btn hover-bx2"></span>
-                                       <span className="hover-btn hover-bx3"></span>
-                                       <span className="hover-btn hover-bx4"></span>
-                                    </Link>
-                                 </div>
-                              </div> */}
                            </div>
                         </div>
                      </div>
@@ -215,42 +152,6 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                                     </li>
                                  </ul>
                               </div>
-
-                              {/* <div className="main-header-three__right">
-                                 <div className="main-header__language-switcher">
-                                    <div className="icon">
-                                       <span className="fa fa-globe"></span>
-                                    </div>
-
-                                    <div className="language-switcher clearfix">
-                                       <form action="#" className="clearfix">
-                                          <div className="select-box clearfix">
-                                             <select className="selectmenu wide">
-                                                <option>ENG</option>
-                                                <option>FRA</option>
-                                                <option>GER</option>
-                                                <option>BAN</option>
-                                             </select>
-                                          </div>
-                                       </form>
-                                    </div>
-                                 </div>
-
-                                 <div className="header-social-links">
-                                    <Link href="#">
-                                       <span className="icon-facebook-f"></span>
-                                    </Link>
-                                    <Link href="#">
-                                       <span className="icon-twitter1"></span>
-                                    </Link>
-                                    <Link href="#">
-                                       <span className="icon-instagram"></span>
-                                    </Link>
-                                    <Link href="#">
-                                       <span className="icon-linkedin"></span>
-                                    </Link>
-                                 </div>
-                              </div> */}
                            </div>
                         </div>
                      </div>
@@ -260,9 +161,9 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                            <div className="main-header-three__bottom-inner">
                               <div className="main-header-three__bottom-left">
                                  <div className="logo-box">
-                                    <Link href="/">
+                                    <Link href={`/${locale}`}>
                                        <img
-                                          src="assets/images/resources/logo.svg"
+                                          src="/assets/images/resources/logo.svg"
                                           alt=""
                                        />
                                     </Link>
@@ -270,6 +171,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                               </div>
 
                               <div className="main-header-three__bottom-middle">
+                                 <Locale />
                                  <div className="main-header-three__menu">
                                     <div className="main-menu__main-menu-box">
                                        <Link
@@ -283,27 +185,6 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }) {
                                     </div>
                                  </div>
                               </div>
-
-                              {/* <div className="main-header-three__bottom-right">
-                                 <div className="header-search-box-two">
-                                    <Link
-                                       href="#"
-                                       className="main-menu__search search-toggler icon-search"
-                                       onClick={handlePopup}
-                                    ></Link>
-                                 </div>
-
-                                 <div className="btn-box">
-                                    <Link className="thm-btn" href="contact">
-                                       Track Order
-                                       <i className="icon-right-arrow21"></i>
-                                       <span className="hover-btn hover-bx"></span>
-                                       <span className="hover-btn hover-bx2"></span>
-                                       <span className="hover-btn hover-bx3"></span>
-                                       <span className="hover-btn hover-bx4"></span>
-                                    </Link>
-                                 </div>
-                              </div> */}
                            </div>
                         </div>
                      </div>

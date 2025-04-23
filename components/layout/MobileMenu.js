@@ -46,7 +46,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                <div className="logo-box">
                   <Link href="/" aria-label="logo image">
                      <img
-                        src="assets/images/resources/logo-wh.svg"
+                        src="/assets/images/resources/logo-wh.svg"
                         width="150"
                         alt=""
                      />
