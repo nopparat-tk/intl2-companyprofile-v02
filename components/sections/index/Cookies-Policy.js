@@ -1,16 +1,16 @@
 "use client";
-import { useRouter } from "next/navigation";
-import { useTranslations, useLocale } from "next-intl";
+import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 import "../../../public/assets/css/module-css/privacy-policy.css";
+import Privacy from "./Privacy";
 import Cookies from "./Cookies";
 
-export default function CookiesTabs({ activeTab }) {
+export default function CookiesPolicy() {
    const t = useTranslations("PrivacyPolicy");
-   const locale = useLocale();
-   const router = useRouter();
+   const [activeTab, setActiveTab] = useState("cookies");
 
    const handleTabClick = (tab) => {
-      router.push(`/${locale}/${tab}-policy`);
+      setActiveTab(tab);
    };
 
    return (
@@ -35,7 +35,8 @@ export default function CookiesTabs({ activeTab }) {
                </button>
             </div>
             <div>
-               <Cookies />
+               {activeTab === "privacy" && <Privacy />}
+               {activeTab === "cookies" && <Cookies />}
             </div>
          </div>
       </div>

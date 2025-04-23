@@ -1,10 +1,12 @@
 import Layout from "@/components/layout/Layout";
-import Privacy from "@/components/sections/index/Privacy-Policy";
+import PrivacyPolicy from "@/components/sections/index/Privacy-Policy";
 
-export default function PrivacyPolicyPage() {
+export default function Home() {
    return (
-      <Layout headerStyle={4} footerStyle={4}>
-         <Privacy activeTab="privacy" />
-      </Layout>
+      <>
+         <Layout headerStyle={3} footerStyle={4}>
+            <PrivacyPolicy />
+         </Layout>
+      </>
    );
 }

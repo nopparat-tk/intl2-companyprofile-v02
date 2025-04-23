@@ -2959,7 +2959,7 @@ Main Header Three
 
 .main-header-three__bottom-left .logo-box {
    position: relative;
-   /* display: block; */
+   display: block;
 }
 
 .main-header-three__bottom-left .logo-box a {
