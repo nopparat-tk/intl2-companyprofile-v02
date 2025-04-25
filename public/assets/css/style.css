@@ -1931,7 +1931,7 @@ animation: spinner 1s infinite linear;
 
 .mobile-nav__close {
    position: absolute;
-   top: 20px;
+   top: 35px;
    right: 15px;
    font-size: 18px;
    color: var(--logistiq-white);
