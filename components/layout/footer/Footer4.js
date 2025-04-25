@@ -10,7 +10,10 @@ export default function Footer4() {
          {/*Start Footer Four*/}
          <footer className="footer-one footer-one--two">
             <div className="footer-one__pattern">
-               <img src="assets/images/pattern/footer-v1-pattern.png" alt="#" />
+               <img
+                  src="/assets/images/pattern/footer-v1-pattern.png"
+                  alt="#"
+               />
             </div>
             {/* <div className="shape3 float-bob-y">
                <img src="assets/images/shapes/footer-v2-shape3.png" alt="" />
@@ -21,7 +24,7 @@ export default function Footer4() {
                      <div className="shape1">
                         <img
                            className="float-bob-x3"
-                           src="assets/images/shapes/footer-v2-shape2.png"
+                           src="/assets/images/shapes/footer-v2-shape2.png"
                            alt=""
                         />
                      </div>
