@@ -29,7 +29,7 @@ export default function FacebookMSG() {
 
                <Link
                   className="fab fa-line lineIcon"
-                  href="https://lin.ee/Vwy9xO6"
+                  href="https://lin.ee/UZ46BIS"
                   target="_blank"
                ></Link>
             </div>
