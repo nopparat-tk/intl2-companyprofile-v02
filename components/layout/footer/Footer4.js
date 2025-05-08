@@ -123,7 +123,7 @@ export default function Footer4() {
                            </li>
                            <li>
                               <Link
-                                 href="https://lin.ee/smwoT3j"
+                                 href="https://lin.ee/3sa8cDh"
                                  target="_blank"
                               >
                                  <span className="fab fa-line"></span>
