@@ -35,8 +35,8 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale} className={fontClass}>
-      <GoogleTagManager gtmId="GTM-KF74GNH5" />
       <body>
+        <GoogleTagManager gtmId="GTM-KF74GNH5" />
         <NextIntlClientProvider locale={locale}>
           <FacebookMSG />
           <CookiesConsent />
