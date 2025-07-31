@@ -51,7 +51,7 @@ export default function Layout({
         window.wow.init();
       }
     } catch (error) {
-      console.warn("WOW.js initialization failed:", error);
+      // console.warn("WOW.js initialization failed:", error);
     }
 
     // Add scroll listener
