@@ -1,56 +1,63 @@
 "use client";
 
-import { createSharedPathnamesNavigation } from "next-intl/navigation";
 import { useLocale } from "next-intl";
+import { useRouter, usePathname } from "next/navigation";
 import { useTransition } from "react";
-
-const { useRouter, usePathname } = createSharedPathnamesNavigation({
-   locales: ["en", "ru", "th", "ch"],
-});
+import { routing } from "@/i18n/routing";
 
 export default function LocaleSwitch() {
-   const locale = useLocale();
-   const router = useRouter();
-   const pathname = usePathname();
-   const [isPending, startTransition] = useTransition();
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+  const [isPending, startTransition] = useTransition();
 
-   const items = [
-      { value: "en", label: "🇺🇸 ENG" },
-      { value: "ru", label: "🇷🇺 RUS" },
-      { value: "th", label: "🇹🇭 THA" },
-      { value: "ch", label: "🇨🇳 CHN" },
-   ];
+  const items = routing.locales.map((locale) => ({
+    value: locale,
+    label: locale.toUpperCase(),
+  }));
 
-   const handleLocaleChange = (newLocale) => {
-      startTransition(() => {
-         router.replace(pathname, { locale: newLocale });
-      });
-   };
+  const labels = {
+    en: "Eng",
+    ru: "Рус",
+    th: "ไทย",
+    ch: "中",
+  };
 
-   return (
-      <div className="main-header__language-switcher">
-         <div className="icon">
-            <span className="fa fa-globe"></span>
-         </div>
-         <div className="language-switcher clearfix">
-            <div className="select-box clearfix">
-               <select
-                  className={`selectmenu wide ${isPending ? "opacity-50" : ""}`}
-                  value={locale}
-                  onChange={(e) => handleLocaleChange(e.target.value)}
-                  disabled={isPending}
-                  style={{
-                     cursor: isPending ? "wait" : "pointer",
-                  }}
-               >
-                  {items.map((item) => (
-                     <option key={item.value} value={item.value}>
-                        {item.label}
-                     </option>
-                  ))}
-               </select>
-            </div>
-         </div>
+  const handleLocaleChange = (newLocale) => {
+    if (newLocale === locale) return;
+
+    startTransition(() => {
+      // Remove current locale from pathname and add new locale
+      const pathWithoutLocale = pathname.replace(`/${locale}`, "") || "/";
+      const newPath = `/${newLocale}${pathWithoutLocale}`;
+      router.push(newPath);
+    });
+  };
+
+  return (
+    <div className="main-header__language-switcher">
+      <div className="icon">
+        <span className="fa fa-globe"></span>
       </div>
-   );
+      <div className="language-switcher clearfix">
+        <div className="select-box clearfix">
+          <select
+            className="selectmenu wide"
+            value={locale}
+            onChange={(e) => handleLocaleChange(e.target.value)}
+            disabled={isPending}
+            style={{
+              cursor: "pointer",
+            }}
+          >
+            {items.map((item) => (
+              <option key={item.value} value={item.value}>
+                {labels[item.value]}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+    </div>
+  );
 }

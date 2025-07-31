@@ -1,18 +1,10 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {};
+const createNextIntlPlugin = require("next-intl/plugin");
 
-// module.exports = nextConfig;
+const withNextIntl = createNextIntlPlugin();
 
-const withNextIntl = require("next-intl/plugin")();
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  devIndicators: false,
+};
 
-module.exports = withNextIntl({
-   async redirects() {
-      return [
-         {
-            source: "/",
-            destination: "/th",
-            permanent: true,
-         },
-      ];
-   },
-});
+module.exports = withNextIntl(nextConfig);
