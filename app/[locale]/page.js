@@ -5,21 +5,21 @@ import Service from "@/components/sections/index/Service";
 import Branch from "@/components/sections/index/Branch";
 import Product_accordian from "@/components/sections/index/Product-accordian";
 import Store from "@/components/sections/index/Store";
-import Contact from "@/components/sections/index/Contact-submit";
+import Contact from "@/components/sections/index/Contact-submit-gclid";
 
 export default function HomePage() {
-   return (
-      <Layout headerStyle={3} footerStyle={4}>
-         {/* Your homepage content here */}
-         <div className="main-content">
-            <Banner />
-            <About />
-            <Product_accordian />
-            <Service />
-            <Branch />
-            <Store />
-            <Contact />
-         </div>
-      </Layout>
-   );
+  return (
+    <Layout headerStyle={3} footerStyle={4}>
+      {/* Your homepage content here */}
+      <div className="main-content">
+        <Banner />
+        <About />
+        <Product_accordian />
+        <Service />
+        <Branch />
+        <Store />
+        <Contact />
+      </div>
+    </Layout>
+  );
 }

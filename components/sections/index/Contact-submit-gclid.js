@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 
-export default function WhyChooseUs() {
+export default function ContactFormWithGclid() {
   const t = useTranslations("HeaderBtn");
   const ca = useTranslations("ContactArea");
   const inf = useTranslations("InputForm");
@@ -14,77 +15,76 @@ export default function WhyChooseUs() {
     setShowPhoneNumber(!showPhoneNumber);
   };
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [idline, setLineID] = useState("");
-  const [massege, setMassege] = useState("");
+  // Consolidated state for form data
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    idline: "",
+    massege: "",
+    gclid: "",
+  });
+
+  // Consolidated state for errors
+  const [errors, setErrors] = useState({});
+
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
-  const [error, setError] = useState(null); // Add error state
+  const [submitError, setSubmitError] = useState(null);
 
-  const [nameError, setNameError] = useState(null);
-  const [emailError, setEmailError] = useState(null);
-  const [phoneError, setPhoneError] = useState(null);
-  const [idlineError, setIdlineError] = useState(null);
-  const [massegeError, setMassegeError] = useState(null);
+  // Get search params from URL
+  const searchParams = useSearchParams();
+
+  // Effect to capture gclid from URL when the component loads
+  useEffect(() => {
+    const gclidFromUrl = searchParams.get("gclid");
+    if (gclidFromUrl) {
+      // Set gclid in our form data state
+      setFormData((prev) => ({ ...prev, gclid: gclidFromUrl }));
+    }
+  }, [searchParams]);
+
+  // Handle input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  // Validate form fields
+  const validateForm = () => {
+    const newErrors = {};
+    if (!formData.name) newErrors.name = "Name is required.";
+    if (!formData.email) newErrors.email = "Email is required.";
+    if (!formData.phone) newErrors.phone = "Phone No. is required.";
+    if (!formData.idline) newErrors.idline = "Line ID is required.";
+    if (!formData.massege) newErrors.massege = "Message is required.";
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    setSubmitting(true);
-    setError(null); // Clear any previous errors
+    setSubmitError(null);
 
-    // Check for empty fields
-    let hasError = false;
-    if (!name) {
-      setNameError("Name is required.");
-      hasError = true;
-    } else {
-      setNameError(null);
-    }
-    if (!email) {
-      setEmailError("Email is required.");
-      hasError = true;
-    } else {
-      setEmailError(null);
-    }
-    if (!phone) {
-      setPhoneError("Phone No. is required.");
-      hasError = true;
-    } else {
-      setPhoneError(null);
-    }
-    if (!idline) {
-      setIdlineError("Line ID is required.");
-      hasError = true;
-    } else {
-      setIdlineError(null);
-    }
-    if (!massege) {
-      setMassegeError("Message is required.");
-      hasError = true;
-    } else {
-      setMassegeError(null);
-    }
-
-    if (hasError) {
+    if (!validateForm()) {
       setSubmitting(false);
       return;
     }
 
-    const formData = new FormData();
-    formData.append("name", name);
-    formData.append("email", email);
-    formData.append("phone", phone);
-    formData.append("idline", idline);
-    formData.append("massege", massege);
+    setSubmitting(true);
+
+    const dataToSubmit = new FormData();
+    // Append all keys from our state object
+    for (const key in formData) {
+      dataToSubmit.append(key, formData[key]);
+    }
 
     try {
       const response = await fetch(
         "https://script.google.com/macros/s/AKfycbxvM-rtnmkhW3XpEk1HC9Vfb6cLwv_boDpDT10wImaRh-CUI3hiLWZGla4h0BMwZp9_/exec",
         {
           method: "POST",
-          body: formData, // Send FormData directly
+          body: dataToSubmit,
         }
       );
 
@@ -97,15 +97,19 @@ export default function WhyChooseUs() {
 
       setSuccess(true);
       // Clear the form after successful submission
-      setName("");
-      setEmail("");
-      setPhone("");
-      setLineID("");
-      setMassege("");
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        idline: "",
+        massege: "",
+        gclid: formData.gclid, // Keep gclid for potential resubmission
+      });
+      setErrors({});
     } catch (error) {
       console.error("Submission failed! Please try again.", error);
-      setError(error.message); // Set the error message
-      setSuccess(false); // Make sure success is false in case of error
+      setSubmitError(error.message);
+      setSuccess(false);
     } finally {
       setSubmitting(false);
     }
@@ -278,94 +282,100 @@ export default function WhyChooseUs() {
                   className="contact-form-validated why-choose-one__form"
                   onSubmit={handleSubmit}
                 >
+                  {/* Add this hidden input field for gclid */}
+                  <input
+                    type="hidden"
+                    name="gclidForm"
+                    value={formData.gclid}
+                  />
                   <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                       <div className="input-box">
                         <input
                           type="text"
-                          // name="name"
+                          name="name"
                           placeholder={`${inf("name")}`}
-                          value={name}
-                          onChange={(event) => setName(event.target.value)}
+                          value={formData.name}
+                          onChange={handleChange}
                           required=""
                         />
                         <div className="icon">
                           <span className="icon-user"></span>
                         </div>
                       </div>
-                      {nameError && (
-                        <p className="error-message">{nameError}</p>
+                      {errors.name && (
+                        <p className="error-message">{errors.name}</p>
                       )}
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-4">
                       <div className="input-box">
                         <input
                           type="email"
-                          // name="email"
+                          name="email"
                           placeholder={`${inf("email")}`}
                           required=""
-                          value={email}
-                          onChange={(event) => setEmail(event.target.value)}
+                          value={formData.email}
+                          onChange={handleChange}
                         />
                         <div className="icon">
                           <span className="icon-email"></span>
                         </div>
                       </div>
-                      {emailError && (
-                        <p className="error-message">{emailError}</p>
+                      {errors.email && (
+                        <p className="error-message">{errors.email}</p>
                       )}
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-4">
                       <div className="input-box">
                         <input
                           type="text"
-                          // name="Phone"
+                          name="phone"
                           placeholder={`${inf("phone")}`}
                           required=""
-                          value={phone}
-                          onChange={(event) => setPhone(event.target.value)}
+                          value={formData.phone}
+                          onChange={handleChange}
                         />
                         <div className="icon">
                           <span className="icon-phone2"></span>
                         </div>
                       </div>
-                      {phoneError && (
-                        <p className="error-message">{phoneError}</p>
+                      {errors.phone && (
+                        <p className="error-message">{errors.phone}</p>
                       )}
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                       <div className="input-box">
                         <input
                           type="text"
-                          // name="LineID"
+                          name="idline"
                           placeholder={`${inf("idline")}`}
                           required=""
-                          value={idline}
-                          onChange={(event) => setLineID(event.target.value)}
+                          value={formData.idline}
+                          onChange={handleChange}
                         />
                         <div className="icon">
                           <span className="fab fa-line"></span>
                         </div>
                       </div>
-                      {idlineError && (
-                        <p className="error-message">{idlineError}</p>
+                      {errors.idline && (
+                        <p className="error-message">{errors.idline}</p>
                       )}
                     </div>
 
                     <div className="col-xl-12 mb-3">
                       <div className="input-box">
                         <textarea
-                          // name="message"
+                          name="massege"
                           placeholder={`${inf("massege")}`}
-                          value={massege}
-                          onChange={(event) => setMassege(event.target.value)}
+                          value={formData.massege}
+                          onChange={handleChange}
                         ></textarea>
                         <div className="icon style2">
                           <span className="icon-pen"></span>
                         </div>
                       </div>
-                      {massegeError && (
-                        <p className="error-message">{massegeError}</p>
+                      {errors.massege && (
+                        <p className="error-message">{errors.massege}</p>
                       )}
                     </div>
 
@@ -386,7 +396,7 @@ export default function WhyChooseUs() {
                         {success && (
                           <p style={{ color: "green" }}>{inf("success")}</p>
                         )}
-                        {error && (
+                        {submitError && (
                           <p className="error-message">{inf("error")}</p>
                         )}
                       </div>
