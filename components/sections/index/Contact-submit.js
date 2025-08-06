@@ -20,7 +20,8 @@ export default function WhyChooseUs() {
   const [phone, setPhone] = useState("");
   const [idline, setLineID] = useState("");
   const [massege, setMassege] = useState("");
-  const [formsubmitted, setFormsubmitted] = useState("");
+  const [formSubmittedID, setFormSubmittedID] = useState(""); // State to store the form submitted ID
+  // const [googleClickId, setGoogleClickId] = useState(""); // State to store the click ID
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(null); // Add error state
@@ -31,12 +32,14 @@ export default function WhyChooseUs() {
   const [idlineError, setIdlineError] = useState(null);
   const [massegeError, setMassegeError] = useState(null);
 
+  // Get search params from URL
   const searchParams = useSearchParams();
 
+  // Effect to capture gclid from URL when the component loads
   useEffect(() => {
-    const formsubmittedValue = searchParams.get("formsubmitted");
-    if (formsubmittedValue) {
-      setFormsubmitted(formsubmittedValue);
+    const clickIdFromUrl = searchParams.get("gclid"); // Still gets "gclid" from the URL
+    if (clickIdFromUrl) {
+      setFormSubmittedID(clickIdFromUrl); // Sets our new state variable
     }
   }, [searchParams]);
 
@@ -89,7 +92,7 @@ export default function WhyChooseUs() {
     formData.append("phone", phone);
     formData.append("idline", idline);
     formData.append("massege", massege);
-    formData.append("formsubmitted", formsubmitted);
+    formData.append("form_submitted_id", formSubmittedID); // Append with the new key
 
     try {
       const response = await fetch(
@@ -290,12 +293,13 @@ export default function WhyChooseUs() {
                   className="contact-form-validated why-choose-one__form"
                   onSubmit={handleSubmit}
                 >
+                  {/* Add this hidden input field for gclid */}
+                  <input
+                    type="hidden"
+                    name="form_submitted_id"
+                    value={formSubmittedID}
+                  />
                   <div className="row">
-                    <input
-                      type="hidden"
-                      name="formsubmitted"
-                      value={formsubmitted}
-                    />
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                       <div className="input-box">
                         <input
