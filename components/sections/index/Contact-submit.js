@@ -19,9 +19,8 @@ export default function WhyChooseUs() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [idline, setLineID] = useState("");
-  const [massege, setMassege] = useState("");
-  const [formSubmittedID, setFormSubmittedID] = useState(""); // State to store the form submitted ID
-  // const [googleClickId, setGoogleClickId] = useState(""); // State to store the click ID
+  const [massege, setMessage] = useState("");
+  const [formSubmitted, setFormSubmitted] = useState(""); // State to store the form submitted ID
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(null); // Add error state
@@ -30,7 +29,7 @@ export default function WhyChooseUs() {
   const [emailError, setEmailError] = useState(null);
   const [phoneError, setPhoneError] = useState(null);
   const [idlineError, setIdlineError] = useState(null);
-  const [massegeError, setMassegeError] = useState(null);
+  const [massegeError, setMessageError] = useState(null);
 
   // Get search params from URL
   const searchParams = useSearchParams();
@@ -39,7 +38,7 @@ export default function WhyChooseUs() {
   useEffect(() => {
     const clickIdFromUrl = searchParams.get("gclid"); // Still gets "gclid" from the URL
     if (clickIdFromUrl) {
-      setFormSubmittedID(clickIdFromUrl); // Sets our new state variable
+      setFormSubmitted(clickIdFromUrl); // Sets our new state variable
     }
   }, [searchParams]);
 
@@ -75,10 +74,10 @@ export default function WhyChooseUs() {
       setIdlineError(null);
     }
     if (!massege) {
-      setMassegeError("Message is required.");
+      setMessageError("Message is required.");
       hasError = true;
     } else {
-      setMassegeError(null);
+      setMessageError(null);
     }
 
     if (hasError) {
@@ -91,12 +90,12 @@ export default function WhyChooseUs() {
     formData.append("email", email);
     formData.append("phone", phone);
     formData.append("idline", idline);
-    formData.append("massege", massege);
-    formData.append("form_submitted_id", formSubmittedID); // Append with the new key
+    formData.append("message", massege);
+    formData.append("formSubmitted", formSubmitted); // Append with the new key
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxvM-rtnmkhW3XpEk1HC9Vfb6cLwv_boDpDT10wImaRh-CUI3hiLWZGla4h0BMwZp9_/exec",
+        "https://script.google.com/macros/s/AKfycbydr7GPF-wAo-Yf9yoWifbJENjyU3jyBeO96jyggyMsTxkuPuC3VV09Pncq5pQSKcpN/exec",
         {
           method: "POST",
           body: formData, // Send FormData directly
@@ -116,10 +115,10 @@ export default function WhyChooseUs() {
       setEmail("");
       setPhone("");
       setLineID("");
-      setMassege("");
+      setMessage("");
     } catch (error) {
       console.error("Submission failed! Please try again.", error);
-      setError(error.message); // Set the error message
+      setError(error.massege); // Set the error message
       setSuccess(false); // Make sure success is false in case of error
     } finally {
       setSubmitting(false);
@@ -296,8 +295,8 @@ export default function WhyChooseUs() {
                   {/* Add this hidden input field for gclid */}
                   <input
                     type="hidden"
-                    name="form_submitted_id"
-                    value={formSubmittedID}
+                    name="formSubmitted"
+                    value={formSubmitted}
                   />
                   <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
@@ -379,14 +378,14 @@ export default function WhyChooseUs() {
                           // name="message"
                           placeholder={`${inf("massege")}`}
                           value={massege}
-                          onChange={(event) => setMassege(event.target.value)}
+                          onChange={(event) => setMessage(event.target.value)}
                         ></textarea>
                         <div className="icon style2">
                           <span className="icon-pen"></span>
                         </div>
                       </div>
                       {massegeError && (
-                        <p className="error-message">{massegeError}</p>
+                        <p className="error-message">{messageError}</p>
                       )}
                     </div>
 
