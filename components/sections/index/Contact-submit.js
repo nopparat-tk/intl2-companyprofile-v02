@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 export default function WhyChooseUs() {
@@ -19,6 +20,7 @@ export default function WhyChooseUs() {
   const [phone, setPhone] = useState("");
   const [idline, setLineID] = useState("");
   const [massege, setMassege] = useState("");
+  const [formsubmitted, setFormsubmitted] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(null); // Add error state
@@ -28,6 +30,15 @@ export default function WhyChooseUs() {
   const [phoneError, setPhoneError] = useState(null);
   const [idlineError, setIdlineError] = useState(null);
   const [massegeError, setMassegeError] = useState(null);
+
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const formsubmittedValue = searchParams.get("formsubmitted");
+    if (formsubmittedValue) {
+      setFormsubmitted(formsubmittedValue);
+    }
+  }, [searchParams]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -78,6 +89,7 @@ export default function WhyChooseUs() {
     formData.append("phone", phone);
     formData.append("idline", idline);
     formData.append("massege", massege);
+    formData.append("formsubmitted", formsubmitted);
 
     try {
       const response = await fetch(
@@ -279,6 +291,11 @@ export default function WhyChooseUs() {
                   onSubmit={handleSubmit}
                 >
                   <div className="row">
+                    <input
+                      type="hidden"
+                      name="formsubmitted"
+                      value={formsubmitted}
+                    />
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                       <div className="input-box">
                         <input
