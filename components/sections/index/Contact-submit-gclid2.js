@@ -111,7 +111,7 @@ export default function ContactFormWithGclid() {
         phone: "",
         idline: "",
         massege: "",
-        gclid: formData.gclid, // Keep gclid for potential resubmission
+        gclickid: formData.gclid, // Keep gclid for potential resubmission
       });
       setErrors({});
     } catch (error) {
