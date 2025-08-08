@@ -85,7 +85,7 @@ export default function ContactFormWithGclid() {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxvM-rtnmkhW3XpEk1HC9Vfb6cLwv_boDpDT10wImaRh-CUI3hiLWZGla4h0BMwZp9_/exec",
+        "https://script.google.com/macros/s/AKfycbydr7GPF-wAo-Yf9yoWifbJENjyU3jyBeO96jyggyMsTxkuPuC3VV09Pncq5pQSKcpN/exec",
         {
           method: "POST",
           body: JSON.stringify(dataToSubmit),
