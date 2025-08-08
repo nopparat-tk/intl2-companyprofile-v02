@@ -5,7 +5,7 @@ import Service from "@/components/sections/index/Service";
 import Branch from "@/components/sections/index/Branch";
 import Product_accordian from "@/components/sections/index/Product-accordian";
 import Store from "@/components/sections/index/Store";
-import Contact from "@/components/sections/index/Contact-submit-gclid2";
+import Contact from "@/components/sections/index/Contact-submit-gclid";
 
 export default function HomePage() {
   return (
