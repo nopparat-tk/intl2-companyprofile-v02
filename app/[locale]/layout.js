@@ -5,39 +5,27 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { notoSans, notoSansTh, notoSansSC } from "@/lib/font";
-import { NextIntlClientProvider } from "next-intl";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { getMessages, getTranslations } from "next-intl/server";
-import dynamic from "next/dynamic";
+import CookiesConsent from "@/components/elements/CookiesConsent";
+import FacebookMSG from "@/components/elements/FacebookMSG";
+import { getTranslations } from "next-intl/server";
+import Script from "next/script";
 
-const CookiesConsent = dynamic(
-  () => import("@/components/elements/CookiesConsent"),
-  { ssr: false }
-);
-const FacebookMSG = dynamic(() => import("@/components/elements/FacebookMSG"), {
-  ssr: false,
-});
-const GclidScript = dynamic(() => import("@/components/elements/GclidScript"), {
-  ssr: false,
-});
-
-export async function generateMetadata({ params: { locale } }) {
-  const t = await getTranslations({ locale, namespace: "metaData" });
+export async function generateMetadata() {
+  const t = await getTranslations("metaData");
   return {
     title: t("title"),
     description: t("desc"),
   };
 }
 
-export default async function LocaleLayout({ children, params: { locale } }) {
-  // Validate that the incoming `locale` parameter is valid
-  if (!routing.locales.includes(locale)) {
+export default async function LocaleLayout({ children, params }) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
-
-  // Providing all messages to the client side is the easiest way to get started
-  const messages = await getMessages();
 
   const fontClass =
     locale === "th"
@@ -49,13 +37,27 @@ export default async function LocaleLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} className={fontClass}>
       <body>
-        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <GoogleTagManager gtmId="GTM-KF74GNH5" />
+        <NextIntlClientProvider locale={locale}>
           <FacebookMSG />
           <CookiesConsent />
           {children}
         </NextIntlClientProvider>
-        <GclidScript />
+        {/* <Script>
+  window.onload = function() {
+    // This function searches the URL for a parameter
+    function getParam(p) {
+      const match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+      return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+    }
+    // Get the gclid value
+    const gclid = getParam('gclid');
+    // If a gclid is found, place it in our hidden form field
+    if (gclid) {
+      document.getElementById('gclid_field').value = gclid;
+    }
+  };
+</Script> */}
       </body>
     </html>
   );
