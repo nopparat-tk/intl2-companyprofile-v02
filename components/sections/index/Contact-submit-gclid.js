@@ -22,7 +22,7 @@ export default function ContactFormWithGclid() {
     phone: "",
     idline: "",
     massege: "",
-    gclickid: "",
+    gclid: "",
   });
 
   // Consolidated state for errors
@@ -103,7 +103,7 @@ export default function ContactFormWithGclid() {
         phone: "",
         idline: "",
         massege: "",
-        gclickid: formData.gclid, // Keep gclid for potential resubmission
+        gclid: formData.gclid, // Keep gclid for potential resubmission
       });
       setErrors({});
     } catch (error) {
