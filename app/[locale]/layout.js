@@ -11,7 +11,6 @@ import { routing } from "@/i18n/routing";
 import CookiesConsent from "@/components/elements/CookiesConsent";
 import FacebookMSG from "@/components/elements/FacebookMSG";
 import { getTranslations } from "next-intl/server";
-import Script from "next/script";
 
 export async function generateMetadata() {
   const t = await getTranslations("metaData");
@@ -43,21 +42,6 @@ export default async function LocaleLayout({ children, params }) {
           <CookiesConsent />
           {children}
         </NextIntlClientProvider>
-        {/* <Script>
-  window.onload = function() {
-    // This function searches the URL for a parameter
-    function getParam(p) {
-      const match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
-      return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-    }
-    // Get the gclid value
-    const gclid = getParam('gclid');
-    // If a gclid is found, place it in our hidden form field
-    if (gclid) {
-      document.getElementById('gclid_field').value = gclid;
-    }
-  };
-</Script> */}
       </body>
     </html>
   );
