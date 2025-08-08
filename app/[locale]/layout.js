@@ -11,6 +11,7 @@ import { routing } from "@/i18n/routing";
 import CookiesConsent from "@/components/elements/CookiesConsent";
 import FacebookMSG from "@/components/elements/FacebookMSG";
 import { getTranslations } from "next-intl/server";
+import GclidScript from "@/components/elements/GclidScript";
 
 export async function generateMetadata() {
   const t = await getTranslations("metaData");
@@ -42,6 +43,7 @@ export default async function LocaleLayout({ children, params }) {
           <CookiesConsent />
           {children}
         </NextIntlClientProvider>
+        <GclidScript />
       </body>
     </html>
   );

@@ -286,6 +286,7 @@ export default function ContactFormWithGclid() {
                   <input
                     type="hidden"
                     name="gclidForm"
+                    id="gclid_field"
                     value={formData.gclid}
                   />
                   <div className="row">
