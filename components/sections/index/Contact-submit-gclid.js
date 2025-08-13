@@ -22,7 +22,8 @@ export default function ContactFormWithGclid() {
     phone: "",
     idline: "",
     massege: "",
-    gclid: "",
+    // gclid: formData.gclid, // Keep gclid for potential resubmission
+    gclickid: "",
   });
 
   // Consolidated state for errors
@@ -40,7 +41,7 @@ export default function ContactFormWithGclid() {
     const gclidFromUrl = searchParams.get("gclid");
     if (gclidFromUrl) {
       // Set gclid in our form data state
-      setFormData((prev) => ({ ...prev, gclid: gclidFromUrl }));
+      setFormData((prev) => ({ ...prev, gclickid: gclidFromUrl }));
     }
   }, [searchParams]);
 
@@ -81,7 +82,7 @@ export default function ContactFormWithGclid() {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxvM-rtnmkhW3XpEk1HC9Vfb6cLwv_boDpDT10wImaRh-CUI3hiLWZGla4h0BMwZp9_/exec",
+        "https://script.google.com/macros/s/AKfycbx1KptPj6XUmPjtL5EFxTIvLDHgAG1AATmf0TnCY4UAz25kKsuOzOMagtgaSk_q2BQP/exec",
         {
           method: "POST",
           body: dataToSubmit,
@@ -103,7 +104,7 @@ export default function ContactFormWithGclid() {
         phone: "",
         idline: "",
         massege: "",
-        gclickid: formData.gclid, // Keep gclid for potential resubmission
+        gclickid: formData.gclickid, // Keep gclid for potential resubmission
       });
       setErrors({});
     } catch (error) {
@@ -283,13 +284,12 @@ export default function ContactFormWithGclid() {
                   onSubmit={handleSubmit}
                 >
                   {/* Add this hidden input field for gclid */}
-
+                  <input
+                    type="hidden"
+                    name="gclickid"
+                    value={formData.gclickid}
+                  />
                   <div className="row">
-                    <input
-                      type="hidden"
-                      name="gclickid"
-                      value={formData.gclid}
-                    />
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                       <div className="input-box">
                         <input
