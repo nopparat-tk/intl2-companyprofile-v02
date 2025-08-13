@@ -283,8 +283,13 @@ export default function ContactFormWithGclid() {
                   onSubmit={handleSubmit}
                 >
                   {/* Add this hidden input field for gclid */}
-                  <input type="hidden" name="gclickid" value={formData.gclid} />
+
                   <div className="row">
+                    <input
+                      type="hidden"
+                      name="gclickid"
+                      value={formData.gclid}
+                    />
                     <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                       <div className="input-box">
                         <input
