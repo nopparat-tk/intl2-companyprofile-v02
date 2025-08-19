@@ -9,7 +9,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import CookiesConsent from "@/components/elements/CookiesConsent";
-import FacebookMSG from "@/components/elements/FacebookMSG";
+import FacebookMSG from "@/components/elements/FacebookMSG2";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata() {

@@ -179,3 +179,14 @@
 .popupForm button:hover {
   background-color: #00a300;
 }
+
+.popupForm label {
+  font-weight: 600;
+}
+
+.popupForm .input-box input[type="text"] {
+  color: rgba(var(--logistiq-black-rgb), 0.5);
+}
+.popupForm .input-box input[type="text"]:focus {
+  color: rgba(var(--logistiq-black-rgb), 0.7);
+}

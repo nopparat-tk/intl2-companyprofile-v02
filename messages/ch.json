@@ -1,378 +1,381 @@
 {
-   "metaData": {
-      "title": "SAK 木业有限公司",
-      "desc": "泰国优质加工木材经销商"
-   },
-   "HeaderBtn": {
-      "btn_text": "联系我们",
-      "phone_des": "请致电我们",
-      "phone_no": "099 712 1071"
-   },
-   "LocaleSwitcher": {
-      "en": "Eng",
-      "ru": "Rus",
-      "th": "Tha",
-      "label": "Language"
-   },
-   "MenuData": {
-      "nav1": "关于我们",
-      "nav2": "服务",
-      "nav3": "产品",
-      "nav4": "分支机构",
-      "nav5": "商店",
-      "nav6": "联系我们"
-   },
-   "MobileNav": {
-      "title": "Select Language"
-   },
-   "HeroTitle": {
-      "title1": "领先供应商",
-      "title2": "提供卓越品质",
-      "title3": "卓越的生产",
-      "title4": "一致的耐用性",
-      "title5": "保护自然完整性"
-   },
-   "HeroSlider": {
-      "slide1": "我们在进口和分销优质木质材料方面拥有超过 15 年的知识和专业知识。",
-      "slide2": "利用我们的专业知识和广泛的网络来提供超越全球质量标准的产品。",
-      "slide3": "采用专业技术人员和尖端技术的现代高效生产流程。",
-      "slide4": "一种更坚固、更耐用的木材，使用寿命长，适合泰国的所有天气条件。",
-      "slide5": "无化学物质从欧洲和俄罗斯运输至泰国林查班港 16,000 多公里。"
-   },
-   "AboutArea": {
-      "title": "我们公司",
-      "sub_title1": "发现美丽与力量",
-      "sub_title2": "自然的",
-      "sub_title3": "最好的材料",
-      "sm_des": "我们热衷于提供高质量、可持续的木制品，以满足客户的多样化需求。凭借在木材行业超过 15 年的经验，我们在卓越和可靠性方面建立了良好的声誉。",
-      "card1_title": "环保",
-      "card1_des": "我们对可持续实践的承诺意味着您可以相信我们的木材是负责任地采购的。",
-      "card2_title": "适合各个级别的木工",
-      "card2_des": "对于令人惊叹的 DIY 工艺品和耐用结构，我们的木材是完美的选择。联系我们了解更多信息。"
-   },
-   "ProductArea": {
-      "title": "我们的产品",
-      "sub_title1": "木工的新选择",
-      "sub_title2": "优质产品"
-   },
-   "ProductNavTab": {
-      "conifer": "针叶树",
-      "bamboo": "竹子",
-      "teak": "柚木"
-   },
-   "Conifer": {
-      "title1": "北方针叶树",
-      "title2": "木头",
-      "title3": "可满足所有木工需求。",
-      "faq1": {
-         "que": "卓越品质",
-         "ans": "来自欧洲和俄罗斯领先产地的优质针叶木，符合国际标准，保证强度、耐用性和较长的使用寿命。"
-      },
-      "faq2": {
-         "que": "现代化的生产流程",
-         "ans": "生产工艺先进、标准化，产品精密、耐用、美观。"
-      },
-      "faq3": {
-         "que": "适合泰国国情",
-         "ans": "我们的北方针叶树材料具有坚固木材的特性，包括耐炎热和潮湿的天气条件，在内部和外部应用中都表现出色。"
-      },
-      "faq4": {
-         "que": "无化学品",
-         "ans": "采用封闭集装箱 (FCL) 从欧洲和俄罗斯直接运送至泰国，以保持质量和安全。"
-      },
-      "faq5": {
-         "que": "使用多样性",
-         "ans": "可用于多种形式，包括建筑工程、装饰工程和家具。"
-      },
-      "images": {
-         "img1": "conifer-ch1.png",
-         "img2": "conifer-ch2.png",
-         "img3": "conifer-ch3.png",
-         "img4": "conifer-ch4.png",
-         "img5": "conifer-ch5.png",
-         "img6": "conifer-ch6.png",
-         "img7": "conifer-ch7.png",
-         "img8": "conifer-ch8.png",
-         "img9": "conifer-ch9.png",
-         "img10": "conifer-ch10.png",
-         "img11": "conifer-ch11.png",
-         "img12": "conifer-ch12.png"
-      }
-   },
-   "Bamboo": {
-      "title1": "保险丝竹",
-      "title2": "天然高品质",
-      "title3": "材料。",
-      "faq1": {
-         "que": "坚固耐用，优于一般木材",
-         "ans": "热处理和高压压缩的创新工艺使这些竹材料高度稳定：耐冲击、不弯曲、不开裂、不收缩。"
-      },
-      "faq2": {
-         "que": "防火、防白蚁、防霉",
-         "ans": "现代生产技术和革命性工艺创造了一种高度防火、防白蚁和防霉的竹材料，只需最少的维护，使用寿命可延长数十年。"
-      },
-      "faq3": {
-         "que": "美丽又时尚",
-         "ans": "熔竹是一种独特的材料，自然美观。它可用于多种风格的设计和装饰。"
-      },
-      "faq4": {
-         "que": "易于安装和维护",
-         "ans": "我们的竹产品旨在实现方便快捷的安装过程、最少的维护（仅需要定期清洁）以及令人难以置信的长使用寿命。"
-      },
-      "faq5": {
-         "que": "环保",
-         "ans": "竹子是一种生长迅速且可自然再生的植物。选择竹产品有助于减少森林砍伐和环境影响，保护和维护地球的健康。"
-      },
-      "images": {
-         "img1": "bamboo-ch1.png",
-         "img2": "bamboo-ch2.png",
-         "img3": "bamboo-ch3.png",
-         "img4": "bamboo-ch4.png"
-      }
-   },
-   "Teak": {
-      "title1": "泰国柚木，",
-      "title2": "自然遗产",
-      "title3": "达到木制工艺的美观效果。",
-      "faq1": {
-         "que": "坚固耐用",
-         "ans": "柚木以其强度、对炎热和潮湿等天气条件波动的抵抗力、对害虫和真菌的抵抗力以及显着的寿命而闻名。"
-      },
-      "faq2": {
-         "que": "精美木材",
-         "ans": "柚木抛光后表面光滑且易于保养，具有天然柚木的浓郁金色。泰国柚木为任何地方增添美感！"
-      },
-      "faq3": {
-         "que": "美丽的图案",
-         "ans": "有直线、曲线和螺旋图案，创造出美丽和独特。独特的木纹让柚木材质显得活泼有趣。"
-      },
-      "faq4": {
-         "que": "在所有天气条件下均经久耐用",
-         "ans": "柚木的收缩率和膨胀率较低，可保持其形状和结构完整性。即使暴露在热、水或湿气中，柚木也不易变形或开裂。"
-      },
-      "faq5": {
-         "que": "大自然的卓越",
-         "ans": "众所周知，柚木含有天然油脂，有助于防止霉菌和昆虫。这使得柚木对不同的环境条件具有很强的抵抗力，并且需要最少的维护。"
-      },
-      "images": {
-         "img1": "teak-ch1.png",
-         "img2": "teak-ch2.png",
-         "img3": "teak-ch3.png",
-         "img4": "teak-ch4.png",
-         "img5": "teak-ch5.png",
-         "img6": "teak-ch6.png",
-         "img7": "teak-ch7.png",
-         "img8": "teak-ch8.png",
-         "img9": "teak-ch9.png",
-         "img10": "teak-ch10.png",
-         "img11": "teak-ch11.png",
-         "img12": "teak-ch12.png"
-      }
-   },
-   "ServicesArea": {
-      "title": "我们的服务",
-      "sub_title1": "进口和分销可持续的",
-      "sub_title2": "高品质木质",
-      "sub_title3": "材料。"
-   },
-   "ServicesCard": {
-      "swipe": "滑动",
-      "service1": {
-         "title": "全国配送",
-         "sm_des": "SAKWW 拥有全面的运输选择，可将货物送至泰国各地。"
-      },
-      "service2": {
-         "title": "产品包装",
-         "sm_des": "物品在运送过程中会用塑料和缓冲垫小心包裹，以提高安全性并保护木材。"
-      },
-      "service3": {
-         "title": "CCA治疗",
-         "sm_des": "为了实现较长的户外使用寿命，CCA 处理可最大限度地提高对天气、真菌和害虫的抵抗力。"
-      },
-      "service4": {
-         "title": "批发的",
-         "sm_des2": "Best source for various wooden materials, provide complete services with product quality and competitive prices.",
-         "sm_des": "各种木质材料的最佳来源，服务完善，产品质量高，价格有竞争力。"
-      },
-      "service5": {
-         "title": "自由的！切割",
-         "sm_des2": "We offer cutting services when buying full pieces of wood, so our customers receive wood in the sizes desired.",
-         "sm_des": "购买整木件提供免费切割服务，确保客户收到尺寸精确的材料。"
-      },
-      "service6": {
-         "title": "获取建议",
-         "sm_des": "您可以随时向我们提问。我们的专家团队随时准备回答您的询问。"
-      }
-   },
-   "BranchArea": {
-      "title": "我们的分行",
-      "sub_title1": "选择您的木制品",
-      "sub_title2": "直接",
-      "sub_title3": "我们的店面"
-   },
-   "BranchData": {
-      "branch_1": "Pathum Thani",
-      "add_1": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
-      "phone_1": "020 261 149",
+  "metaData": {
+    "title": "SAK 木业有限公司",
+    "desc": "泰国优质加工木材经销商"
+  },
+  "HeaderBtn": {
+    "btn_text": "联系我们",
+    "phone_des": "请致电我们",
+    "phone_no": "099 712 1071"
+  },
+  "LocaleSwitcher": {
+    "en": "Eng",
+    "ru": "Rus",
+    "th": "Tha",
+    "label": "Language"
+  },
+  "MenuData": {
+    "nav1": "关于我们",
+    "nav2": "服务",
+    "nav3": "产品",
+    "nav4": "分支机构",
+    "nav5": "商店",
+    "nav6": "联系我们"
+  },
+  "MobileNav": {
+    "title": "Select Language"
+  },
+  "HeroTitle": {
+    "title1": "领先供应商",
+    "title2": "提供卓越品质",
+    "title3": "卓越的生产",
+    "title4": "一致的耐用性",
+    "title5": "保护自然完整性"
+  },
+  "HeroSlider": {
+    "slide1": "我们在进口和分销优质木质材料方面拥有超过 15 年的知识和专业知识。",
+    "slide2": "利用我们的专业知识和广泛的网络来提供超越全球质量标准的产品。",
+    "slide3": "采用专业技术人员和尖端技术的现代高效生产流程。",
+    "slide4": "一种更坚固、更耐用的木材，使用寿命长，适合泰国的所有天气条件。",
+    "slide5": "无化学物质从欧洲和俄罗斯运输至泰国林查班港 16,000 多公里。"
+  },
+  "AboutArea": {
+    "title": "我们公司",
+    "sub_title1": "发现美丽与力量",
+    "sub_title2": "自然的",
+    "sub_title3": "最好的材料",
+    "sm_des": "我们热衷于提供高质量、可持续的木制品，以满足客户的多样化需求。凭借在木材行业超过 15 年的经验，我们在卓越和可靠性方面建立了良好的声誉。",
+    "card1_title": "环保",
+    "card1_des": "我们对可持续实践的承诺意味着您可以相信我们的木材是负责任地采购的。",
+    "card2_title": "适合各个级别的木工",
+    "card2_des": "对于令人惊叹的 DIY 工艺品和耐用结构，我们的木材是完美的选择。联系我们了解更多信息。"
+  },
+  "ProductArea": {
+    "title": "我们的产品",
+    "sub_title1": "木工的新选择",
+    "sub_title2": "优质产品"
+  },
+  "ProductNavTab": {
+    "conifer": "针叶树",
+    "bamboo": "竹子",
+    "teak": "柚木"
+  },
+  "Conifer": {
+    "title1": "北方针叶树",
+    "title2": "木头",
+    "title3": "可满足所有木工需求。",
+    "faq1": {
+      "que": "卓越品质",
+      "ans": "来自欧洲和俄罗斯领先产地的优质针叶木，符合国际标准，保证强度、耐用性和较长的使用寿命。"
+    },
+    "faq2": {
+      "que": "现代化的生产流程",
+      "ans": "生产工艺先进、标准化，产品精密、耐用、美观。"
+    },
+    "faq3": {
+      "que": "适合泰国国情",
+      "ans": "我们的北方针叶树材料具有坚固木材的特性，包括耐炎热和潮湿的天气条件，在内部和外部应用中都表现出色。"
+    },
+    "faq4": {
+      "que": "无化学品",
+      "ans": "采用封闭集装箱 (FCL) 从欧洲和俄罗斯直接运送至泰国，以保持质量和安全。"
+    },
+    "faq5": {
+      "que": "使用多样性",
+      "ans": "可用于多种形式，包括建筑工程、装饰工程和家具。"
+    },
+    "images": {
+      "img1": "conifer-ch1.png",
+      "img2": "conifer-ch2.png",
+      "img3": "conifer-ch3.png",
+      "img4": "conifer-ch4.png",
+      "img5": "conifer-ch5.png",
+      "img6": "conifer-ch6.png",
+      "img7": "conifer-ch7.png",
+      "img8": "conifer-ch8.png",
+      "img9": "conifer-ch9.png",
+      "img10": "conifer-ch10.png",
+      "img11": "conifer-ch11.png",
+      "img12": "conifer-ch12.png"
+    }
+  },
+  "Bamboo": {
+    "title1": "保险丝竹",
+    "title2": "天然高品质",
+    "title3": "材料。",
+    "faq1": {
+      "que": "坚固耐用，优于一般木材",
+      "ans": "热处理和高压压缩的创新工艺使这些竹材料高度稳定：耐冲击、不弯曲、不开裂、不收缩。"
+    },
+    "faq2": {
+      "que": "防火、防白蚁、防霉",
+      "ans": "现代生产技术和革命性工艺创造了一种高度防火、防白蚁和防霉的竹材料，只需最少的维护，使用寿命可延长数十年。"
+    },
+    "faq3": {
+      "que": "美丽又时尚",
+      "ans": "熔竹是一种独特的材料，自然美观。它可用于多种风格的设计和装饰。"
+    },
+    "faq4": {
+      "que": "易于安装和维护",
+      "ans": "我们的竹产品旨在实现方便快捷的安装过程、最少的维护（仅需要定期清洁）以及令人难以置信的长使用寿命。"
+    },
+    "faq5": {
+      "que": "环保",
+      "ans": "竹子是一种生长迅速且可自然再生的植物。选择竹产品有助于减少森林砍伐和环境影响，保护和维护地球的健康。"
+    },
+    "images": {
+      "img1": "bamboo-ch1.png",
+      "img2": "bamboo-ch2.png",
+      "img3": "bamboo-ch3.png",
+      "img4": "bamboo-ch4.png"
+    }
+  },
+  "Teak": {
+    "title1": "泰国柚木，",
+    "title2": "自然遗产",
+    "title3": "达到木制工艺的美观效果。",
+    "faq1": {
+      "que": "坚固耐用",
+      "ans": "柚木以其强度、对炎热和潮湿等天气条件波动的抵抗力、对害虫和真菌的抵抗力以及显着的寿命而闻名。"
+    },
+    "faq2": {
+      "que": "精美木材",
+      "ans": "柚木抛光后表面光滑且易于保养，具有天然柚木的浓郁金色。泰国柚木为任何地方增添美感！"
+    },
+    "faq3": {
+      "que": "美丽的图案",
+      "ans": "有直线、曲线和螺旋图案，创造出美丽和独特。独特的木纹让柚木材质显得活泼有趣。"
+    },
+    "faq4": {
+      "que": "在所有天气条件下均经久耐用",
+      "ans": "柚木的收缩率和膨胀率较低，可保持其形状和结构完整性。即使暴露在热、水或湿气中，柚木也不易变形或开裂。"
+    },
+    "faq5": {
+      "que": "大自然的卓越",
+      "ans": "众所周知，柚木含有天然油脂，有助于防止霉菌和昆虫。这使得柚木对不同的环境条件具有很强的抵抗力，并且需要最少的维护。"
+    },
+    "images": {
+      "img1": "teak-ch1.png",
+      "img2": "teak-ch2.png",
+      "img3": "teak-ch3.png",
+      "img4": "teak-ch4.png",
+      "img5": "teak-ch5.png",
+      "img6": "teak-ch6.png",
+      "img7": "teak-ch7.png",
+      "img8": "teak-ch8.png",
+      "img9": "teak-ch9.png",
+      "img10": "teak-ch10.png",
+      "img11": "teak-ch11.png",
+      "img12": "teak-ch12.png"
+    }
+  },
+  "ServicesArea": {
+    "title": "我们的服务",
+    "sub_title1": "进口和分销可持续的",
+    "sub_title2": "高品质木质",
+    "sub_title3": "材料。"
+  },
+  "ServicesCard": {
+    "swipe": "滑动",
+    "service1": {
+      "title": "全国配送",
+      "sm_des": "SAKWW 拥有全面的运输选择，可将货物送至泰国各地。"
+    },
+    "service2": {
+      "title": "产品包装",
+      "sm_des": "物品在运送过程中会用塑料和缓冲垫小心包裹，以提高安全性并保护木材。"
+    },
+    "service3": {
+      "title": "CCA治疗",
+      "sm_des": "为了实现较长的户外使用寿命，CCA 处理可最大限度地提高对天气、真菌和害虫的抵抗力。"
+    },
+    "service4": {
+      "title": "批发的",
+      "sm_des2": "Best source for various wooden materials, provide complete services with product quality and competitive prices.",
+      "sm_des": "各种木质材料的最佳来源，服务完善，产品质量高，价格有竞争力。"
+    },
+    "service5": {
+      "title": "自由的！切割",
+      "sm_des2": "We offer cutting services when buying full pieces of wood, so our customers receive wood in the sizes desired.",
+      "sm_des": "购买整木件提供免费切割服务，确保客户收到尺寸精确的材料。"
+    },
+    "service6": {
+      "title": "获取建议",
+      "sm_des": "您可以随时向我们提问。我们的专家团队随时准备回答您的询问。"
+    }
+  },
+  "BranchArea": {
+    "title": "我们的分行",
+    "sub_title1": "选择您的木制品",
+    "sub_title2": "直接",
+    "sub_title3": "我们的店面"
+  },
+  "BranchData": {
+    "branch_1": "Pathum Thani",
+    "add_1": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
+    "phone_1": "020 261 149",
 
-      "branch_2": "Pathum Thani",
-      "add_2": "39 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
-      "phone_2": "099 712 1071",
+    "branch_2": "Pathum Thani",
+    "add_2": "39 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
+    "phone_2": "099 712 1071",
 
-      "branch_3": "Chiang Mai",
-      "add_3": "411 Moo 4, San Sai Noi Subdistrict, San Sai District, Chiang Mai Province 50210",
-      "phone_3": "052 005 596",
-      "mobile_3": "097 783 0705",
+    "branch_3": "Chiang Mai",
+    "add_3": "411 Moo 4, San Sai Noi Subdistrict, San Sai District, Chiang Mai Province 50210",
+    "phone_3": "052 005 596",
+    "mobile_3": "097 783 0705",
 
-      "branch_4": "Chanthaburi",
-      "add_4": "16/7 Sai Trok Nong Road, Khlung Subdistrict, Khlung District, Chanthaburi Province 22110",
-      "phone_4": "039 441 191",
-      "mobile_4": "095 954 4149"
-   },
-   "BrandArea": {
-      "title": "找到我们的产品",
-      "sub_title1": "寻找我们的产品",
-      "sub_title2": "零售商",
-      "sub_title3": "&",
-      "sub_title4": "线上平台"
-   },
-   "BrandData": {
-      "brand_1": "虾皮",
-      "brand_2": "拉扎达",
-      "brand_3": "家宝",
-      "brand_4": "泰瓦沙都",
-      "brand_5": "夜神夜神",
-      "brand_6": "BnB首页",
-      "brand_7": "阿里巴巴",
-      "brand_8": "OneStock首页"
-   },
-   "ContactArea": {
-      "title": "联系我们",
-      "sub_title1": "是",
-      "sub_title2": "高兴极了",
-      "sub_title3": "到",
-      "sub_title4": "协助",
-      "sub_title5": "你",
-      "header": "SAK WoodWorks Co., Ltd.",
-      "sub_header1": "周一至周六：08:00 - 17:00",
-      "sub_header2": "您有问题吗？",
-      "sub_header3": "社交网络"
-   },
-   "InputForm": {
-      "title": "给我们留言",
-      "desc": "我们会尽快回复您！",
-      "name": "姓名",
-      "email": "电子邮件",
-      "phone": "电话号码",
-      "idline": "线路编号",
-      "massege": "您的留言",
-      "submit": "提交",
-      "success": "提交成功！感谢您的留言。",
-      "error": "提交失败！请再试一次。"
-   },
-   "Footer": {
-      "title": "寻找大自然最好的材料？",
-      "btn_text": "给我们打电话",
-      "copy_right": "版权所有 2025",
-      "company": "SAK WoodWorks Co., Ltd.",
-      "all_right": "版权所有。"
-   },
-   "ConsentCookies": {
-      "message": "我们使用 Cookie 为您提供我们网站上的最佳体验。",
-      "moreInfo": "如需更多信息，请阅读我们的",
-      "privacyPolicy": "隐私政策",
-      "and": " 和 ",
-      "cookiePolicy": "Cookie 政策",
-      "period": ".",
-      "accept": "接受"
-   },
-   "PrivacyPolicy": {
-      "title1": "隐私政策",
-      "title2": "Cookies政策",
-      "intro1": "SAK WoodWorks Company Limited（在本政策中以下简称",
-      "name": "SAK WoodWorks",
-      "intro2": "或",
-      "company": "公司",
-      "intro3": "是网站服务提供商。",
-      "intro4": "SAK WoodWorks 意识到保护使用我们网站上各种服务的用户的个人信息的重要性。 SAK WoodWorks 收集信息的主要目的是开发更好的网站服务和/或获得与 SAK WoodWorks 和/或其附属公司的业务目标直接相关的利益所必需的。为了表明 SAK WoodWorks 对保护所有用户隐私的承诺，SAK WoodWorks 制定了本隐私政策，以保护所有使用我们网站服务的人的个人信息。",
-      "intro5": "本隐私政策受《B.E. 个人数据保护法》管辖。 2562，根据该规定，SAK WoodWorks 有权并有责任就个人数据的收集、使用或披露做出决定，在法律上称为“个人数据控制者”，并由 SAK WoodWorks 特别指派员工按照 SAK WoodWorks 的指示或代表 SAK WoodWorks 履行有关个人数据收集、使用或披露的职责，在法律上称为“个人数据处理者”。根据该法案，网站用户被视为“个人数据所有者”。",
-      "intro6": "当网站用户同意本隐私政策时，将被视为接受使用任何 SAK WoodWorks 网站服务将构成对所有服务条款和条件的接受，并且此类接受将是完整的且具有约束力。",
-      "section1": {
-         "title": "1. 政策范围和同意",
-         "content1": "本隐私政策规定了 SAK WoodWorks 通过网站收集或接收的个人信息的做法，包括提供服务以及用户访问或使用的各种服务工具，例如访问或观看视频。 SAK WoodWorks 将遵守泰王国适用的个人数据安全法的规定并按照其运营。",
-         "content2": "用户已仔细阅读并理解本隐私政策适用并涵盖SAK WoodWorks网站各项服务的使用。无论用户是否通过电脑、手机或使用网站上的任何工具访问SAK WoodWorks网站，均视为用户已同意并同意SAK WoodWorks按照本隐私政策和SAK WoodWorks的其他政策收集和使用用户的个人信息，以用于改进或开发各种服务的目的和/或与SAK WoodWorks和/或其关联公司的业务目标直接相关的利益所必需的。"
-      },
-      "section2": {
-         "title": "2. 个人数据的存储",
-         "content1": "SAK WoodWorks 可能会使用 cookie、Google Analytics、Google Ads、Facebook Pixel 或其他技术来收集个人信息，以帮助用户更好、更快、更安全和更个性化地使用和访问网站服务，以及改进或开发各种服务和/或获得与 SAK WoodWorks 及其附属公司的目标直接相关的利益所必需的。当用户访问网站时，SAK WoodWorks 会自动记录每次用户访问网站时用户的互联网浏览器发送的信息，直至用户离开网络浏览器。此类信息包括但不限于：",
-         "list1": "电脑/手机的IP地址、cookie ID。",
-         "list2": "互联网浏览程序。",
-         "list3": "访问每个网页的时间。",
-         "list4": "在 SAK WoodWorks 网站上搜索的信息，包括搜索的时间和日期以及其他统计信息。",
-         "list5": "位置数据。",
-         "list6": "网站浏览行为。",
-         "list7": "使用的操作系统。",
-         "list8": "网站访问者的性别、年龄和兴趣。",
-         "content2": "用户同意并承认，根据本隐私政策收集的个人数据可能会在 SAK WoodWorks 确定的任何国家/地区进行传输、存储和处理。",
-         "content3": "用户同意并接受，当用户访问SAK WoodWorks网站时，即视为用户允许并同意SAK WoodWorks按照本隐私政策规定的目的和条件收集、转移、处理、使用和披露用户的个人数据。",
-         "content4": "SAK WoodWorks 可以在实现本隐私政策中规定的目的所需的期限内保留根据本隐私政策收集的个人数据，包括通过对 SAK WoodWorks 网络和数据库的观察而获得的个人数据。"
-      },
-      "section3": {
-         "title": "3. 个人信息的使用和披露",
-         "content1": "SAK WoodWorks 不得出于本政策规定以外的任何目的收集、使用或披露您的个人数据。",
-         "content2": "如果 SAK WoodWorks 聘请其他机构处理用户个人数据，例如用于处理或分析，SAK WoodWorks 将要求该机构维护用户个人数据的机密性和安全性，并禁止将个人数据用于本隐私政策中未概述的目的，除非 SAK WoodWorks 拥有合法权利或被要求披露此类数据（例如，当法律要求或为了防止欺诈或其他犯罪而披露时），或者 SAK WoodWorks 认为其为了保护和/或捍卫 SAK WoodWorks 人员和 SAK WoodWorks 客户的权利、财产或安全，有必要这样做。"
-      },
-      "section4": {
-         "title": "4. 个人数据安全",
-         "content1": "SAK WoodWorks 将按照技术和组织措施保持您的个人数据处于良好状态，以在个人数据处理过程中保持适当的安全性，并防止个人数据在本政策所列目的之外或未经授权的情况下遭到泄露、丢失、访问、销毁、使用、转换、修改或披露。然而，用户同意并承认，任何通过互联网的电子传输方法、电子存储方法或电子措施都不可能是完全安全的。因此，尽管 SAK WoodWorks 尽一切合理努力保护数据和信息免遭未经授权的访问，但 SAK WoodWorks 无法保证绝对安全。"
-      },
-      "section5": {
-         "title": "5. 隐私政策的变更",
-         "content1": "SAK WoodWorks reserves the right to amend, change, improve, or add to this Privacy Policy from time to time. Any changes to the Policy can be checked as they appear on the website. If the user continues to use the SAK WoodWorks website after changes, improvements, or additions to the Privacy Policy, it is considered that the user confirms and agrees to comply with the changes, improvements, or additions. If the user later withdraws consent, the user will not be able to use the services of the SAK WoodWorks website."
-      },
-      "section6": {
-         "title": "6. 隐私政策的变更",
-         "content1": "SAK WoodWorks 可能会不时更新本隐私政策，以反映服务、产品、运营的变化以及根据用户的反馈和评论。",
-         "howWillNotify": "SAK WoodWorks 将如何通知变更？",
-         "subtitle1": "选项#1:",
-         "option1": "SAK WoodWorks 将在实施变更之前发布此类变更的显着通知，或者可能直接向您发送通知。",
-         "or": "or:",
-         "subtitle2": "Option#2:",
-         "option2": "SAK WoodWorks 将通过本政策顶部的“最后更新”日期通知您和任何其他第三方当前更新。"
-      },
-      "section7": {
-         "title": "什么是cookies？",
-         "content1": "Cookie 是您访问的网站创建的文件，可通过保存浏览信息让您更轻松地进行在线操作。网站使用 cookie 来让您保持登录状态、记住您的网站偏好并向您提供相关内容。"
-      },
-      "section8": {
-         "title": "我们如何使用cookies？",
-         "content1": "我们将通过cookies或其他技术收集所有访问者的网站访问信息，以提高网站使用和访问我们在线服务的效率。 Cookie 将用于以下情况：",
-         "list1": "确保您能够持续、安全地访问我们的网站。",
-         "list2": "记录与网站使用、数据内容以及您设置的网站格式相关的使用数据。",
-         "list3": "研究使用情况和访问者行为，以开发和改进网站，最好地满足用户需求。",
-         "list4": "研究网站访问者的整体行为，并将网站开发得更加用户友好、快速和高效。"
-      },
-      "section9": {
-         "title": "我们使用的 cookie 类型",
-         "content1": "我们的网站包含以下 cookie：",
-         "list1": "功能性 Cookie：用于记住选择或偏好并为用户提供个性化服务，例如用户名、语言和网站偏好。",
-         "list2": "广告Cookie：用于记住您之前的访问和使用模式，以便展示相关且符合您兴趣的产品、服务或广告媒体，并评估广告活动的有效性。",
-         "list3": "技术 Cookie（绝对必要的 Cookie）：这些 Cookie 是网站正常运行并为您提供全面、安全的信息访问所必需的。",
-         "list4": "平台性能Cookie：用于收集匿名网站访问者数据并分析访问者数量和行为，以提高网站效率并满足用户需求。",
-         "list5": "第三方 Cookie：这些 Cookie 由第三方提供商设置，例如 Google Analytics。"
-      },
-      "section10": {
-         "title": "如何联系 SAK WoodWorks？",
-         "content1": "如果您对个人数据的收集、使用和/或披露的细节，包括行使本政策项下的权利有任何建议或想询问，您可以通过以下渠道联系SAK WoodWorks："
-      },
-      "contact": {
-         "email": "电子邮件：",
-         "info1": " info@sakww.com",
-         "phone": "电话：",
-         "info2": "0997121071",
-         "hours": "（营业时间：周一至周五上午8:30-下午5:00）",
-         "address": "地址：",
-         "info3": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si 分区, Khlong Luang 区, Pathum Thani 省 12120"
-      }
-   }
+    "branch_4": "Chanthaburi",
+    "add_4": "16/7 Sai Trok Nong Road, Khlung Subdistrict, Khlung District, Chanthaburi Province 22110",
+    "phone_4": "039 441 191",
+    "mobile_4": "095 954 4149"
+  },
+  "BrandArea": {
+    "title": "找到我们的产品",
+    "sub_title1": "寻找我们的产品",
+    "sub_title2": "零售商",
+    "sub_title3": "&",
+    "sub_title4": "线上平台"
+  },
+  "BrandData": {
+    "brand_1": "虾皮",
+    "brand_2": "拉扎达",
+    "brand_3": "家宝",
+    "brand_4": "泰瓦沙都",
+    "brand_5": "夜神夜神",
+    "brand_6": "BnB首页",
+    "brand_7": "阿里巴巴",
+    "brand_8": "OneStock首页"
+  },
+  "ContactArea": {
+    "title": "联系我们",
+    "sub_title1": "是",
+    "sub_title2": "高兴极了",
+    "sub_title3": "到",
+    "sub_title4": "协助",
+    "sub_title5": "你",
+    "header": "SAK WoodWorks Co., Ltd.",
+    "sub_header1": "周一至周六：08:00 - 17:00",
+    "sub_header2": "您有问题吗？",
+    "sub_header3": "社交网络"
+  },
+  "InputForm": {
+    "title": "给我们留言",
+    "desc": "我们会尽快回复您！",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话号码",
+    "idline": "线路编号",
+    "massege": "您的留言",
+    "submit": "提交",
+    "success": "提交成功！感谢您的留言。",
+    "error": "提交失败！请再试一次。",
+    "label": "请输入您的姓名",
+    "clientName": "您的姓名",
+    "button": "添加 Line 好友"
+  },
+  "Footer": {
+    "title": "寻找大自然最好的材料？",
+    "btn_text": "给我们打电话",
+    "copy_right": "版权所有 2025",
+    "company": "SAK WoodWorks Co., Ltd.",
+    "all_right": "版权所有。"
+  },
+  "ConsentCookies": {
+    "message": "我们使用 Cookie 为您提供我们网站上的最佳体验。",
+    "moreInfo": "如需更多信息，请阅读我们的",
+    "privacyPolicy": "隐私政策",
+    "and": " 和 ",
+    "cookiePolicy": "Cookie 政策",
+    "period": ".",
+    "accept": "接受"
+  },
+  "PrivacyPolicy": {
+    "title1": "隐私政策",
+    "title2": "Cookies政策",
+    "intro1": "SAK WoodWorks Company Limited（在本政策中以下简称",
+    "name": "SAK WoodWorks",
+    "intro2": "或",
+    "company": "公司",
+    "intro3": "是网站服务提供商。",
+    "intro4": "SAK WoodWorks 意识到保护使用我们网站上各种服务的用户的个人信息的重要性。 SAK WoodWorks 收集信息的主要目的是开发更好的网站服务和/或获得与 SAK WoodWorks 和/或其附属公司的业务目标直接相关的利益所必需的。为了表明 SAK WoodWorks 对保护所有用户隐私的承诺，SAK WoodWorks 制定了本隐私政策，以保护所有使用我们网站服务的人的个人信息。",
+    "intro5": "本隐私政策受《B.E. 个人数据保护法》管辖。 2562，根据该规定，SAK WoodWorks 有权并有责任就个人数据的收集、使用或披露做出决定，在法律上称为“个人数据控制者”，并由 SAK WoodWorks 特别指派员工按照 SAK WoodWorks 的指示或代表 SAK WoodWorks 履行有关个人数据收集、使用或披露的职责，在法律上称为“个人数据处理者”。根据该法案，网站用户被视为“个人数据所有者”。",
+    "intro6": "当网站用户同意本隐私政策时，将被视为接受使用任何 SAK WoodWorks 网站服务将构成对所有服务条款和条件的接受，并且此类接受将是完整的且具有约束力。",
+    "section1": {
+      "title": "1. 政策范围和同意",
+      "content1": "本隐私政策规定了 SAK WoodWorks 通过网站收集或接收的个人信息的做法，包括提供服务以及用户访问或使用的各种服务工具，例如访问或观看视频。 SAK WoodWorks 将遵守泰王国适用的个人数据安全法的规定并按照其运营。",
+      "content2": "用户已仔细阅读并理解本隐私政策适用并涵盖SAK WoodWorks网站各项服务的使用。无论用户是否通过电脑、手机或使用网站上的任何工具访问SAK WoodWorks网站，均视为用户已同意并同意SAK WoodWorks按照本隐私政策和SAK WoodWorks的其他政策收集和使用用户的个人信息，以用于改进或开发各种服务的目的和/或与SAK WoodWorks和/或其关联公司的业务目标直接相关的利益所必需的。"
+    },
+    "section2": {
+      "title": "2. 个人数据的存储",
+      "content1": "SAK WoodWorks 可能会使用 cookie、Google Analytics、Google Ads、Facebook Pixel 或其他技术来收集个人信息，以帮助用户更好、更快、更安全和更个性化地使用和访问网站服务，以及改进或开发各种服务和/或获得与 SAK WoodWorks 及其附属公司的目标直接相关的利益所必需的。当用户访问网站时，SAK WoodWorks 会自动记录每次用户访问网站时用户的互联网浏览器发送的信息，直至用户离开网络浏览器。此类信息包括但不限于：",
+      "list1": "电脑/手机的IP地址、cookie ID。",
+      "list2": "互联网浏览程序。",
+      "list3": "访问每个网页的时间。",
+      "list4": "在 SAK WoodWorks 网站上搜索的信息，包括搜索的时间和日期以及其他统计信息。",
+      "list5": "位置数据。",
+      "list6": "网站浏览行为。",
+      "list7": "使用的操作系统。",
+      "list8": "网站访问者的性别、年龄和兴趣。",
+      "content2": "用户同意并承认，根据本隐私政策收集的个人数据可能会在 SAK WoodWorks 确定的任何国家/地区进行传输、存储和处理。",
+      "content3": "用户同意并接受，当用户访问SAK WoodWorks网站时，即视为用户允许并同意SAK WoodWorks按照本隐私政策规定的目的和条件收集、转移、处理、使用和披露用户的个人数据。",
+      "content4": "SAK WoodWorks 可以在实现本隐私政策中规定的目的所需的期限内保留根据本隐私政策收集的个人数据，包括通过对 SAK WoodWorks 网络和数据库的观察而获得的个人数据。"
+    },
+    "section3": {
+      "title": "3. 个人信息的使用和披露",
+      "content1": "SAK WoodWorks 不得出于本政策规定以外的任何目的收集、使用或披露您的个人数据。",
+      "content2": "如果 SAK WoodWorks 聘请其他机构处理用户个人数据，例如用于处理或分析，SAK WoodWorks 将要求该机构维护用户个人数据的机密性和安全性，并禁止将个人数据用于本隐私政策中未概述的目的，除非 SAK WoodWorks 拥有合法权利或被要求披露此类数据（例如，当法律要求或为了防止欺诈或其他犯罪而披露时），或者 SAK WoodWorks 认为其为了保护和/或捍卫 SAK WoodWorks 人员和 SAK WoodWorks 客户的权利、财产或安全，有必要这样做。"
+    },
+    "section4": {
+      "title": "4. 个人数据安全",
+      "content1": "SAK WoodWorks 将按照技术和组织措施保持您的个人数据处于良好状态，以在个人数据处理过程中保持适当的安全性，并防止个人数据在本政策所列目的之外或未经授权的情况下遭到泄露、丢失、访问、销毁、使用、转换、修改或披露。然而，用户同意并承认，任何通过互联网的电子传输方法、电子存储方法或电子措施都不可能是完全安全的。因此，尽管 SAK WoodWorks 尽一切合理努力保护数据和信息免遭未经授权的访问，但 SAK WoodWorks 无法保证绝对安全。"
+    },
+    "section5": {
+      "title": "5. 隐私政策的变更",
+      "content1": "SAK WoodWorks reserves the right to amend, change, improve, or add to this Privacy Policy from time to time. Any changes to the Policy can be checked as they appear on the website. If the user continues to use the SAK WoodWorks website after changes, improvements, or additions to the Privacy Policy, it is considered that the user confirms and agrees to comply with the changes, improvements, or additions. If the user later withdraws consent, the user will not be able to use the services of the SAK WoodWorks website."
+    },
+    "section6": {
+      "title": "6. 隐私政策的变更",
+      "content1": "SAK WoodWorks 可能会不时更新本隐私政策，以反映服务、产品、运营的变化以及根据用户的反馈和评论。",
+      "howWillNotify": "SAK WoodWorks 将如何通知变更？",
+      "subtitle1": "选项#1:",
+      "option1": "SAK WoodWorks 将在实施变更之前发布此类变更的显着通知，或者可能直接向您发送通知。",
+      "or": "or:",
+      "subtitle2": "Option#2:",
+      "option2": "SAK WoodWorks 将通过本政策顶部的“最后更新”日期通知您和任何其他第三方当前更新。"
+    },
+    "section7": {
+      "title": "什么是cookies？",
+      "content1": "Cookie 是您访问的网站创建的文件，可通过保存浏览信息让您更轻松地进行在线操作。网站使用 cookie 来让您保持登录状态、记住您的网站偏好并向您提供相关内容。"
+    },
+    "section8": {
+      "title": "我们如何使用cookies？",
+      "content1": "我们将通过cookies或其他技术收集所有访问者的网站访问信息，以提高网站使用和访问我们在线服务的效率。 Cookie 将用于以下情况：",
+      "list1": "确保您能够持续、安全地访问我们的网站。",
+      "list2": "记录与网站使用、数据内容以及您设置的网站格式相关的使用数据。",
+      "list3": "研究使用情况和访问者行为，以开发和改进网站，最好地满足用户需求。",
+      "list4": "研究网站访问者的整体行为，并将网站开发得更加用户友好、快速和高效。"
+    },
+    "section9": {
+      "title": "我们使用的 cookie 类型",
+      "content1": "我们的网站包含以下 cookie：",
+      "list1": "功能性 Cookie：用于记住选择或偏好并为用户提供个性化服务，例如用户名、语言和网站偏好。",
+      "list2": "广告Cookie：用于记住您之前的访问和使用模式，以便展示相关且符合您兴趣的产品、服务或广告媒体，并评估广告活动的有效性。",
+      "list3": "技术 Cookie（绝对必要的 Cookie）：这些 Cookie 是网站正常运行并为您提供全面、安全的信息访问所必需的。",
+      "list4": "平台性能Cookie：用于收集匿名网站访问者数据并分析访问者数量和行为，以提高网站效率并满足用户需求。",
+      "list5": "第三方 Cookie：这些 Cookie 由第三方提供商设置，例如 Google Analytics。"
+    },
+    "section10": {
+      "title": "如何联系 SAK WoodWorks？",
+      "content1": "如果您对个人数据的收集、使用和/或披露的细节，包括行使本政策项下的权利有任何建议或想询问，您可以通过以下渠道联系SAK WoodWorks："
+    },
+    "contact": {
+      "email": "电子邮件：",
+      "info1": " info@sakww.com",
+      "phone": "电话：",
+      "info2": "0997121071",
+      "hours": "（营业时间：周一至周五上午8:30-下午5:00）",
+      "address": "地址：",
+      "info3": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si 分区, Khlong Luang 区, Pathum Thani 省 12120"
+    }
+  }
 }

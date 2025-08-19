@@ -1,379 +1,382 @@
 {
-   "metaData": {
-      "title": "SAK WoodWorks Co.,Ltd.",
-      "desc": "High-Quality Processed Wood Distributor in Thailand"
-   },
-   "HeaderBtn": {
-      "btn_text": "Get in Touch",
-      "phone_des": "Please call us",
-      "phone_no": "099 712 1071"
-   },
-   "LocaleSwitcher": {
-      "en": "Eng",
-      "ru": "Rus",
-      "th": "Tha",
-      "label": "Language"
-   },
-   "MenuData": {
-      "nav1": "About Us",
-      "nav2": "Services",
-      "nav3": "Products",
-      "nav4": "Branches",
-      "nav5": "Stores",
-      "nav6": "Contact us"
-   },
-   "MobileNav": {
-      "title": "Select Language"
-   },
-   "HeroTitle": {
-      "title1": "Leading Supplier",
-      "title2": "Providing Superior Quality",
-      "title3": "Excellence in Production",
-      "title4": "Consistent Durability",
-      "title5": "Preserve natural integrity"
-   },
-   "HeroSlider": {
-      "slide1": "We Have Over 15 Years of Knowledge and Expertise Importing and Distributing High-Quality Wooden Materials.",
-      "slide2": "Leveraging Our Expertise and Extensive Network to Deliver Products That Surpass Global Quality Standards.",
-      "slide3": "A Modern and Efficient Production Process Utilizing Expert Technicians and Cutting-Edge Technology.",
-      "slide4": "A Stronger, More Durable Wood with a Long Service Life, Suitable for All Weather Conditions in Thailand.",
-      "slide5": "Transported Chemical-Free, from Europe and Russia Over 16,000 km to Laem Chabang Port in Thailand."
-   },
-   "AboutArea": {
-      "title": "Our Company",
-      "sub_title1": "Discover the beauty and strength of",
-      "sub_title2": "nature's",
-      "sub_title3": "finest materials",
-      "sm_des": "We're passionate about providing high-quality, sustainable wood products that meet the diverse needs of our customers. With over 15 years of experience in the timber industry, we've built a strong reputation for excellence and reliability.",
-      "card1_title": "Environmentally Friendly",
-      "card1_des": "Our commitment to sustainable practices means you can trust that our wood is sourced responsibly.",
-      "card2_title": "For woodworkers of All levels",
-      "card2_des": "For stunning DIY crafts and durable structures alike, our wood is the perfect choice. Contact us to learn more."
-   },
-   "ProductArea": {
-      "title": "Our Products",
-      "sub_title1": "New options for woodworking with",
-      "sub_title2": "premium quality products"
-   },
-   "ProductNavTab": {
-      "conifer": "Conifer",
-      "bamboo": "Bamboo",
-      "teak": "Teak"
-   },
-   "Conifer": {
-      "title1": "Northern conifer",
-      "title2": "Wood",
-      "title3": "that answers every woodworking need.",
-      "faq1": {
-         "que": "Superior quality",
-         "ans": "High-quality conifer wood from leading production sources in Europe and Russia, with international standards, guaranteed strength, durability, and a long service life."
-      },
-      "faq2": {
-         "que": "Modern production process",
-         "ans": "Advanced and standardized production processes result in products that are precise, durable, and beautiful."
-      },
-      "faq3": {
-         "que": "Suited for Thailand's conditions",
-         "ans": "With properties of strong wood including resistance to hot and humid weather conditions, our northern conifer materials perform excellently for both internal and external applications."
-      },
-      "faq4": {
-         "que": "No chemicals",
-         "ans": "Ships directly from Europe and Russia to Thailand in closed containers (FCL) to maintain quality and safety."
-      },
-      "faq5": {
-         "que": "Diversity in use",
-         "ans": "Can be used in a variety of formats including construction work, decoration work, and furniture."
-      },
-      "images": {
-         "img1": "conifer-en1.png",
-         "img2": "conifer-en2.png",
-         "img3": "conifer-en3.png",
-         "img4": "conifer-en4.png",
-         "img5": "conifer-en5.png",
-         "img6": "conifer-en6.png",
-         "img7": "conifer-en7.png",
-         "img8": "conifer-en8.png",
-         "img9": "conifer-en9.png",
-         "img10": "conifer-en10.png",
-         "img11": "conifer-en11.png",
-         "img12": "conifer-en12.png"
-      }
-   },
-   "Bamboo": {
-      "title1": "Fused bamboo",
-      "title2": "Unprecedented durability ",
-      "title3": "and sustainability.",
-      "faq1": {
-         "que": "Superior strength and durability",
-         "ans": "An innovative process of heat treatment and high pressure compression makes these bamboo materials highly stable: resistant to impacts, free from bending, cracking, and shrinking."
-      },
-      "faq2": {
-         "que": "Fire, termite, mold resistant",
-         "ans": "Modern production technology and revolutionary processes create a bamboo material that is highly resistant to fire, termites, and mold, with minimal maintenance and a service life that extends for decades."
-      },
-      "faq3": {
-         "que": "Beautiful and stylish",
-         "ans": "Fused Bamboo is a unique material that is naturally beautiful. It can be used to design and decorate in a variety of styles."
-      },
-      "faq4": {
-         "que": "Easy to install and maintain",
-         "ans": "Our bamboo products are designed for a convenient and easy installation process, minimal maintenance that only requires regular cleaning, and an incredibly long service life."
-      },
-      "faq5": {
-         "que": "Environmentally friendly",
-         "ans": "Bamboo is a plant that grows quickly and is naturally renewable. Choosing bamboo products helps reduce deforestation and environmental impacts, protecting and preserving the health of our planet."
-      },
-      "images": {
-         "img1": "bamboo-en1.png",
-         "img2": "bamboo-en2.png",
-         "img3": "bamboo-en3.png",
-         "img4": "bamboo-en4.png"
-      }
-   },
-   "Teak": {
-      "title1": "Thai teak,",
-      "title2": "a natural heritage",
-      "title3": "for wood craft aesthetics.",
-      "faq1": {
-         "que": "Strong and durable",
-         "ans": "Teak is well known for its strength, resistance to fluctuating weather conditions including heat and humidity, resistance to pests and fungi, and remarkable longevity."
-      },
-      "faq2": {
-         "que": "Exquisite wood",
-         "ans": "When teak is polished the surface is smooth and easy to maintain, with all the rich golden colors of natural teak wood. Add beauty anywhere with Thai teak!"
-      },
-      "faq3": {
-         "que": "Beautiful pattern",
-         "ans": "There are straight lines, curved lines, and spiral patterns, which create beauty and distinction. The unique wood pattern makes teak materials look lively and interesting."
-      },
-      "faq4": {
-         "que": "Durable in all weather conditions",
-         "ans": "With low shrinkage and swelling values, teak wood maintains its shape and structural integrity. Teak does not easily warp or crack even when exposed to heat, water, or humidity."
-      },
-      "faq5": {
-         "que": "Nature's excellence",
-         "ans": "Famously, teak contains natural oils that help prevent mold and insects. This makes teak wood highly resistant to diverse environmental conditions, and it requires minimal maintenance."
-      },
-      "images": {
-         "img1": "teak-en1.png",
-         "img2": "teak-en2.png",
-         "img3": "teak-en3.png",
-         "img4": "teak-en4.png",
-         "img5": "teak-en5.png",
-         "img6": "teak-en6.png",
-         "img7": "teak-en7.png",
-         "img8": "teak-en8.png",
-         "img9": "teak-en9.png",
-         "img10": "teak-en10.png",
-         "img11": "teak-en11.png",
-         "img12": "teak-en12.png"
-      }
-   },
-   "ServicesArea": {
-      "title": "Our Services",
-      "sub_title1": "Import and distribute sustainable",
-      "sub_title2": "high-quality wooden",
-      "sub_title3": "materials."
-   },
-   "ServicesCard": {
-      "swipe": "Swipe",
-      "service1": {
-         "title": "Nationwide Delivery",
-         "sm_des": "With comprehensive transportation options, SAKWW delivers to every area throughout Thailand."
-      },
-      "service2": {
-         "title": "Product Packing",
-         "sm_des": "Items are wrapped with care in plastic and cushioning during delivery to increase safety and protect the wood."
-      },
-      "service3": {
-         "title": "CCA Treatment",
-         "sm_des": "For a long life of outdoor use, CCA treatment maximizes resistance to weather, fungi, and pests."
-      },
-      "service4": {
-         "title": "Wholesale",
-         "sm_des2": "Best source for various wooden materials, provide complete services with product quality and competitive prices.",
-         "sm_des": "The best source for various wooden materials, with complete services, high-quality products and competitive prices."
-      },
-      "service5": {
-         "title": "Free Cutting!",
-         "sm_des2": "We offer cutting services when buying full pieces of wood, so our customers receive wood in the sizes desired.",
-         "sm_des": "Free cutting services are provided for full wood piece purchases, ensuring customers receive precisely-sized materials."
-      },
-      "service6": {
-         "title": "Get Advice",
-         "sm_des1": "You can ask us questions at any time. Our team of experts is ready to answer your inquiries.",
-         "sm_des": "Expert staff provide guidance about the best materials for your project goals, treatment options, pricing, and more."
-      }
-   },
-   "BranchArea": {
-      "title": "Our Branches",
-      "sub_title1": "Choose your wood products",
-      "sub_title2": "directly at",
-      "sub_title3": "our storefronts"
-   },
-   "BranchData": {
-      "branch_1": "Pathum Thani",
-      "add_1": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
-      "phone_1": "020 261 149",
+  "metaData": {
+    "title": "SAK WoodWorks Co.,Ltd.",
+    "desc": "High-Quality Processed Wood Distributor in Thailand"
+  },
+  "HeaderBtn": {
+    "btn_text": "Get in Touch",
+    "phone_des": "Please call us",
+    "phone_no": "099 712 1071"
+  },
+  "LocaleSwitcher": {
+    "en": "Eng",
+    "ru": "Rus",
+    "th": "Tha",
+    "label": "Language"
+  },
+  "MenuData": {
+    "nav1": "About Us",
+    "nav2": "Services",
+    "nav3": "Products",
+    "nav4": "Branches",
+    "nav5": "Stores",
+    "nav6": "Contact us"
+  },
+  "MobileNav": {
+    "title": "Select Language"
+  },
+  "HeroTitle": {
+    "title1": "Leading Supplier",
+    "title2": "Providing Superior Quality",
+    "title3": "Excellence in Production",
+    "title4": "Consistent Durability",
+    "title5": "Preserve natural integrity"
+  },
+  "HeroSlider": {
+    "slide1": "We Have Over 15 Years of Knowledge and Expertise Importing and Distributing High-Quality Wooden Materials.",
+    "slide2": "Leveraging Our Expertise and Extensive Network to Deliver Products That Surpass Global Quality Standards.",
+    "slide3": "A Modern and Efficient Production Process Utilizing Expert Technicians and Cutting-Edge Technology.",
+    "slide4": "A Stronger, More Durable Wood with a Long Service Life, Suitable for All Weather Conditions in Thailand.",
+    "slide5": "Transported Chemical-Free, from Europe and Russia Over 16,000 km to Laem Chabang Port in Thailand."
+  },
+  "AboutArea": {
+    "title": "Our Company",
+    "sub_title1": "Discover the beauty and strength of",
+    "sub_title2": "nature's",
+    "sub_title3": "finest materials",
+    "sm_des": "We're passionate about providing high-quality, sustainable wood products that meet the diverse needs of our customers. With over 15 years of experience in the timber industry, we've built a strong reputation for excellence and reliability.",
+    "card1_title": "Environmentally Friendly",
+    "card1_des": "Our commitment to sustainable practices means you can trust that our wood is sourced responsibly.",
+    "card2_title": "For woodworkers of All levels",
+    "card2_des": "For stunning DIY crafts and durable structures alike, our wood is the perfect choice. Contact us to learn more."
+  },
+  "ProductArea": {
+    "title": "Our Products",
+    "sub_title1": "New options for woodworking with",
+    "sub_title2": "premium quality products"
+  },
+  "ProductNavTab": {
+    "conifer": "Conifer",
+    "bamboo": "Bamboo",
+    "teak": "Teak"
+  },
+  "Conifer": {
+    "title1": "Northern conifer",
+    "title2": "Wood",
+    "title3": "that answers every woodworking need.",
+    "faq1": {
+      "que": "Superior quality",
+      "ans": "High-quality conifer wood from leading production sources in Europe and Russia, with international standards, guaranteed strength, durability, and a long service life."
+    },
+    "faq2": {
+      "que": "Modern production process",
+      "ans": "Advanced and standardized production processes result in products that are precise, durable, and beautiful."
+    },
+    "faq3": {
+      "que": "Suited for Thailand's conditions",
+      "ans": "With properties of strong wood including resistance to hot and humid weather conditions, our northern conifer materials perform excellently for both internal and external applications."
+    },
+    "faq4": {
+      "que": "No chemicals",
+      "ans": "Ships directly from Europe and Russia to Thailand in closed containers (FCL) to maintain quality and safety."
+    },
+    "faq5": {
+      "que": "Diversity in use",
+      "ans": "Can be used in a variety of formats including construction work, decoration work, and furniture."
+    },
+    "images": {
+      "img1": "conifer-en1.png",
+      "img2": "conifer-en2.png",
+      "img3": "conifer-en3.png",
+      "img4": "conifer-en4.png",
+      "img5": "conifer-en5.png",
+      "img6": "conifer-en6.png",
+      "img7": "conifer-en7.png",
+      "img8": "conifer-en8.png",
+      "img9": "conifer-en9.png",
+      "img10": "conifer-en10.png",
+      "img11": "conifer-en11.png",
+      "img12": "conifer-en12.png"
+    }
+  },
+  "Bamboo": {
+    "title1": "Fused bamboo",
+    "title2": "Unprecedented durability ",
+    "title3": "and sustainability.",
+    "faq1": {
+      "que": "Superior strength and durability",
+      "ans": "An innovative process of heat treatment and high pressure compression makes these bamboo materials highly stable: resistant to impacts, free from bending, cracking, and shrinking."
+    },
+    "faq2": {
+      "que": "Fire, termite, mold resistant",
+      "ans": "Modern production technology and revolutionary processes create a bamboo material that is highly resistant to fire, termites, and mold, with minimal maintenance and a service life that extends for decades."
+    },
+    "faq3": {
+      "que": "Beautiful and stylish",
+      "ans": "Fused Bamboo is a unique material that is naturally beautiful. It can be used to design and decorate in a variety of styles."
+    },
+    "faq4": {
+      "que": "Easy to install and maintain",
+      "ans": "Our bamboo products are designed for a convenient and easy installation process, minimal maintenance that only requires regular cleaning, and an incredibly long service life."
+    },
+    "faq5": {
+      "que": "Environmentally friendly",
+      "ans": "Bamboo is a plant that grows quickly and is naturally renewable. Choosing bamboo products helps reduce deforestation and environmental impacts, protecting and preserving the health of our planet."
+    },
+    "images": {
+      "img1": "bamboo-en1.png",
+      "img2": "bamboo-en2.png",
+      "img3": "bamboo-en3.png",
+      "img4": "bamboo-en4.png"
+    }
+  },
+  "Teak": {
+    "title1": "Thai teak,",
+    "title2": "a natural heritage",
+    "title3": "for wood craft aesthetics.",
+    "faq1": {
+      "que": "Strong and durable",
+      "ans": "Teak is well known for its strength, resistance to fluctuating weather conditions including heat and humidity, resistance to pests and fungi, and remarkable longevity."
+    },
+    "faq2": {
+      "que": "Exquisite wood",
+      "ans": "When teak is polished the surface is smooth and easy to maintain, with all the rich golden colors of natural teak wood. Add beauty anywhere with Thai teak!"
+    },
+    "faq3": {
+      "que": "Beautiful pattern",
+      "ans": "There are straight lines, curved lines, and spiral patterns, which create beauty and distinction. The unique wood pattern makes teak materials look lively and interesting."
+    },
+    "faq4": {
+      "que": "Durable in all weather conditions",
+      "ans": "With low shrinkage and swelling values, teak wood maintains its shape and structural integrity. Teak does not easily warp or crack even when exposed to heat, water, or humidity."
+    },
+    "faq5": {
+      "que": "Nature's excellence",
+      "ans": "Famously, teak contains natural oils that help prevent mold and insects. This makes teak wood highly resistant to diverse environmental conditions, and it requires minimal maintenance."
+    },
+    "images": {
+      "img1": "teak-en1.png",
+      "img2": "teak-en2.png",
+      "img3": "teak-en3.png",
+      "img4": "teak-en4.png",
+      "img5": "teak-en5.png",
+      "img6": "teak-en6.png",
+      "img7": "teak-en7.png",
+      "img8": "teak-en8.png",
+      "img9": "teak-en9.png",
+      "img10": "teak-en10.png",
+      "img11": "teak-en11.png",
+      "img12": "teak-en12.png"
+    }
+  },
+  "ServicesArea": {
+    "title": "Our Services",
+    "sub_title1": "Import and distribute sustainable",
+    "sub_title2": "high-quality wooden",
+    "sub_title3": "materials."
+  },
+  "ServicesCard": {
+    "swipe": "Swipe",
+    "service1": {
+      "title": "Nationwide Delivery",
+      "sm_des": "With comprehensive transportation options, SAKWW delivers to every area throughout Thailand."
+    },
+    "service2": {
+      "title": "Product Packing",
+      "sm_des": "Items are wrapped with care in plastic and cushioning during delivery to increase safety and protect the wood."
+    },
+    "service3": {
+      "title": "CCA Treatment",
+      "sm_des": "For a long life of outdoor use, CCA treatment maximizes resistance to weather, fungi, and pests."
+    },
+    "service4": {
+      "title": "Wholesale",
+      "sm_des2": "Best source for various wooden materials, provide complete services with product quality and competitive prices.",
+      "sm_des": "The best source for various wooden materials, with complete services, high-quality products and competitive prices."
+    },
+    "service5": {
+      "title": "Free Cutting!",
+      "sm_des2": "We offer cutting services when buying full pieces of wood, so our customers receive wood in the sizes desired.",
+      "sm_des": "Free cutting services are provided for full wood piece purchases, ensuring customers receive precisely-sized materials."
+    },
+    "service6": {
+      "title": "Get Advice",
+      "sm_des1": "You can ask us questions at any time. Our team of experts is ready to answer your inquiries.",
+      "sm_des": "Expert staff provide guidance about the best materials for your project goals, treatment options, pricing, and more."
+    }
+  },
+  "BranchArea": {
+    "title": "Our Branches",
+    "sub_title1": "Choose your wood products",
+    "sub_title2": "directly at",
+    "sub_title3": "our storefronts"
+  },
+  "BranchData": {
+    "branch_1": "Pathum Thani",
+    "add_1": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
+    "phone_1": "020 261 149",
 
-      "branch_2": "Pathum Thani",
-      "add_2": "39 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
-      "phone_2": "099 712 1071",
+    "branch_2": "Pathum Thani",
+    "add_2": "39 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120",
+    "phone_2": "099 712 1071",
 
-      "branch_3": "Chiang Mai",
-      "add_3": "411 Moo 4, San Sai Noi Subdistrict, San Sai District, Chiang Mai Province 50210",
-      "phone_3": "052 005 596",
-      "mobile_3": "097 783 0705",
+    "branch_3": "Chiang Mai",
+    "add_3": "411 Moo 4, San Sai Noi Subdistrict, San Sai District, Chiang Mai Province 50210",
+    "phone_3": "052 005 596",
+    "mobile_3": "097 783 0705",
 
-      "branch_4": "Chanthaburi",
-      "add_4": "16/7 Sai Trok Nong Road, Khlung Subdistrict, Khlung District, Chanthaburi Province 22110",
-      "phone_4": "039 441 191",
-      "mobile_4": "095 954 4149"
-   },
-   "BrandArea": {
-      "title": "Locate Our Products",
-      "sub_title1": "Find our products at leading",
-      "sub_title2": "retailers",
-      "sub_title3": "&",
-      "sub_title4": "online platforms"
-   },
-   "BrandData": {
-      "brand_1": "Shopee",
-      "brand_2": "Lazada",
-      "brand_3": "HomePro",
-      "brand_4": "Thaiwatsadu",
-      "brand_5": "NocNoc",
-      "brand_6": "BnBHome",
-      "brand_7": "Alibaba",
-      "brand_8": "OneStockHome"
-   },
-   "ContactArea": {
-      "title": "Contact Us",
-      "sub_title1": "We're",
-      "sub_title2": "delighted",
-      "sub_title3": "to",
-      "sub_title4": "assist",
-      "sub_title5": "you",
-      "header": "SAK WoodWorks Co., Ltd.",
-      "sub_header1": "Mon to Sat : 08:00 - 17:00",
-      "sub_header2": "Do you have a question?",
-      "sub_header3": "Social Networks"
-   },
-   "InputForm": {
-      "title": "Send us a message",
-      "desc": "we'll get back to you ASAP!",
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone No.",
-      "idline": "Line ID",
-      "massege": "Your Message",
-      "submit": "Submit",
-      "success": "Submitted successfully! Thank you for your message.",
-      "error": "Submission failed! Please try again."
-   },
-   "Footer": {
-      "title": "Looking for Nature's Finest Materials?",
-      "btn_text": "Give us a call",
-      "copy_right": "Copyright 2025",
-      "company": "SAK WoodWorks Co., Ltd.",
-      "all_right": "All rights reserved."
-   },
-   "ConsentCookies": {
-      "message": "We use cookies to provide you with the best possible experience on our website.",
-      "moreInfo": "For more information, please read our ",
-      "privacyPolicy": "Privacy Policy",
-      "and": " and ",
-      "cookiePolicy": "Cookie Policy",
-      "period": ".",
-      "accept": "Accept"
-   },
-   "PrivacyPolicy": {
-      "title1": "Privacy Policy",
-      "title2": "Cookies Policy",
-      "intro1": "SAK WoodWorks Company Limited, hereinafter referred to in this Policy as",
-      "name": "SAK WoodWorks,",
-      "intro2": "or",
-      "company": "the Company,",
-      "intro3": "is the website service provider.",
-      "intro4": "SAK WoodWorks is aware of the importance of protecting the personal information of those who use various services on our website. The collection of information by SAK WoodWorks is primarily for the purposes of developing better website services and/or necessary for benefits directly related to the business objectives of SAK WoodWorks and/or its affiliates. In order to demonstrate SAK WoodWorks’ commitment to protecting the privacy of all users, SAK WoodWorks has established this Privacy Policy to protect the personal information of all those who use the services of our website.",
-      "intro5": "This Privacy Policy is governed by the Personal Data Protection Act B.E. 2562, whereby SAK WoodWorks has the authority and responsibility to make decisions regarding the collection, use, or disclosure of personal data, which is legally called a 'Personal Data Controller', with employees specifically assigned by SAK WoodWorks to perform duties regarding the collection, use, or disclosure of personal data at the instruction of or on behalf of SAK WoodWorks, which is legally called a 'Personal Data Processor.' Under this Act, a website user is considered a 'Personal Data Owner.'",
-      "intro6": "When a website user agrees to this Privacy Policy, it will be deemed accepted that the use of any SAK WoodWorks’ website services will constitute acceptance of all terms and conditions of service and such acceptance will be complete and binding.",
-      "section1": {
-         "title": "1. Policy Scope and Consent",
-         "content1": "This Privacy Policy sets out the practices regarding personal information that SAK WoodWorks collects or receives through the website, including the provision of services and various service tools that users access or use, such as visiting or watching videos. SAK WoodWorks will comply with and operate in accordance with the provisions of the Personal Data Security Act applicable in the Kingdom of Thailand.",
-         "content2": "The user has carefully read and understands that this Privacy Policy applies to and covers the use of various services on the SAK WoodWorks website. Regardless of whether the user accesses the SAK WoodWorks website via a computer, mobile phone, or uses any tools on the website, it is considered that the user has permitted and agreed to give consent to SAK WoodWorks to collect and use the user's personal information in accordance with this Privacy Policy and other policies of SAK WoodWorks for the purposes of improving or developing various services and/or as necessary for benefits directly related to the business objectives of SAK WoodWorks and/or its affiliates."
-      },
-      "section2": {
-         "title": "2. Storage of personal data",
-         "content1": "SAK WoodWorks may use cookies, Google Analytics, Google Ads, Facebook Pixel, or other technologies to collect personal information to help users have better, faster, safer, and more personalized use and access to website services, as well as to improve or develop various services and/or as necessary for benefits directly related to the objectives of SAK WoodWorks and its affiliates. When users visit the website, SAK WoodWorks will automatically record information sent by the user's internet browser whenever the user visits the website until they leave the web browser. Such information includes, but is not limited to:",
-         "list1": "IP address, cookie ID of computer/mobile phone.",
-         "list2": "Internet browsing program.",
-         "list3": "Time spent visiting each web page.",
-         "list4": "Information searched on the SAK WoodWorks website, including the time and date of searches and other statistical information.",
-         "list5": "Location data.",
-         "list6": "Website viewing behavior.",
-         "list7": "Operating system used.",
-         "list8": "Genders, ages, and interests of website visitors.",
-         "content2": "The user agrees and acknowledges that personal data collected pursuant to this Privacy Policy may be transferred, stored, and processed in any country as determined by SAK WoodWorks.",
-         "content3": "The user agrees and accepts that when the user visits the SAK WoodWorks website, it is considered that the user allows and agrees to give consent to SAK WoodWorks to collect, transfer, process, use, and disclose the user's personal data according to the purposes and conditions specified in this Privacy Policy.",
-         "content4": "SAK WoodWorks may retain personal data collected in accordance with this Privacy Policy, including that obtained from observations on SAK WoodWorks’ network and databases, for so long as necessary to achieve the purposes set out in this Privacy Policy."
-      },
-      "section3": {
-         "title": "3. Use and disclosure of personal information",
-         "content1": "SAK WoodWorks shall not collect, use, or disclose your personal data for any purposes other than those specified in this Policy.",
-         "content2": "In the event that SAK WoodWorks hires another agency to handle users personal data, such as for processing or analyzing, SAK WoodWorks will require the agency to maintain the confidentiality and security of the user's personal data and prohibit the use of personal data for purposes not outlined in this Privacy Policy, except in cases where SAK WoodWorks has the legal right or is required to disclose such data (e.g. when required by law or disclosed for the purpose of preventing fraud or other crimes) or in cases where SAK WoodWorks believes that it is necessary to do so in order to protect and/or defend the rights, property, or safety of SAK WoodWorks’ personnel and SAK WoodWorks’ customers."
-      },
-      "section4": {
-         "title": "4. Security of personal data",
-         "content1": "SAK WoodWorks will keep your personal data in good condition in accordance with technical and organizational measures to maintain appropriate security in the processing of personal data and to prevent personal data breach, loss, access, destruction, use, conversion, modification, or disclosure outside of the purposes listed in this Policy or without authorization. However, the user agrees and acknowledges that no method of electronic transmission over the internet, method of electronic storage, or electronic measure can be completely secure. Therefore, although SAK WoodWorks makes every reasonable effort to protect data and information from unauthorized access, SAK WoodWorks cannot guarantee absolute security."
-      },
-      "section5": {
-         "title": "5. Changes to the Privacy Policy",
-         "content1": "SAK WoodWorks reserves the right to amend, change, improve, or add to this Privacy Policy from time to time. Any changes to the Policy can be checked as they appear on the website. If the user continues to use the SAK WoodWorks website after changes, improvements, or additions to the Privacy Policy, it is considered that the user confirms and agrees to comply with the changes, improvements, or additions. If the user later withdraws consent, the user will not be able to use the services of the SAK WoodWorks website."
-      },
-      "section6": {
-         "title": "6. Changes to the Privacy Policy",
-         "content1": "SAK WoodWorks may update this Privacy Policy from time to time to reflect changes in services, products, operations, and according to user feedback and comments.",
-         "howWillNotify": "How will SAK WoodWorks notify changes?",
-         "subtitle1": "Option#1:",
-         "option1": "SAK WoodWorks will post a prominent notice of such changes prior to implementing the changes or may send you a notice directly.",
-         "or": "or:",
-         "subtitle2": "Option#2:",
-         "option2": "SAK WoodWorks will inform you and any other third parties about current updates via the, “Last Updated,” date at the top of this Policy."
-      },
-      "section7": {
-         "title": "What are cookies?",
-         "content1": "Cookies are files created by websites you visit that make it easier for you to do things online by saving browsing information. Websites use cookies to keep you logged in, remember your site preferences, and deliver relevant content to you."
-      },
-      "section8": {
-         "title": "How do we use cookies?",
-         "content1": "We will collect website visit information from all visitors through cookies or other technologies to improve the efficiency of website usage and access to our online services. Cookies will be used for the following cases:",
-         "list1": "To ensure that you can access our website continuously and securely.",
-         "list2": "To record usage data related to website use, data content, and the website formats you have set.",
-         "list3": "To study usage and visitor behavior in order to develop and improve the website to best meet user needs.",
-         "list4": "To study the overall behavior of website visitors` and to develop the website to be more user-friendly, fast, and efficient."
-      },
-      "section9": {
-         "title": "Types of cookies we use",
-         "content1": "Our website contains the following cookies:",
-         "list1": "Functionality Cookies: These are used to remember choices or preferences and to provide users with personalization, such as user names, languages, and website preferences.",
-         "list2": "Advertising Cookies: Used to remember your previous visits and usage patterns in order to present products, services, or advertising media that are relevant and match your interests and to evaluate the effectiveness of advertising campaigns.",
-         "list3": "Technical Cookies (Strictly Necessary Cookies): These are cookies that are necessary for the website to function and to provide you with comprehensive and secure access to information.",
-         "list4": "Platform Performance Cookies: Used to collect anonymous website visitor data and analyze visitor numbers and behavior to improve the website to be more efficient and meet user needs.",
-         "list5": "Third-party Cookies: These cookies are set by third-party providers, such as Google Analytics."
-      },
-      "section10": {
-         "title": "How can you contact SAK WoodWorks?",
-         "content1": "If you have any suggestions or would like to inquire about details of the collection, use and/or disclosure of personal data, including the exercise of rights under this Policy, you may contact SAK WoodWorks through the following channels:"
-      },
-      "contact": {
-         "email": "Email:",
-         "info1": " info@sakww.com",
-         "phone": "Call:",
-         "info2": "0997121071",
-         "hours": "(Business hours: Monday-Friday 8:30 a.m.-5:00 p.m.)",
-         "address": "Address:",
-         "info3": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120"
-      }
-   }
+    "branch_4": "Chanthaburi",
+    "add_4": "16/7 Sai Trok Nong Road, Khlung Subdistrict, Khlung District, Chanthaburi Province 22110",
+    "phone_4": "039 441 191",
+    "mobile_4": "095 954 4149"
+  },
+  "BrandArea": {
+    "title": "Locate Our Products",
+    "sub_title1": "Find our products at leading",
+    "sub_title2": "retailers",
+    "sub_title3": "&",
+    "sub_title4": "online platforms"
+  },
+  "BrandData": {
+    "brand_1": "Shopee",
+    "brand_2": "Lazada",
+    "brand_3": "HomePro",
+    "brand_4": "Thaiwatsadu",
+    "brand_5": "NocNoc",
+    "brand_6": "BnBHome",
+    "brand_7": "Alibaba",
+    "brand_8": "OneStockHome"
+  },
+  "ContactArea": {
+    "title": "Contact Us",
+    "sub_title1": "We're",
+    "sub_title2": "delighted",
+    "sub_title3": "to",
+    "sub_title4": "assist",
+    "sub_title5": "you",
+    "header": "SAK WoodWorks Co., Ltd.",
+    "sub_header1": "Mon to Sat : 08:00 - 17:00",
+    "sub_header2": "Do you have a question?",
+    "sub_header3": "Social Networks"
+  },
+  "InputForm": {
+    "title": "Send us a message",
+    "desc": "we'll get back to you ASAP!",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone No.",
+    "idline": "Line ID",
+    "massege": "Your Message",
+    "submit": "Submit",
+    "success": "Submitted successfully! Thank you for your message.",
+    "error": "Submission failed! Please try again.",
+    "label": "Please enter your name",
+    "clientName": "Your Name",
+    "button": "Add LINE Friend"
+  },
+  "Footer": {
+    "title": "Looking for Nature's Finest Materials?",
+    "btn_text": "Give us a call",
+    "copy_right": "Copyright 2025",
+    "company": "SAK WoodWorks Co., Ltd.",
+    "all_right": "All rights reserved."
+  },
+  "ConsentCookies": {
+    "message": "We use cookies to provide you with the best possible experience on our website.",
+    "moreInfo": "For more information, please read our ",
+    "privacyPolicy": "Privacy Policy",
+    "and": " and ",
+    "cookiePolicy": "Cookie Policy",
+    "period": ".",
+    "accept": "Accept"
+  },
+  "PrivacyPolicy": {
+    "title1": "Privacy Policy",
+    "title2": "Cookies Policy",
+    "intro1": "SAK WoodWorks Company Limited, hereinafter referred to in this Policy as",
+    "name": "SAK WoodWorks,",
+    "intro2": "or",
+    "company": "the Company,",
+    "intro3": "is the website service provider.",
+    "intro4": "SAK WoodWorks is aware of the importance of protecting the personal information of those who use various services on our website. The collection of information by SAK WoodWorks is primarily for the purposes of developing better website services and/or necessary for benefits directly related to the business objectives of SAK WoodWorks and/or its affiliates. In order to demonstrate SAK WoodWorks’ commitment to protecting the privacy of all users, SAK WoodWorks has established this Privacy Policy to protect the personal information of all those who use the services of our website.",
+    "intro5": "This Privacy Policy is governed by the Personal Data Protection Act B.E. 2562, whereby SAK WoodWorks has the authority and responsibility to make decisions regarding the collection, use, or disclosure of personal data, which is legally called a 'Personal Data Controller', with employees specifically assigned by SAK WoodWorks to perform duties regarding the collection, use, or disclosure of personal data at the instruction of or on behalf of SAK WoodWorks, which is legally called a 'Personal Data Processor.' Under this Act, a website user is considered a 'Personal Data Owner.'",
+    "intro6": "When a website user agrees to this Privacy Policy, it will be deemed accepted that the use of any SAK WoodWorks’ website services will constitute acceptance of all terms and conditions of service and such acceptance will be complete and binding.",
+    "section1": {
+      "title": "1. Policy Scope and Consent",
+      "content1": "This Privacy Policy sets out the practices regarding personal information that SAK WoodWorks collects or receives through the website, including the provision of services and various service tools that users access or use, such as visiting or watching videos. SAK WoodWorks will comply with and operate in accordance with the provisions of the Personal Data Security Act applicable in the Kingdom of Thailand.",
+      "content2": "The user has carefully read and understands that this Privacy Policy applies to and covers the use of various services on the SAK WoodWorks website. Regardless of whether the user accesses the SAK WoodWorks website via a computer, mobile phone, or uses any tools on the website, it is considered that the user has permitted and agreed to give consent to SAK WoodWorks to collect and use the user's personal information in accordance with this Privacy Policy and other policies of SAK WoodWorks for the purposes of improving or developing various services and/or as necessary for benefits directly related to the business objectives of SAK WoodWorks and/or its affiliates."
+    },
+    "section2": {
+      "title": "2. Storage of personal data",
+      "content1": "SAK WoodWorks may use cookies, Google Analytics, Google Ads, Facebook Pixel, or other technologies to collect personal information to help users have better, faster, safer, and more personalized use and access to website services, as well as to improve or develop various services and/or as necessary for benefits directly related to the objectives of SAK WoodWorks and its affiliates. When users visit the website, SAK WoodWorks will automatically record information sent by the user's internet browser whenever the user visits the website until they leave the web browser. Such information includes, but is not limited to:",
+      "list1": "IP address, cookie ID of computer/mobile phone.",
+      "list2": "Internet browsing program.",
+      "list3": "Time spent visiting each web page.",
+      "list4": "Information searched on the SAK WoodWorks website, including the time and date of searches and other statistical information.",
+      "list5": "Location data.",
+      "list6": "Website viewing behavior.",
+      "list7": "Operating system used.",
+      "list8": "Genders, ages, and interests of website visitors.",
+      "content2": "The user agrees and acknowledges that personal data collected pursuant to this Privacy Policy may be transferred, stored, and processed in any country as determined by SAK WoodWorks.",
+      "content3": "The user agrees and accepts that when the user visits the SAK WoodWorks website, it is considered that the user allows and agrees to give consent to SAK WoodWorks to collect, transfer, process, use, and disclose the user's personal data according to the purposes and conditions specified in this Privacy Policy.",
+      "content4": "SAK WoodWorks may retain personal data collected in accordance with this Privacy Policy, including that obtained from observations on SAK WoodWorks’ network and databases, for so long as necessary to achieve the purposes set out in this Privacy Policy."
+    },
+    "section3": {
+      "title": "3. Use and disclosure of personal information",
+      "content1": "SAK WoodWorks shall not collect, use, or disclose your personal data for any purposes other than those specified in this Policy.",
+      "content2": "In the event that SAK WoodWorks hires another agency to handle users personal data, such as for processing or analyzing, SAK WoodWorks will require the agency to maintain the confidentiality and security of the user's personal data and prohibit the use of personal data for purposes not outlined in this Privacy Policy, except in cases where SAK WoodWorks has the legal right or is required to disclose such data (e.g. when required by law or disclosed for the purpose of preventing fraud or other crimes) or in cases where SAK WoodWorks believes that it is necessary to do so in order to protect and/or defend the rights, property, or safety of SAK WoodWorks’ personnel and SAK WoodWorks’ customers."
+    },
+    "section4": {
+      "title": "4. Security of personal data",
+      "content1": "SAK WoodWorks will keep your personal data in good condition in accordance with technical and organizational measures to maintain appropriate security in the processing of personal data and to prevent personal data breach, loss, access, destruction, use, conversion, modification, or disclosure outside of the purposes listed in this Policy or without authorization. However, the user agrees and acknowledges that no method of electronic transmission over the internet, method of electronic storage, or electronic measure can be completely secure. Therefore, although SAK WoodWorks makes every reasonable effort to protect data and information from unauthorized access, SAK WoodWorks cannot guarantee absolute security."
+    },
+    "section5": {
+      "title": "5. Changes to the Privacy Policy",
+      "content1": "SAK WoodWorks reserves the right to amend, change, improve, or add to this Privacy Policy from time to time. Any changes to the Policy can be checked as they appear on the website. If the user continues to use the SAK WoodWorks website after changes, improvements, or additions to the Privacy Policy, it is considered that the user confirms and agrees to comply with the changes, improvements, or additions. If the user later withdraws consent, the user will not be able to use the services of the SAK WoodWorks website."
+    },
+    "section6": {
+      "title": "6. Changes to the Privacy Policy",
+      "content1": "SAK WoodWorks may update this Privacy Policy from time to time to reflect changes in services, products, operations, and according to user feedback and comments.",
+      "howWillNotify": "How will SAK WoodWorks notify changes?",
+      "subtitle1": "Option#1:",
+      "option1": "SAK WoodWorks will post a prominent notice of such changes prior to implementing the changes or may send you a notice directly.",
+      "or": "or:",
+      "subtitle2": "Option#2:",
+      "option2": "SAK WoodWorks will inform you and any other third parties about current updates via the, “Last Updated,” date at the top of this Policy."
+    },
+    "section7": {
+      "title": "What are cookies?",
+      "content1": "Cookies are files created by websites you visit that make it easier for you to do things online by saving browsing information. Websites use cookies to keep you logged in, remember your site preferences, and deliver relevant content to you."
+    },
+    "section8": {
+      "title": "How do we use cookies?",
+      "content1": "We will collect website visit information from all visitors through cookies or other technologies to improve the efficiency of website usage and access to our online services. Cookies will be used for the following cases:",
+      "list1": "To ensure that you can access our website continuously and securely.",
+      "list2": "To record usage data related to website use, data content, and the website formats you have set.",
+      "list3": "To study usage and visitor behavior in order to develop and improve the website to best meet user needs.",
+      "list4": "To study the overall behavior of website visitors` and to develop the website to be more user-friendly, fast, and efficient."
+    },
+    "section9": {
+      "title": "Types of cookies we use",
+      "content1": "Our website contains the following cookies:",
+      "list1": "Functionality Cookies: These are used to remember choices or preferences and to provide users with personalization, such as user names, languages, and website preferences.",
+      "list2": "Advertising Cookies: Used to remember your previous visits and usage patterns in order to present products, services, or advertising media that are relevant and match your interests and to evaluate the effectiveness of advertising campaigns.",
+      "list3": "Technical Cookies (Strictly Necessary Cookies): These are cookies that are necessary for the website to function and to provide you with comprehensive and secure access to information.",
+      "list4": "Platform Performance Cookies: Used to collect anonymous website visitor data and analyze visitor numbers and behavior to improve the website to be more efficient and meet user needs.",
+      "list5": "Third-party Cookies: These cookies are set by third-party providers, such as Google Analytics."
+    },
+    "section10": {
+      "title": "How can you contact SAK WoodWorks?",
+      "content1": "If you have any suggestions or would like to inquire about details of the collection, use and/or disclosure of personal data, including the exercise of rights under this Policy, you may contact SAK WoodWorks through the following channels:"
+    },
+    "contact": {
+      "email": "Email:",
+      "info1": "info@sakww.com",
+      "phone": "Call:",
+      "info2": "0997121071",
+      "hours": "(Business hours: Monday-Friday 8:30 a.m.-5:00 p.m.)",
+      "address": "Address:",
+      "info3": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si Subdistrict, Khlong Luang District, Pathum Thani Province 12120"
+    }
+  }
 }
