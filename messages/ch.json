@@ -377,5 +377,13 @@
       "address": "地址：",
       "info3": "39/4 Soi Tawan-Ok 26, Moo 5, Khlong Si 分区, Khlong Luang 区, Pathum Thani 省 12120"
     }
+  },
+
+  "ConatactLink": {
+    "line": "Line",
+    "whatsapp": "WhatsApp",
+    "telegrams": "Telegrams",
+    "weixin": "WeChat",
+    "zalo": "Zalo"
   }
 }

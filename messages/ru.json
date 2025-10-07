@@ -375,5 +375,13 @@
       "address": "Адрес:",
       "info3": " SAK WoodWorks Co., Ltd., №. 39/4 Soi Tawan-Ok 26,, Khlong Si подрайон, Khlong Luang район, Pathum Thani Провинция 12120"
     }
+  },
+
+  "ConatactLink": {
+    "line": "Line",
+    "whatsapp": "WhatsApp",
+    "telegrams": "Telegrams",
+    "weixin": "WeChat",
+    "zalo": "Zalo"
   }
 }

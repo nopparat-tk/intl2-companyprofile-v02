@@ -378,5 +378,13 @@
       "address": "ที่อยู่:",
       "info3": "39/4 ซอยตะวันออก 26 หมู่ 5 ตำบลคลองสี่ อำเภอคลองหลวง จังหวัดปทุมธานี 12120"
     }
+  },
+
+  "ContactLink": {
+    "line": "Line",
+    "whatsapp": "WhatsApp",
+    "telegrams": "Telegrams",
+    "weixin": "WeChat",
+    "zalo": "Zalo"
   }
 }
