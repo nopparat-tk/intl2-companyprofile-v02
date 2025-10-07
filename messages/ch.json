@@ -379,10 +379,10 @@
     }
   },
 
-  "ConatactLink": {
+  "ContactLink": {
     "line": "Line",
     "whatsapp": "WhatsApp",
-    "telegrams": "Telegrams",
+    "telegrams": "Telegram",
     "weixin": "WeChat",
     "zalo": "Zalo"
   }
