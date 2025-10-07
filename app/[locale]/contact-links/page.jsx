@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function ConatactLinks() {
+export default function ContactLinks() {
   const t = useTranslations("ContactLink");
   const ca = useTranslations("ContactArea");
   return (
