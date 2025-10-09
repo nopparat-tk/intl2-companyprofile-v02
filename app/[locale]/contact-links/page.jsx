@@ -53,6 +53,23 @@ export default function ContactLinks() {
                   <ul>
                     <li>
                       <div className="icon">
+                        <Link href="https://www.facebook.com/Sakwwth">
+                          <span className="fab fa-facebook"></span>
+                        </Link>
+                      </div>
+
+                      <div className="content-box">
+                        <h2 className="text-link">{t("facebook")}</h2>
+                        <span style={{ color: "#325ae1" }}>
+                          <Link href="https://www.facebook.com/Sakwwth">
+                            https://www.facebook.com/Sakwwth
+                          </Link>
+                        </span>{" "}
+                      </div>
+                    </li>
+
+                    <li>
+                      <div className="icon">
                         <Link href="https://line.me/ti/p/uH-J-wwuZG">
                           <span className="fab fa-line"></span>
                         </Link>

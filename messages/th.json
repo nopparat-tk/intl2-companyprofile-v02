@@ -381,6 +381,7 @@
   },
 
   "ContactLink": {
+    "facebook": "Facebook",
     "line": "Line",
     "whatsapp": "WhatsApp",
     "telegrams": "Telegram",
